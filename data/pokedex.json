@@ -1,0 +1,4011 @@
+[
+  {
+    "name": "Bulbasaur",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 45, "Atk": 49, "Def": 49,
+      "SpA": 65, "SpD": 65, "Spe": 45
+    },
+    "evolution": "Ivysaur"
+  },
+  {
+    "name": "Ivysaur",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 60, "Atk": 62, "Def": 63,
+      "SpA": 80, "SpD": 80, "Spe": 60
+    },
+    "evolution": "Venusaur"
+  },
+  {
+    "name": "Venusaur",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 80, "Atk": 82, "Def": 83,
+      "SpA": 100, "SpD": 100, "Spe": 80
+    }
+  },
+  {
+    "name": "Charmander",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Scratch"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 39, "Atk": 52, "Def": 43,
+      "SpA": 60, "SpD": 50, "Spe": 65
+    },
+    "evolution": "Charmeleon"
+  },
+  {
+    "name": "Charmeleon",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Scratch"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 58, "Atk": 64, "Def": 58,
+      "SpA": 80, "SpD": 65, "Spe": 80
+    },
+    "evolution": "Charizard"
+  },
+  {
+    "name": "Charizard",
+    "rarity": "rare",
+    "weight": 2,
+  "moves": ["Scratch"],
+    "types": ["Fire", "Flying"],
+    "base_stats": {
+      "HP": 78, "Atk": 84, "Def": 78,
+      "SpA": 109, "SpD": 85, "Spe": 100
+    }
+  },
+  {
+    "name": "Squirtle",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 44, "Atk": 48, "Def": 65,
+      "SpA": 50, "SpD": 64, "Spe": 43
+    },
+    "evolution": "Wartortle"
+  },
+  {
+    "name": "Wartortle",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 59, "Atk": 63, "Def": 80,
+      "SpA": 65, "SpD": 80, "Spe": 58
+    },
+    "evolution": "Blastoise"
+  },
+  {
+    "name": "Blastoise",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 79, "Atk": 83, "Def": 100,
+      "SpA": 85, "SpD": 105, "Spe": 78
+    }
+  },
+  {
+    "name": "Caterpie",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Bug"],
+    "base_stats": {
+      "HP": 45, "Atk": 30, "Def": 35,
+      "SpA": 20, "SpD": 20, "Spe": 45
+    },
+    "evolution": "Metapod"
+  },
+  {
+    "name": "Metapod",
+    "rarity": "common",
+    "weight": 6,
+    "moves": ["Tackle"],
+    "types": ["Bug"],
+    "base_stats": {
+      "HP": 50, "Atk": 20, "Def": 55,
+      "SpA": 25, "SpD": 25, "Spe": 30
+    },
+    "evolution": "Butterfree"
+  },
+  {
+    "name": "Butterfree",
+    "rarity": "uncommon",
+    "weight": 3,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Flying"],
+    "base_stats": {
+      "HP": 60, "Atk": 45, "Def": 50,
+      "SpA": 90, "SpD": 80, "Spe": 70
+    }
+  },
+  {
+    "name": "Weedle",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Poison Sting"],
+    "types": ["Bug", "Poison"],
+    "base_stats": {
+      "HP": 40, "Atk": 35, "Def": 30,
+      "SpA": 20, "SpD": 20, "Spe": 50
+    },
+    "evolution": "Kakuna"
+  },
+  {
+    "name": "Kakuna",
+    "rarity": "common",
+    "weight": 6,
+    "moves": ["Poison Sting"],
+    "types": ["Bug", "Poison"],
+    "base_stats": {
+      "HP": 45, "Atk": 25, "Def": 50,
+      "SpA": 25, "SpD": 25, "Spe": 35
+    },
+    "evolution": "Beedrill"
+  },
+  {
+    "name": "Beedrill",
+    "rarity": "uncommon",
+    "weight": 3,
+    "moves": ["Poison Sting"],
+    "types": ["Bug", "Poison"],
+    "base_stats": {
+      "HP": 65, "Atk": 90, "Def": 40,
+      "SpA": 45, "SpD": 80, "Spe": 75
+    }
+  },
+  {
+    "name": "Pidgey",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 40, "Atk": 45, "Def": 40,
+      "SpA": 35, "SpD": 35, "Spe": 56
+    },
+    "evolution": "Pidgeotto"
+  },
+  {
+    "name": "Pidgeotto",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 63, "Atk": 60, "Def": 55,
+      "SpA": 50, "SpD": 50, "Spe": 71
+    },
+    "evolution": "Pidgeot"
+  },
+  {
+    "name": "Pidgeot",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 83, "Atk": 80, "Def": 75,
+      "SpA": 70, "SpD": 70, "Spe": 101
+    }
+  },
+  {
+    "name": "Rattata",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 30, "Atk": 56, "Def": 35,
+      "SpA": 25, "SpD": 35, "Spe": 72
+    },
+    "evolution": "Raticate"
+  },
+  {
+    "name": "Raticate",
+    "rarity": "uncommon",
+    "weight": 4,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 55, "Atk": 81, "Def": 60,
+      "SpA": 50, "SpD": 70, "Spe": 97
+    }
+  },
+  {
+    "name": "Spearow",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 40, "Atk": 60, "Def": 30,
+      "SpA": 31, "SpD": 31, "Spe": 70
+    }
+  },
+  {
+    "name": "Fearow",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 65, "Atk": 90, "Def": 65,
+      "SpA": 61, "SpD": 61, "Spe": 100
+    }
+  },
+  {
+    "name": "Ekans",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 35, "Atk": 60, "Def": 44,
+      "SpA": 40, "SpD": 54, "Spe": 55
+    }
+  },
+  {
+    "name": "Arbok",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 60, "Atk": 95, "Def": 69,
+      "SpA": 65, "SpD": 79, "Spe": 80
+    }
+  },
+  {
+    "name": "Pikachu",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 35, "Atk": 55, "Def": 40,
+      "SpA": 50, "SpD": 50, "Spe": 90
+    }
+  },
+  {
+    "name": "Raichu",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 60, "Atk": 90, "Def": 55,
+      "SpA": 90, "SpD": 80, "Spe": 110
+    }
+  },
+  {
+    "name": "Sandshrew",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ground"],
+    "base_stats": {
+      "HP": 50, "Atk": 75, "Def": 85,
+      "SpA": 20, "SpD": 30, "Spe": 40
+    }
+  },
+  {
+    "name": "Sandslash",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Ground"],
+    "base_stats": {
+      "HP": 75, "Atk": 100, "Def": 110,
+      "SpA": 45, "SpD": 55, "Spe": 65
+    }
+  },
+  {
+    "name": "Nidoran♀",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 55, "Atk": 47, "Def": 52,
+      "SpA": 40, "SpD": 40, "Spe": 41
+    }
+  },
+  {
+    "name": "Nidorina",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 70, "Atk": 62, "Def": 67,
+      "SpA": 55, "SpD": 55, "Spe": 56
+    }
+  },
+  {
+    "name": "Nidoqueen",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Poison", "Ground"],
+    "base_stats": {
+      "HP": 90, "Atk": 92, "Def": 87,
+      "SpA": 75, "SpD": 85, "Spe": 76
+    }
+  },
+  {
+    "name": "Nidoran♂",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 46, "Atk": 57, "Def": 40,
+      "SpA": 40, "SpD": 40, "Spe": 50
+    }
+  },
+  {
+    "name": "Nidorino",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 61, "Atk": 72, "Def": 57,
+      "SpA": 55, "SpD": 55, "Spe": 65
+    }
+  },
+  {
+    "name": "Nidoking",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Poison", "Ground"],
+    "base_stats": {
+      "HP": 81, "Atk": 102, "Def": 77,
+      "SpA": 85, "SpD": 75, "Spe": 85
+    }
+  },
+  {
+    "name": "Clefairy",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fairy"],
+    "base_stats": {
+      "HP": 70, "Atk": 45, "Def": 48,
+      "SpA": 60, "SpD": 65, "Spe": 35
+    }
+  },
+  {
+    "name": "Clefable",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fairy"],
+    "base_stats": {
+      "HP": 95, "Atk": 70, "Def": 73,
+      "SpA": 95, "SpD": 90, "Spe": 60
+    }
+  },
+  {
+    "name": "Vulpix",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 38, "Atk": 41, "Def": 40,
+      "SpA": 50, "SpD": 65, "Spe": 65
+    }
+  },
+  {
+    "name": "Ninetales",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 73, "Atk": 76, "Def": 75,
+      "SpA": 81, "SpD": 100, "Spe": 100
+    }
+  },
+  {
+    "name": "Jigglypuff",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Fairy"],
+    "base_stats": {
+      "HP": 115, "Atk": 45, "Def": 20,
+      "SpA": 45, "SpD": 25, "Spe": 20
+    }
+  },
+  {
+    "name": "Wigglytuff",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Fairy"],
+    "base_stats": {
+      "HP": 140, "Atk": 70, "Def": 45,
+      "SpA": 85, "SpD": 50, "Spe": 45
+    }
+  },
+  {
+    "name": "Zubat",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Poison", "Flying"],
+    "base_stats": {
+      "HP": 40, "Atk": 45, "Def": 35,
+      "SpA": 30, "SpD": 40, "Spe": 55
+    }
+  },
+  {
+    "name": "Golbat",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Poison", "Flying"],
+    "base_stats": {
+      "HP": 75, "Atk": 80, "Def": 70,
+      "SpA": 65, "SpD": 75, "Spe": 90
+    }
+  },
+  {
+    "name": "Oddish",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 45, "Atk": 50, "Def": 55,
+      "SpA": 75, "SpD": 65, "Spe": 30
+    }
+  },
+  {
+    "name": "Gloom",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 60, "Atk": 65, "Def": 70,
+      "SpA": 85, "SpD": 75, "Spe": 40
+    }
+  },
+  {
+    "name": "Vileplume",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 75, "Atk": 80, "Def": 85,
+      "SpA": 110, "SpD": 90, "Spe": 50
+    }
+  },
+  {
+    "name": "Paras",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Grass"],
+    "base_stats": {
+      "HP": 35, "Atk": 70, "Def": 55,
+      "SpA": 45, "SpD": 55, "Spe": 25
+    }
+  },
+  {
+    "name": "Parasect",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Grass"],
+    "base_stats": {
+      "HP": 60, "Atk": 95, "Def": 80,
+      "SpA": 60, "SpD": 80, "Spe": 30
+    }
+  },
+  {
+    "name": "Venonat",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Poison"],
+    "base_stats": {
+      "HP": 60, "Atk": 55, "Def": 50,
+      "SpA": 40, "SpD": 55, "Spe": 45
+    }
+  },
+  {
+    "name": "Venomoth",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Poison"],
+    "base_stats": {
+      "HP": 70, "Atk": 65, "Def": 60,
+      "SpA": 90, "SpD": 75, "Spe": 90
+    }
+  },
+  {
+    "name": "Diglett",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ground"],
+    "base_stats": {
+      "HP": 10, "Atk": 55, "Def": 25,
+      "SpA": 35, "SpD": 45, "Spe": 95
+    }
+  },
+  {
+    "name": "Dugtrio",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Ground"],
+    "base_stats": {
+      "HP": 35, "Atk": 100, "Def": 50,
+      "SpA": 50, "SpD": 70, "Spe": 120
+    }
+  },
+  {
+    "name": "Meowth",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 40, "Atk": 45, "Def": 35,
+      "SpA": 40, "SpD": 40, "Spe": 90
+    }
+  },
+  {
+    "name": "Persian",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 65, "Atk": 70, "Def": 60,
+      "SpA": 65, "SpD": 65, "Spe": 115
+    }
+  },
+  {
+    "name": "Psyduck",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 50, "Atk": 52, "Def": 48,
+      "SpA": 65, "SpD": 50, "Spe": 55
+    }
+  },
+  {
+    "name": "Golduck",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 80, "Atk": 82, "Def": 78,
+      "SpA": 95, "SpD": 80, "Spe": 85
+    }
+  },
+  {
+    "name": "Mankey",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 40, "Atk": 80, "Def": 35,
+      "SpA": 35, "SpD": 45, "Spe": 70
+    }
+  },
+  {
+    "name": "Primeape",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 65, "Atk": 105, "Def": 60,
+      "SpA": 60, "SpD": 70, "Spe": 95
+    }
+  },
+  {
+    "name": "Growlithe",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 55, "Atk": 70, "Def": 45,
+      "SpA": 70, "SpD": 50, "Spe": 60
+    }
+  },
+  {
+    "name": "Arcanine",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 90, "Atk": 110, "Def": 80,
+      "SpA": 100, "SpD": 80, "Spe": 95
+    }
+  },
+  {
+    "name": "Poliwag",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 40, "Atk": 50, "Def": 40,
+      "SpA": 40, "SpD": 40, "Spe": 90
+    }
+  },
+  {
+    "name": "Poliwhirl",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 65, "Atk": 65, "Def": 65,
+      "SpA": 50, "SpD": 50, "Spe": 90
+    }
+  },
+  {
+    "name": "Poliwrath",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water", "Fighting"],
+    "base_stats": {
+      "HP": 90, "Atk": 95, "Def": 95,
+      "SpA": 70, "SpD": 90, "Spe": 70
+    }
+  },
+  {
+    "name": "Abra",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 25, "Atk": 20, "Def": 15,
+      "SpA": 105, "SpD": 55, "Spe": 90
+    }
+  },
+  {
+    "name": "Kadabra",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 40, "Atk": 35, "Def": 30,
+      "SpA": 120, "SpD": 70, "Spe": 105
+    }
+  },
+  {
+    "name": "Alakazam",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 55, "Atk": 50, "Def": 45,
+      "SpA": 135, "SpD": 95, "Spe": 120
+    }
+  },
+  {
+    "name": "Machop",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 70, "Atk": 80, "Def": 50,
+      "SpA": 35, "SpD": 35, "Spe": 35
+    }
+  },
+  {
+    "name": "Machoke",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 80, "Atk": 100, "Def": 70,
+      "SpA": 50, "SpD": 60, "Spe": 45
+    }
+  },
+  {
+    "name": "Machamp",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 90, "Atk": 130, "Def": 80,
+      "SpA": 65, "SpD": 85, "Spe": 55
+    }
+  },
+  {
+    "name": "Bellsprout",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 50, "Atk": 75, "Def": 35,
+      "SpA": 70, "SpD": 30, "Spe": 40
+    }
+  },
+  {
+    "name": "Weepinbell",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 65, "Atk": 90, "Def": 50,
+      "SpA": 85, "SpD": 45, "Spe": 55
+    }
+  },
+  {
+    "name": "Victreebel",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 80, "Atk": 105, "Def": 65,
+      "SpA": 100, "SpD": 70, "Spe": 70
+    }
+  },
+  {
+    "name": "Tentacool",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water", "Poison"],
+    "base_stats": {
+      "HP": 40, "Atk": 40, "Def": 35,
+      "SpA": 50, "SpD": 100, "Spe": 70
+    }
+  },
+  {
+    "name": "Tentacruel",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water", "Poison"],
+    "base_stats": {
+      "HP": 80, "Atk": 70, "Def": 65,
+      "SpA": 80, "SpD": 120, "Spe": 100
+    }
+  },
+  {
+    "name": "Geodude",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Ground"],
+    "base_stats": {
+      "HP": 40, "Atk": 80, "Def": 100,
+      "SpA": 30, "SpD": 30, "Spe": 20
+    }
+  },
+  {
+    "name": "Graveler",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Ground"],
+    "base_stats": {
+      "HP": 55, "Atk": 95, "Def": 115,
+      "SpA": 45, "SpD": 45, "Spe": 35
+    }
+  },
+  {
+    "name": "Golem",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Ground"],
+    "base_stats": {
+      "HP": 80, "Atk": 120, "Def": 130,
+      "SpA": 55, "SpD": 65, "Spe": 45
+    }
+  },
+  {
+    "name": "Ponyta",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 50, "Atk": 85, "Def": 55,
+      "SpA": 65, "SpD": 65, "Spe": 90
+    }
+  },
+  {
+    "name": "Rapidash",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 65, "Atk": 100, "Def": 70,
+      "SpA": 80, "SpD": 80, "Spe": 105
+    }
+  },
+  {
+    "name": "Slowpoke",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water", "Psychic"],
+    "base_stats": {
+      "HP": 90, "Atk": 65, "Def": 65,
+      "SpA": 40, "SpD": 40, "Spe": 15
+    }
+  },
+  {
+    "name": "Slowbro",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Psychic"],
+    "base_stats": {
+      "HP": 95, "Atk": 75, "Def": 110,
+      "SpA": 100, "SpD": 80, "Spe": 30
+    }
+  },
+  {
+    "name": "Magnemite",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Electric", "Steel"],
+    "base_stats": {
+      "HP": 25, "Atk": 35, "Def": 70,
+      "SpA": 95, "SpD": 55, "Spe": 45
+    }
+  },
+  {
+    "name": "Magneton",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Electric", "Steel"],
+    "base_stats": {
+      "HP": 50, "Atk": 60, "Def": 95,
+      "SpA": 120, "SpD": 70, "Spe": 70
+    }
+  },
+  {
+    "name": "Farfetch'd",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 52, "Atk": 90, "Def": 55,
+      "SpA": 58, "SpD": 62, "Spe": 60
+    }
+  },
+  {
+    "name": "Doduo",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 35, "Atk": 85, "Def": 45,
+      "SpA": 35, "SpD": 35, "Spe": 75
+    }
+  },
+  {
+    "name": "Dodrio",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 60, "Atk": 110, "Def": 70,
+      "SpA": 60, "SpD": 60, "Spe": 110
+    }
+  },
+  {
+    "name": "Seel",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 65, "Atk": 45, "Def": 55,
+      "SpA": 45, "SpD": 70, "Spe": 45
+    }
+  },
+  {
+    "name": "Dewgong",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Ice"],
+    "base_stats": {
+      "HP": 90, "Atk": 70, "Def": 80,
+      "SpA": 70, "SpD": 95, "Spe": 70
+    }
+  },
+  {
+    "name": "Grimer",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 80, "Atk": 80, "Def": 50,
+      "SpA": 40, "SpD": 50, "Spe": 25
+    }
+  },
+  {
+    "name": "Muk",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 105, "Atk": 105, "Def": 75,
+      "SpA": 65, "SpD": 100, "Spe": 50
+    }
+  },
+  {
+    "name": "Shellder",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 30, "Atk": 65, "Def": 100,
+      "SpA": 45, "SpD": 25, "Spe": 40
+    }
+  },
+  {
+    "name": "Cloyster",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Water", "Ice"],
+    "base_stats": {
+      "HP": 50, "Atk": 95, "Def": 180,
+      "SpA": 85, "SpD": 45, "Spe": 70
+    }
+  },
+  {
+    "name": "Gastly",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ghost", "Poison"],
+    "base_stats": {
+      "HP": 30, "Atk": 35, "Def": 30,
+      "SpA": 100, "SpD": 35, "Spe": 80
+    }
+  },
+  {
+    "name": "Haunter",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Ghost", "Poison"],
+    "base_stats": {
+      "HP": 45, "Atk": 50, "Def": 45,
+      "SpA": 115, "SpD": 55, "Spe": 95
+    }
+  },
+  {
+    "name": "Gengar",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Ghost", "Poison"],
+    "base_stats": {
+      "HP": 60, "Atk": 65, "Def": 60,
+      "SpA": 130, "SpD": 75, "Spe": 110
+    }
+  },
+  {
+    "name": "Onix",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Ground"],
+    "base_stats": {
+      "HP": 35, "Atk": 45, "Def": 160,
+      "SpA": 30, "SpD": 45, "Spe": 70
+    }
+  },
+  {
+    "name": "Drowzee",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 60, "Atk": 48, "Def": 45,
+      "SpA": 43, "SpD": 90, "Spe": 42
+    }
+  },
+  {
+    "name": "Hypno",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 85, "Atk": 73, "Def": 70,
+      "SpA": 73, "SpD": 115, "Spe": 67
+    }
+  },
+  {
+    "name": "Krabby",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 30, "Atk": 105, "Def": 90,
+      "SpA": 25, "SpD": 25, "Spe": 50
+    }
+  },
+  {
+    "name": "Kingler",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 55, "Atk": 130, "Def": 115,
+      "SpA": 50, "SpD": 50, "Spe": 75
+    }
+  },
+  {
+    "name": "Voltorb",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 40, "Atk": 30, "Def": 50,
+      "SpA": 55, "SpD": 55, "Spe": 100
+    }
+  },
+  {
+    "name": "Electrode",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 60, "Atk": 50, "Def": 70,
+      "SpA": 80, "SpD": 80, "Spe": 150
+    }
+  },
+  {
+    "name": "Exeggcute",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Psychic"],
+    "base_stats": {
+      "HP": 60, "Atk": 40, "Def": 80,
+      "SpA": 60, "SpD": 45, "Spe": 40
+    }
+  },
+  {
+    "name": "Exeggutor",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Psychic"],
+    "base_stats": {
+      "HP": 95, "Atk": 95, "Def": 85,
+      "SpA": 125, "SpD": 75, "Spe": 55
+    }
+  },
+  {
+    "name": "Cubone",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ground"],
+    "base_stats": {
+      "HP": 50, "Atk": 50, "Def": 95,
+      "SpA": 40, "SpD": 50, "Spe": 35
+    }
+  },
+  {
+    "name": "Marowak",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Ground"],
+    "base_stats": {
+      "HP": 60, "Atk": 80, "Def": 110,
+      "SpA": 50, "SpD": 80, "Spe": 45
+    }
+  },
+  {
+    "name": "Hitmonlee",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 50, "Atk": 120, "Def": 53,
+      "SpA": 35, "SpD": 110, "Spe": 87
+    }
+  },
+  {
+    "name": "Hitmonchan",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 50, "Atk": 105, "Def": 79,
+      "SpA": 35, "SpD": 110, "Spe": 76
+    }
+  },
+  {
+    "name": "Lickitung",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 90, "Atk": 55, "Def": 75,
+      "SpA": 60, "SpD": 75, "Spe": 30
+    }
+  },
+  {
+    "name": "Koffing",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 40, "Atk": 65, "Def": 95,
+      "SpA": 60, "SpD": 45, "Spe": 35
+    }
+  },
+  {
+    "name": "Weezing",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 65, "Atk": 90, "Def": 120,
+      "SpA": 85, "SpD": 70, "Spe": 60
+    }
+  },
+  {
+    "name": "Rhyhorn",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ground", "Rock"],
+    "base_stats": {
+      "HP": 80, "Atk": 85, "Def": 95,
+      "SpA": 30, "SpD": 30, "Spe": 25
+    }
+  },
+  {
+    "name": "Rhydon",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Ground", "Rock"],
+    "base_stats": {
+      "HP": 105, "Atk": 130, "Def": 120,
+      "SpA": 45, "SpD": 45, "Spe": 40
+    }
+  },
+  {
+    "name": "Chansey",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 250, "Atk": 5, "Def": 5,
+      "SpA": 35, "SpD": 105, "Spe": 50
+    }
+  },
+  {
+    "name": "Tangela",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 65, "Atk": 55, "Def": 115,
+      "SpA": 100, "SpD": 40, "Spe": 60
+    }
+  },
+  {
+    "name": "Kangaskhan",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 105, "Atk": 95, "Def": 80,
+      "SpA": 40, "SpD": 80, "Spe": 90
+    }
+  },
+  {
+    "name": "Horsea",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 30, "Atk": 40, "Def": 70,
+      "SpA": 70, "SpD": 25, "Spe": 60
+    }
+  },
+  {
+    "name": "Seadra",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 55, "Atk": 65, "Def": 95,
+      "SpA": 95, "SpD": 45, "Spe": 85
+    }
+  },
+  {
+    "name": "Goldeen",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 45, "Atk": 67, "Def": 60,
+      "SpA": 35, "SpD": 50, "Spe": 63
+    }
+  },
+  {
+    "name": "Seaking",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 80, "Atk": 92, "Def": 65,
+      "SpA": 65, "SpD": 80, "Spe": 68
+    }
+  },
+  {
+    "name": "Staryu",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 30, "Atk": 45, "Def": 55,
+      "SpA": 70, "SpD": 55, "Spe": 85
+    }
+  },
+  {
+    "name": "Starmie",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water", "Psychic"],
+    "base_stats": {
+      "HP": 60, "Atk": 75, "Def": 85,
+      "SpA": 100, "SpD": 85, "Spe": 115
+    }
+  },
+  {
+    "name": "Mr. Mime",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Psychic", "Fairy"],
+    "base_stats": {
+      "HP": 40, "Atk": 45, "Def": 65,
+      "SpA": 100, "SpD": 120, "Spe": 90
+    }
+  },
+  {
+    "name": "Scyther",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Flying"],
+    "base_stats": {
+      "HP": 70, "Atk": 110, "Def": 80,
+      "SpA": 55, "SpD": 80, "Spe": 105
+    }
+  },
+    {
+    "name": "Jynx",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Ice", "Psychic"],
+    "base_stats": {
+      "HP": 65, "Atk": 50, "Def": 35,
+      "SpA": 115, "SpD": 95, "Spe": 95
+    }
+  },
+  {
+    "name": "Electabuzz",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 65, "Atk": 83, "Def": 57,
+      "SpA": 95, "SpD": 85, "Spe": 105
+    }
+  },
+  {
+    "name": "Magmar",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 65, "Atk": 95, "Def": 57,
+      "SpA": 100, "SpD": 85, "Spe": 93
+    }
+  },
+  {
+    "name": "Pinsir",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Bug"],
+    "base_stats": {
+      "HP": 65, "Atk": 125, "Def": 100,
+      "SpA": 55, "SpD": 70, "Spe": 85
+    }
+  },
+  {
+    "name": "Tauros",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 75, "Atk": 100, "Def": 95,
+      "SpA": 40, "SpD": 70, "Spe": 110
+    }
+  },
+  {
+    "name": "Magikarp",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 20, "Atk": 10, "Def": 55,
+      "SpA": 15, "SpD": 20, "Spe": 80
+    }
+  },
+  {
+    "name": "Gyarados",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Water", "Flying"],
+    "base_stats": {
+      "HP": 95, "Atk": 125, "Def": 79,
+      "SpA": 60, "SpD": 100, "Spe": 81
+    }
+  },
+  {
+    "name": "Lapras",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Water", "Ice"],
+    "base_stats": {
+      "HP": 130, "Atk": 85, "Def": 80,
+      "SpA": 85, "SpD": 95, "Spe": 60
+    }
+  },
+  {
+    "name": "Ditto",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 48, "Atk": 48, "Def": 48,
+      "SpA": 48, "SpD": 48, "Spe": 48
+    }
+  },
+  {
+    "name": "Eevee",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 55, "Atk": 55, "Def": 50,
+      "SpA": 45, "SpD": 65, "Spe": 55
+    }
+  },
+  {
+    "name": "Vaporeon",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 130, "Atk": 65, "Def": 60,
+      "SpA": 110, "SpD": 95, "Spe": 65
+    }
+  },
+  {
+    "name": "Jolteon",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 65, "Atk": 65, "Def": 60,
+      "SpA": 110, "SpD": 95, "Spe": 130
+    }
+  },
+  {
+    "name": "Flareon",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 65, "Atk": 130, "Def": 60,
+      "SpA": 95, "SpD": 110, "Spe": 65
+    }
+  },
+  {
+    "name": "Porygon",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 65, "Atk": 60, "Def": 70,
+      "SpA": 85, "SpD": 75, "Spe": 40
+    }
+  },
+  {
+    "name": "Omanyte",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Water"],
+    "base_stats": {
+      "HP": 35, "Atk": 40, "Def": 100,
+      "SpA": 90, "SpD": 55, "Spe": 35
+    }
+  },
+  {
+    "name": "Omastar",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Water"],
+    "base_stats": {
+      "HP": 70, "Atk": 60, "Def": 125,
+      "SpA": 115, "SpD": 70, "Spe": 55
+    }
+  },
+  {
+    "name": "Kabuto",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Water"],
+    "base_stats": {
+      "HP": 30, "Atk": 80, "Def": 90,
+      "SpA": 55, "SpD": 45, "Spe": 55
+    }
+  },
+  {
+    "name": "Kabutops",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Water"],
+    "base_stats": {
+      "HP": 60, "Atk": 115, "Def": 105,
+      "SpA": 65, "SpD": 70, "Spe": 80
+    }
+  },
+  {
+    "name": "Aerodactyl",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Flying"],
+    "base_stats": {
+      "HP": 80, "Atk": 105, "Def": 65,
+      "SpA": 60, "SpD": 75, "Spe": 130
+    }
+  },
+  {
+    "name": "Snorlax",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 160, "Atk": 110, "Def": 65,
+      "SpA": 65, "SpD": 110, "Spe": 30
+    }
+  },
+    {
+    "name": "Articuno",
+    "rarity": "legendary",
+    "weight": 0.1,
+    "moves": ["Tackle"],
+    "types": ["Ice", "Flying"],
+    "base_stats": {
+      "HP": 90, "Atk": 85, "Def": 100,
+      "SpA": 95, "SpD": 125, "Spe": 85
+    }
+  },
+  {
+    "name": "Zapdos",
+    "rarity": "legendary",
+    "weight": 0.1,
+    "moves": ["Tackle"],
+    "types": ["Electric", "Flying"],
+    "base_stats": {
+      "HP": 90, "Atk": 90, "Def": 85,
+      "SpA": 125, "SpD": 90, "Spe": 100
+    }
+  },
+  {
+    "name": "Moltres",
+    "rarity": "legendary",
+    "weight": 0.1,
+    "moves": ["Tackle"],
+    "types": ["Fire", "Flying"],
+    "base_stats": {
+      "HP": 90, "Atk": 100, "Def": 90,
+      "SpA": 125, "SpD": 85, "Spe": 90
+    }
+  },
+  {
+    "name": "Dratini",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Dragon"],
+    "base_stats": {
+      "HP": 41, "Atk": 64, "Def": 45,
+      "SpA": 50, "SpD": 50, "Spe": 50
+    }
+  },
+  {
+    "name": "Dragonair",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Dragon"],
+    "base_stats": {
+      "HP": 61, "Atk": 84, "Def": 65,
+      "SpA": 70, "SpD": 70, "Spe": 70
+    }
+  },
+  {
+    "name": "Dragonite",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Dragon", "Flying"],
+    "base_stats": {
+      "HP": 91, "Atk": 134, "Def": 95,
+      "SpA": 100, "SpD": 100, "Spe": 80
+    }
+  },
+  {
+    "name": "Mewtwo",
+    "rarity": "legendary",
+    "weight": 0.1,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 106, "Atk": 110, "Def": 90,
+      "SpA": 154, "SpD": 90, "Spe": 130
+    }
+  },
+  {
+    "name": "Mew",
+    "rarity": "mythic",
+    "weight": 0.01,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 100, "Atk": 100, "Def": 100,
+      "SpA": 100, "SpD": 100, "Spe": 100
+    }
+  },
+  {
+    "name": "Chikorita",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 45, "Atk": 49, "Def": 65,
+      "SpA": 49, "SpD": 65, "Spe": 45
+    }
+  },
+  {
+    "name": "Bayleef",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 60, "Atk": 62, "Def": 80,
+      "SpA": 63, "SpD": 80, "Spe": 60
+    }
+  },
+  {
+    "name": "Meganium",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 80, "Atk": 82, "Def": 100,
+      "SpA": 83, "SpD": 100, "Spe": 80
+    }
+  },
+  {
+    "name": "Cyndaquil",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 39, "Atk": 52, "Def": 43,
+      "SpA": 60, "SpD": 50, "Spe": 65
+    }
+  },
+  {
+    "name": "Quilava",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 58, "Atk": 64, "Def": 58,
+      "SpA": 80, "SpD": 65, "Spe": 80
+    }
+  },
+  {
+    "name": "Typhlosion",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 78, "Atk": 84, "Def": 78,
+      "SpA": 109, "SpD": 85, "Spe": 100
+    }
+  },
+  {
+    "name": "Totodile",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 50, "Atk": 65, "Def": 64,
+      "SpA": 44, "SpD": 48, "Spe": 43
+    }
+  },
+  {
+    "name": "Croconaw",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 65, "Atk": 80, "Def": 80,
+      "SpA": 59, "SpD": 63, "Spe": 58
+    }
+  },
+  {
+    "name": "Feraligatr",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 85, "Atk": 105, "Def": 100,
+      "SpA": 79, "SpD": 83, "Spe": 78
+    }
+  },
+  {
+    "name": "Sentret",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 35, "Atk": 46, "Def": 34,
+      "SpA": 35, "SpD": 45, "Spe": 20
+    }
+  },
+  {
+    "name": "Furret",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 85, "Atk": 76, "Def": 64,
+      "SpA": 45, "SpD": 55, "Spe": 90
+    }
+  },
+  {
+    "name": "Hoothoot",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 60, "Atk": 30, "Def": 30,
+      "SpA": 36, "SpD": 56, "Spe": 50
+    }
+  },
+    {
+    "name": "Noctowl",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 100, "Atk": 50, "Def": 50,
+      "SpA": 76, "SpD": 96, "Spe": 70
+    }
+  },
+  {
+    "name": "Ledyba",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Flying"],
+    "base_stats": {
+      "HP": 40, "Atk": 20, "Def": 30,
+      "SpA": 40, "SpD": 80, "Spe": 55
+    }
+  },
+  {
+    "name": "Ledian",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Flying"],
+    "base_stats": {
+      "HP": 55, "Atk": 35, "Def": 50,
+      "SpA": 55, "SpD": 110, "Spe": 85
+    }
+  },
+  {
+    "name": "Spinarak",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Poison"],
+    "base_stats": {
+      "HP": 40, "Atk": 60, "Def": 40,
+      "SpA": 40, "SpD": 40, "Spe": 30
+    }
+  },
+  {
+    "name": "Ariados",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Poison"],
+    "base_stats": {
+      "HP": 70, "Atk": 90, "Def": 70,
+      "SpA": 60, "SpD": 70, "Spe": 40
+    }
+  },
+  {
+    "name": "Crobat",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Poison", "Flying"],
+    "base_stats": {
+      "HP": 85, "Atk": 90, "Def": 80,
+      "SpA": 70, "SpD": 80, "Spe": 130
+    }
+  },
+  {
+    "name": "Chinchou",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water", "Electric"],
+    "base_stats": {
+      "HP": 75, "Atk": 38, "Def": 38,
+      "SpA": 56, "SpD": 56, "Spe": 67
+    }
+  },
+  {
+    "name": "Lanturn",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Electric"],
+    "base_stats": {
+      "HP": 125, "Atk": 58, "Def": 58,
+      "SpA": 76, "SpD": 76, "Spe": 67
+    }
+  },
+  {
+    "name": "Pichu",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 20, "Atk": 40, "Def": 15,
+      "SpA": 35, "SpD": 35, "Spe": 60
+    }
+  },
+  {
+    "name": "Cleffa",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fairy"],
+    "base_stats": {
+      "HP": 50, "Atk": 25, "Def": 28,
+      "SpA": 45, "SpD": 55, "Spe": 15
+    }
+  },
+  {
+    "name": "Igglybuff",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Fairy"],
+    "base_stats": {
+      "HP": 90, "Atk": 30, "Def": 15,
+      "SpA": 40, "SpD": 20, "Spe": 15
+    }
+  },
+  {
+    "name": "Togepi",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fairy"],
+    "base_stats": {
+      "HP": 35, "Atk": 20, "Def": 65,
+      "SpA": 40, "SpD": 65, "Spe": 20
+    }
+  },
+  {
+    "name": "Togetic",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fairy", "Flying"],
+    "base_stats": {
+      "HP": 55, "Atk": 40, "Def": 85,
+      "SpA": 80, "SpD": 105, "Spe": 40
+    }
+  },
+  {
+    "name": "Natu",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Psychic", "Flying"],
+    "base_stats": {
+      "HP": 40, "Atk": 50, "Def": 45,
+      "SpA": 70, "SpD": 45, "Spe": 70
+    }
+  },
+  {
+    "name": "Xatu",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Psychic", "Flying"],
+    "base_stats": {
+      "HP": 65, "Atk": 75, "Def": 70,
+      "SpA": 95, "SpD": 70, "Spe": 95
+    }
+  },
+  {
+    "name": "Mareep",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 55, "Atk": 40, "Def": 40,
+      "SpA": 65, "SpD": 45, "Spe": 35
+    }
+  },
+  {
+    "name": "Flaaffy",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 70, "Atk": 55, "Def": 55,
+      "SpA": 80, "SpD": 60, "Spe": 45
+    }
+  },
+  {
+    "name": "Ampharos",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 90, "Atk": 75, "Def": 85,
+      "SpA": 115, "SpD": 90, "Spe": 55
+    }
+  },
+  {
+    "name": "Bellossom",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 75, "Atk": 80, "Def": 95,
+      "SpA": 90, "SpD": 100, "Spe": 50
+    }
+  },
+    {
+    "name": "Marill",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water", "Fairy"],
+    "base_stats": {
+      "HP": 70, "Atk": 20, "Def": 50,
+      "SpA": 20, "SpD": 50, "Spe": 40
+    }
+  },
+  {
+    "name": "Azumarill",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Fairy"],
+    "base_stats": {
+      "HP": 100, "Atk": 50, "Def": 80,
+      "SpA": 60, "SpD": 80, "Spe": 50
+    }
+  },
+  {
+    "name": "Sudowoodo",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock"],
+    "base_stats": {
+      "HP": 70, "Atk": 100, "Def": 115,
+      "SpA": 30, "SpD": 65, "Spe": 30
+    }
+  },
+  {
+    "name": "Politoed",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 90, "Atk": 75, "Def": 75,
+      "SpA": 90, "SpD": 100, "Spe": 70
+    }
+  },
+  {
+    "name": "Hoppip",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Flying"],
+    "base_stats": {
+      "HP": 35, "Atk": 35, "Def": 40,
+      "SpA": 35, "SpD": 55, "Spe": 50
+    }
+  },
+  {
+    "name": "Skiploom",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Flying"],
+    "base_stats": {
+      "HP": 55, "Atk": 45, "Def": 50,
+      "SpA": 45, "SpD": 65, "Spe": 80
+    }
+  },
+  {
+    "name": "Jumpluff",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Flying"],
+    "base_stats": {
+      "HP": 75, "Atk": 55, "Def": 70,
+      "SpA": 55, "SpD": 95, "Spe": 110
+    }
+  },
+  {
+    "name": "Aipom",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 55, "Atk": 70, "Def": 55,
+      "SpA": 40, "SpD": 55, "Spe": 85
+    }
+  },
+  {
+    "name": "Sunkern",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 30, "Atk": 30, "Def": 30,
+      "SpA": 30, "SpD": 30, "Spe": 30
+    }
+  },
+  {
+    "name": "Sunflora",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 75, "Atk": 75, "Def": 55,
+      "SpA": 105, "SpD": 85, "Spe": 30
+    }
+  },
+  {
+    "name": "Yanma",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Flying"],
+    "base_stats": {
+      "HP": 65, "Atk": 65, "Def": 45,
+      "SpA": 75, "SpD": 45, "Spe": 95
+    }
+  },
+  {
+    "name": "Wooper",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water", "Ground"],
+    "base_stats": {
+      "HP": 55, "Atk": 45, "Def": 45,
+      "SpA": 25, "SpD": 25, "Spe": 15
+    }
+  },
+  {
+    "name": "Quagsire",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Ground"],
+    "base_stats": {
+      "HP": 95, "Atk": 85, "Def": 85,
+      "SpA": 65, "SpD": 65, "Spe": 35
+    }
+  },
+  {
+    "name": "Espeon",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 65, "Atk": 65, "Def": 60,
+      "SpA": 130, "SpD": 95, "Spe": 110
+    }
+  },
+  {
+    "name": "Umbreon",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Dark"],
+    "base_stats": {
+      "HP": 95, "Atk": 65, "Def": 110,
+      "SpA": 60, "SpD": 130, "Spe": 65
+    }
+  },
+  {
+    "name": "Murkrow",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Dark", "Flying"],
+    "base_stats": {
+      "HP": 60, "Atk": 85, "Def": 42,
+      "SpA": 85, "SpD": 42, "Spe": 91
+    }
+  },
+  {
+    "name": "Slowking",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Water", "Psychic"],
+    "base_stats": {
+      "HP": 95, "Atk": 75, "Def": 80,
+      "SpA": 100, "SpD": 110, "Spe": 30
+    }
+  },
+  {
+    "name": "Misdreavus",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Ghost"],
+    "base_stats": {
+      "HP": 60, "Atk": 60, "Def": 60,
+      "SpA": 85, "SpD": 85, "Spe": 85
+    }
+  },
+  {
+    "name": "Wobbuffet",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 190, "Atk": 33, "Def": 58,
+      "SpA": 33, "SpD": 58, "Spe": 33
+    }
+  },
+    {
+    "name": "Girafarig",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Psychic"],
+    "base_stats": {
+      "HP": 70, "Atk": 80, "Def": 65,
+      "SpA": 90, "SpD": 65, "Spe": 85
+    }
+  },
+  {
+    "name": "Pineco",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Bug"],
+    "base_stats": {
+      "HP": 50, "Atk": 65, "Def": 90,
+      "SpA": 35, "SpD": 35, "Spe": 15
+    }
+  },
+  {
+    "name": "Forretress",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Steel"],
+    "base_stats": {
+      "HP": 75, "Atk": 90, "Def": 140,
+      "SpA": 60, "SpD": 60, "Spe": 40
+    }
+  },
+  {
+    "name": "Dunsparce",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 100, "Atk": 70, "Def": 70,
+      "SpA": 65, "SpD": 65, "Spe": 45
+    }
+  },
+  {
+    "name": "Gligar",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Ground", "Flying"],
+    "base_stats": {
+      "HP": 65, "Atk": 75, "Def": 105,
+      "SpA": 35, "SpD": 65, "Spe": 85
+    }
+  },
+  {
+    "name": "Steelix",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Steel", "Ground"],
+    "base_stats": {
+      "HP": 75, "Atk": 85, "Def": 200,
+      "SpA": 55, "SpD": 65, "Spe": 30
+    }
+  },
+  {
+    "name": "Snubbull",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fairy"],
+    "base_stats": {
+      "HP": 60, "Atk": 80, "Def": 50,
+      "SpA": 40, "SpD": 40, "Spe": 30
+    }
+  },
+  {
+    "name": "Granbull",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Fairy"],
+    "base_stats": {
+      "HP": 90, "Atk": 120, "Def": 75,
+      "SpA": 60, "SpD": 60, "Spe": 45
+    }
+  },
+  {
+    "name": "Qwilfish",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water", "Poison"],
+    "base_stats": {
+      "HP": 65, "Atk": 95, "Def": 85,
+      "SpA": 55, "SpD": 55, "Spe": 85
+    }
+  },
+  {
+    "name": "Scizor",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Steel"],
+    "base_stats": {
+      "HP": 70, "Atk": 130, "Def": 100,
+      "SpA": 55, "SpD": 80, "Spe": 65
+    }
+  },
+  {
+    "name": "Shuckle",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Rock"],
+    "base_stats": {
+      "HP": 20, "Atk": 10, "Def": 230,
+      "SpA": 10, "SpD": 230, "Spe": 5
+    }
+  },
+  {
+    "name": "Heracross",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Fighting"],
+    "base_stats": {
+      "HP": 80, "Atk": 125, "Def": 75,
+      "SpA": 40, "SpD": 95, "Spe": 85
+    }
+  },
+  {
+    "name": "Sneasel",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Dark", "Ice"],
+    "base_stats": {
+      "HP": 55, "Atk": 95, "Def": 55,
+      "SpA": 35, "SpD": 75, "Spe": 115
+    }
+  },
+  {
+    "name": "Teddiursa",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 60, "Atk": 80, "Def": 50,
+      "SpA": 50, "SpD": 50, "Spe": 40
+    }
+  },
+  {
+    "name": "Ursaring",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 90, "Atk": 130, "Def": 75,
+      "SpA": 75, "SpD": 75, "Spe": 55
+    }
+  },
+  {
+    "name": "Slugma",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 40, "Atk": 40, "Def": 40,
+      "SpA": 70, "SpD": 40, "Spe": 20
+    }
+  },
+  {
+    "name": "Magcargo",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Fire", "Rock"],
+    "base_stats": {
+      "HP": 60, "Atk": 50, "Def": 120,
+      "SpA": 90, "SpD": 80, "Spe": 30
+    }
+  },
+  {
+    "name": "Swinub",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ice", "Ground"],
+    "base_stats": {
+      "HP": 50, "Atk": 50, "Def": 40,
+      "SpA": 30, "SpD": 30, "Spe": 50
+    }
+  },
+  {
+    "name": "Piloswine",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Ice", "Ground"],
+    "base_stats": {
+      "HP": 100, "Atk": 100, "Def": 80,
+      "SpA": 60, "SpD": 60, "Spe": 50
+    }
+  },
+  {
+    "name": "Corsola",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water", "Rock"],
+    "base_stats": {
+      "HP": 65, "Atk": 55, "Def": 95,
+      "SpA": 65, "SpD": 95, "Spe": 35
+    }
+  },
+    {
+    "name": "Remoraid",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 35, "Atk": 65, "Def": 35,
+      "SpA": 65, "SpD": 35, "Spe": 65
+    }
+  },
+  {
+    "name": "Octillery",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 75, "Atk": 105, "Def": 75,
+      "SpA": 105, "SpD": 75, "Spe": 45
+    }
+  },
+  {
+    "name": "Delibird",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Ice", "Flying"],
+    "base_stats": {
+      "HP": 45, "Atk": 55, "Def": 45,
+      "SpA": 65, "SpD": 45, "Spe": 75
+    }
+  },
+  {
+    "name": "Mantine",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water", "Flying"],
+    "base_stats": {
+      "HP": 65, "Atk": 40, "Def": 70,
+      "SpA": 80, "SpD": 140, "Spe": 70
+    }
+  },
+  {
+    "name": "Skarmory",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Steel", "Flying"],
+    "base_stats": {
+      "HP": 65, "Atk": 80, "Def": 140,
+      "SpA": 40, "SpD": 70, "Spe": 70
+    }
+  },
+  {
+    "name": "Houndour",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Dark", "Fire"],
+    "base_stats": {
+      "HP": 45, "Atk": 60, "Def": 30,
+      "SpA": 80, "SpD": 50, "Spe": 65
+    }
+  },
+  {
+    "name": "Houndoom",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Dark", "Fire"],
+    "base_stats": {
+      "HP": 75, "Atk": 90, "Def": 50,
+      "SpA": 110, "SpD": 80, "Spe": 95
+    }
+  },
+  {
+    "name": "Kingdra",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Water", "Dragon"],
+    "base_stats": {
+      "HP": 75, "Atk": 95, "Def": 95,
+      "SpA": 95, "SpD": 95, "Spe": 85
+    }
+  },
+  {
+    "name": "Phanpy",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ground"],
+    "base_stats": {
+      "HP": 90, "Atk": 60, "Def": 60,
+      "SpA": 40, "SpD": 40, "Spe": 40
+    }
+  },
+  {
+    "name": "Donphan",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Ground"],
+    "base_stats": {
+      "HP": 90, "Atk": 120, "Def": 120,
+      "SpA": 60, "SpD": 60, "Spe": 50
+    }
+  },
+  {
+    "name": "Porygon2",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 85, "Atk": 80, "Def": 90,
+      "SpA": 105, "SpD": 95, "Spe": 60
+    }
+  },
+  {
+    "name": "Stantler",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 73, "Atk": 95, "Def": 62,
+      "SpA": 85, "SpD": 65, "Spe": 85
+    }
+  },
+  {
+    "name": "Smeargle",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 55, "Atk": 20, "Def": 35,
+      "SpA": 20, "SpD": 45, "Spe": 75
+    }
+  },
+  {
+    "name": "Tyrogue",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 35, "Atk": 35, "Def": 35,
+      "SpA": 35, "SpD": 35, "Spe": 35
+    }
+  },
+  {
+    "name": "Hitmontop",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 50, "Atk": 95, "Def": 95,
+      "SpA": 35, "SpD": 110, "Spe": 70
+    }
+  },
+  {
+    "name": "Smoochum",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Ice", "Psychic"],
+    "base_stats": {
+      "HP": 45, "Atk": 30, "Def": 15,
+      "SpA": 85, "SpD": 65, "Spe": 65
+    }
+  },
+  {
+    "name": "Elekid",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 45, "Atk": 63, "Def": 37,
+      "SpA": 65, "SpD": 55, "Spe": 95
+    }
+  },
+  {
+    "name": "Magby",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 45, "Atk": 75, "Def": 37,
+      "SpA": 70, "SpD": 55, "Spe": 83
+    }
+  },
+  {
+    "name": "Miltank",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 95, "Atk": 80, "Def": 105,
+      "SpA": 40, "SpD": 70, "Spe": 100
+    }
+  },
+  {
+    "name": "Blissey",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 255, "Atk": 10, "Def": 10,
+      "SpA": 75, "SpD": 135, "Spe": 55
+    }
+  },
+    {
+    "name": "Raikou",
+    "rarity": "legendary",
+    "weight": 0.1,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 90, "Atk": 85, "Def": 75,
+      "SpA": 115, "SpD": 100, "Spe": 115
+    }
+  },
+  {
+    "name": "Entei",
+    "rarity": "legendary",
+    "weight": 0.1,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 115, "Atk": 115, "Def": 85,
+      "SpA": 90, "SpD": 75, "Spe": 100
+    }
+  },
+  {
+    "name": "Suicune",
+    "rarity": "legendary",
+    "weight": 0.1,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 100, "Atk": 75, "Def": 115,
+      "SpA": 90, "SpD": 115, "Spe": 85
+    }
+  },
+  {
+    "name": "Larvitar",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Ground"],
+    "base_stats": {
+      "HP": 50, "Atk": 64, "Def": 50,
+      "SpA": 45, "SpD": 50, "Spe": 41
+    }
+  },
+  {
+    "name": "Pupitar",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Ground"],
+    "base_stats": {
+      "HP": 70, "Atk": 84, "Def": 70,
+      "SpA": 65, "SpD": 70, "Spe": 51
+    }
+  },
+  {
+    "name": "Tyranitar",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Dark"],
+    "base_stats": {
+      "HP": 100, "Atk": 134, "Def": 110,
+      "SpA": 95, "SpD": 100, "Spe": 61
+    }
+  },
+  {
+    "name": "Lugia",
+    "rarity": "legendary",
+    "weight": 0.1,
+    "moves": ["Tackle"],
+    "types": ["Psychic", "Flying"],
+    "base_stats": {
+      "HP": 106, "Atk": 90, "Def": 130,
+      "SpA": 90, "SpD": 154, "Spe": 110
+    }
+  },
+  {
+    "name": "Ho-Oh",
+    "rarity": "legendary",
+    "weight": 0.1,
+    "moves": ["Tackle"],
+    "types": ["Fire", "Flying"],
+    "base_stats": {
+      "HP": 106, "Atk": 130, "Def": 90,
+      "SpA": 110, "SpD": 154, "Spe": 90
+    }
+  },
+  {
+    "name": "Celebi",
+    "rarity": "mythic",
+    "weight": 0.01,
+    "moves": ["Tackle"],
+    "types": ["Psychic", "Grass"],
+    "base_stats": {
+      "HP": 100, "Atk": 100, "Def": 100,
+      "SpA": 100, "SpD": 100, "Spe": 100
+    }
+  },
+  {
+    "name": "Treecko",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 40, "Atk": 45, "Def": 35,
+      "SpA": 65, "SpD": 55, "Spe": 70
+    }
+  },
+  {
+    "name": "Grovyle",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 50, "Atk": 65, "Def": 45,
+      "SpA": 85, "SpD": 65, "Spe": 95
+    }
+  },
+  {
+    "name": "Sceptile",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 70, "Atk": 85, "Def": 65,
+      "SpA": 105, "SpD": 85, "Spe": 120
+    }
+  },
+  {
+    "name": "Torchic",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 45, "Atk": 60, "Def": 40,
+      "SpA": 70, "SpD": 50, "Spe": 45
+    }
+  },
+  {
+    "name": "Combusken",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Fire", "Fighting"],
+    "base_stats": {
+      "HP": 60, "Atk": 85, "Def": 60,
+      "SpA": 85, "SpD": 60, "Spe": 55
+    }
+  },
+  {
+    "name": "Blaziken",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fire", "Fighting"],
+    "base_stats": {
+      "HP": 80, "Atk": 120, "Def": 70,
+      "SpA": 110, "SpD": 70, "Spe": 80
+    }
+  },
+  {
+    "name": "Mudkip",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 50, "Atk": 70, "Def": 50,
+      "SpA": 50, "SpD": 50, "Spe": 40
+    }
+  },
+  {
+    "name": "Marshtomp",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Ground"],
+    "base_stats": {
+      "HP": 70, "Atk": 85, "Def": 70,
+      "SpA": 60, "SpD": 70, "Spe": 50
+    }
+  },
+  {
+    "name": "Swampert",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water", "Ground"],
+    "base_stats": {
+      "HP": 100, "Atk": 110, "Def": 90,
+      "SpA": 85, "SpD": 90, "Spe": 60
+    }
+  },
+  {
+    "name": "Poochyena",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Dark"],
+    "base_stats": {
+      "HP": 35, "Atk": 55, "Def": 35,
+      "SpA": 30, "SpD": 30, "Spe": 35
+    }
+  },
+    {
+    "name": "Mightyena",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Dark"],
+    "base_stats": {
+      "HP": 70, "Atk": 90, "Def": 70,
+      "SpA": 60, "SpD": 60, "Spe": 70
+    }
+  },
+  {
+    "name": "Zigzagoon",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 38, "Atk": 30, "Def": 41,
+      "SpA": 30, "SpD": 41, "Spe": 60
+    }
+  },
+  {
+    "name": "Linoone",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 78, "Atk": 70, "Def": 61,
+      "SpA": 50, "SpD": 61, "Spe": 100
+    }
+  },
+  {
+    "name": "Wurmple",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Bug"],
+    "base_stats": {
+      "HP": 45, "Atk": 45, "Def": 35,
+      "SpA": 20, "SpD": 30, "Spe": 20
+    }
+  },
+  {
+    "name": "Silcoon",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Bug"],
+    "base_stats": {
+      "HP": 50, "Atk": 35, "Def": 55,
+      "SpA": 25, "SpD": 25, "Spe": 15
+    }
+  },
+  {
+    "name": "Beautifly",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Flying"],
+    "base_stats": {
+      "HP": 60, "Atk": 70, "Def": 50,
+      "SpA": 100, "SpD": 50, "Spe": 65
+    }
+  },
+  {
+    "name": "Cascoon",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Bug"],
+    "base_stats": {
+      "HP": 50, "Atk": 35, "Def": 55,
+      "SpA": 25, "SpD": 25, "Spe": 15
+    }
+  },
+  {
+    "name": "Dustox",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Poison"],
+    "base_stats": {
+      "HP": 60, "Atk": 50, "Def": 70,
+      "SpA": 50, "SpD": 90, "Spe": 65
+    }
+  },
+  {
+    "name": "Lotad",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water", "Grass"],
+    "base_stats": {
+      "HP": 40, "Atk": 30, "Def": 30,
+      "SpA": 40, "SpD": 50, "Spe": 30
+    }
+  },
+  {
+    "name": "Lombre",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Grass"],
+    "base_stats": {
+      "HP": 60, "Atk": 50, "Def": 50,
+      "SpA": 60, "SpD": 70, "Spe": 50
+    }
+  },
+  {
+    "name": "Ludicolo",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water", "Grass"],
+    "base_stats": {
+      "HP": 80, "Atk": 70, "Def": 70,
+      "SpA": 90, "SpD": 100, "Spe": 70
+    }
+  },
+  {
+    "name": "Seedot",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 40, "Atk": 40, "Def": 50,
+      "SpA": 30, "SpD": 30, "Spe": 30
+    }
+  },
+  {
+    "name": "Nuzleaf",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Dark"],
+    "base_stats": {
+      "HP": 70, "Atk": 70, "Def": 40,
+      "SpA": 60, "SpD": 40, "Spe": 60
+    }
+  },
+  {
+    "name": "Shiftry",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Dark"],
+    "base_stats": {
+      "HP": 90, "Atk": 100, "Def": 60,
+      "SpA": 90, "SpD": 60, "Spe": 80
+    }
+  },
+  {
+    "name": "Taillow",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 40, "Atk": 55, "Def": 30,
+      "SpA": 30, "SpD": 30, "Spe": 85
+    }
+  },
+  {
+    "name": "Swellow",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 60, "Atk": 85, "Def": 60,
+      "SpA": 75, "SpD": 50, "Spe": 125
+    }
+  },
+  {
+    "name": "Wingull",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water", "Flying"],
+    "base_stats": {
+      "HP": 40, "Atk": 30, "Def": 30,
+      "SpA": 55, "SpD": 30, "Spe": 85
+    }
+  },
+  {
+    "name": "Pelipper",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Flying"],
+    "base_stats": {
+      "HP": 60, "Atk": 50, "Def": 100,
+      "SpA": 95, "SpD": 70, "Spe": 65
+    }
+  },
+  {
+    "name": "Ralts",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Psychic", "Fairy"],
+    "base_stats": {
+      "HP": 28, "Atk": 25, "Def": 25,
+      "SpA": 45, "SpD": 35, "Spe": 40
+    }
+  },
+  {
+    "name": "Kirlia",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Psychic", "Fairy"],
+    "base_stats": {
+      "HP": 38, "Atk": 35, "Def": 35,
+      "SpA": 65, "SpD": 55, "Spe": 50
+    }
+  },
+    {
+    "name": "Gardevoir",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Psychic", "Fairy"],
+    "base_stats": {
+      "HP": 68, "Atk": 65, "Def": 65,
+      "SpA": 125, "SpD": 115, "Spe": 80
+    }
+  },
+  {
+    "name": "Surskit",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Water"],
+    "base_stats": {
+      "HP": 40, "Atk": 30, "Def": 32,
+      "SpA": 50, "SpD": 52, "Spe": 65
+    }
+  },
+  {
+    "name": "Masquerain",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Flying"],
+    "base_stats": {
+      "HP": 70, "Atk": 60, "Def": 62,
+      "SpA": 100, "SpD": 82, "Spe": 80
+    }
+  },
+  {
+    "name": "Shroomish",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 60, "Atk": 40, "Def": 60,
+      "SpA": 40, "SpD": 60, "Spe": 35
+    }
+  },
+  {
+    "name": "Breloom",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Fighting"],
+    "base_stats": {
+      "HP": 60, "Atk": 130, "Def": 80,
+      "SpA": 60, "SpD": 60, "Spe": 70
+    }
+  },
+  {
+    "name": "Slakoth",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 60, "Atk": 60, "Def": 60,
+      "SpA": 35, "SpD": 35, "Spe": 30
+    }
+  },
+  {
+    "name": "Vigoroth",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 80, "Atk": 80, "Def": 80,
+      "SpA": 55, "SpD": 55, "Spe": 90
+    }
+  },
+  {
+    "name": "Slaking",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 150, "Atk": 160, "Def": 100,
+      "SpA": 95, "SpD": 65, "Spe": 100
+    }
+  },
+  {
+    "name": "Nincada",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Ground"],
+    "base_stats": {
+      "HP": 31, "Atk": 45, "Def": 90,
+      "SpA": 30, "SpD": 30, "Spe": 40
+    }
+  },
+  {
+    "name": "Ninjask",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Flying"],
+    "base_stats": {
+      "HP": 61, "Atk": 90, "Def": 45,
+      "SpA": 50, "SpD": 50, "Spe": 160
+    }
+  },
+  {
+    "name": "Shedinja",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Bug", "Ghost"],
+    "base_stats": {
+      "HP": 1, "Atk": 90, "Def": 45,
+      "SpA": 30, "SpD": 30, "Spe": 40
+    }
+  },
+  {
+    "name": "Whismur",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 64, "Atk": 51, "Def": 23,
+      "SpA": 51, "SpD": 23, "Spe": 28
+    }
+  },
+  {
+    "name": "Loudred",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 84, "Atk": 71, "Def": 43,
+      "SpA": 71, "SpD": 43, "Spe": 48
+    }
+  },
+  {
+    "name": "Exploud",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 104, "Atk": 91, "Def": 63,
+      "SpA": 91, "SpD": 73, "Spe": 68
+    }
+  },
+  {
+    "name": "Makuhita",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 72, "Atk": 60, "Def": 30,
+      "SpA": 20, "SpD": 30, "Spe": 25
+    }
+  },
+  {
+    "name": "Hariyama",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Fighting"],
+    "base_stats": {
+      "HP": 144, "Atk": 120, "Def": 60,
+      "SpA": 40, "SpD": 60, "Spe": 50
+    }
+  },
+  {
+    "name": "Azurill",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Fairy"],
+    "base_stats": {
+      "HP": 50, "Atk": 20, "Def": 40,
+      "SpA": 20, "SpD": 40, "Spe": 20
+    }
+  },
+  {
+    "name": "Nosepass",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock"],
+    "base_stats": {
+      "HP": 30, "Atk": 45, "Def": 135,
+      "SpA": 45, "SpD": 90, "Spe": 30
+    }
+  },
+  {
+    "name": "Skitty",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 50, "Atk": 45, "Def": 45,
+      "SpA": 35, "SpD": 35, "Spe": 50
+    }
+  },
+  {
+    "name": "Delcatty",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 70, "Atk": 65, "Def": 65,
+      "SpA": 55, "SpD": 55, "Spe": 90
+    }
+  },
+    {
+    "name": "Sableye",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Dark", "Ghost"],
+    "base_stats": {
+      "HP": 50, "Atk": 75, "Def": 75,
+      "SpA": 65, "SpD": 65, "Spe": 50
+    }
+  },
+  {
+    "name": "Mawile",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Steel", "Fairy"],
+    "base_stats": {
+      "HP": 50, "Atk": 85, "Def": 85,
+      "SpA": 55, "SpD": 55, "Spe": 50
+    }
+  },
+  {
+    "name": "Aron",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Steel", "Rock"],
+    "base_stats": {
+      "HP": 50, "Atk": 70, "Def": 100,
+      "SpA": 40, "SpD": 40, "Spe": 30
+    }
+  },
+  {
+    "name": "Lairon",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Steel", "Rock"],
+    "base_stats": {
+      "HP": 60, "Atk": 90, "Def": 140,
+      "SpA": 50, "SpD": 50, "Spe": 40
+    }
+  },
+  {
+    "name": "Aggron",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Steel", "Rock"],
+    "base_stats": {
+      "HP": 70, "Atk": 110, "Def": 180,
+      "SpA": 60, "SpD": 60, "Spe": 50
+    }
+  },
+  {
+    "name": "Meditite",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fighting", "Psychic"],
+    "base_stats": {
+      "HP": 30, "Atk": 40, "Def": 55,
+      "SpA": 40, "SpD": 55, "Spe": 60
+    }
+  },
+  {
+    "name": "Medicham",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Fighting", "Psychic"],
+    "base_stats": {
+      "HP": 60, "Atk": 60, "Def": 75,
+      "SpA": 60, "SpD": 75, "Spe": 80
+    }
+  },
+  {
+    "name": "Electrike",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 40, "Atk": 45, "Def": 40,
+      "SpA": 65, "SpD": 40, "Spe": 65
+    }
+  },
+  {
+    "name": "Manectric",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 70, "Atk": 75, "Def": 60,
+      "SpA": 105, "SpD": 60, "Spe": 105
+    }
+  },
+  {
+    "name": "Plusle",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 60, "Atk": 50, "Def": 40,
+      "SpA": 85, "SpD": 75, "Spe": 95
+    }
+  },
+  {
+    "name": "Minun",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Electric"],
+    "base_stats": {
+      "HP": 60, "Atk": 40, "Def": 50,
+      "SpA": 75, "SpD": 85, "Spe": 95
+    }
+  },
+  {
+    "name": "Volbeat",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Bug"],
+    "base_stats": {
+      "HP": 65, "Atk": 73, "Def": 75,
+      "SpA": 47, "SpD": 85, "Spe": 85
+    }
+  },
+  {
+    "name": "Illumise",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Bug"],
+    "base_stats": {
+      "HP": 65, "Atk": 47, "Def": 75,
+      "SpA": 73, "SpD": 85, "Spe": 85
+    }
+  },
+  {
+    "name": "Roselia",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Poison"],
+    "base_stats": {
+      "HP": 50, "Atk": 60, "Def": 45,
+      "SpA": 100, "SpD": 80, "Spe": 65
+    }
+  },
+  {
+    "name": "Gulpin",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 70, "Atk": 43, "Def": 53,
+      "SpA": 43, "SpD": 53, "Spe": 40
+    }
+  },
+  {
+    "name": "Swalot",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 100, "Atk": 73, "Def": 83,
+      "SpA": 73, "SpD": 83, "Spe": 55
+    }
+  },
+  {
+    "name": "Carvanha",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water", "Dark"],
+    "base_stats": {
+      "HP": 45, "Atk": 90, "Def": 20,
+      "SpA": 65, "SpD": 20, "Spe": 65
+    }
+  },
+  {
+    "name": "Sharpedo",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Dark"],
+    "base_stats": {
+      "HP": 70, "Atk": 120, "Def": 40,
+      "SpA": 95, "SpD": 40, "Spe": 95
+    }
+  },
+  {
+    "name": "Wailmer",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 130, "Atk": 70, "Def": 35,
+      "SpA": 70, "SpD": 35, "Spe": 60
+    }
+  },
+  {
+    "name": "Wailord",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 170, "Atk": 90, "Def": 45,
+      "SpA": 90, "SpD": 45, "Spe": 60
+    }
+  },
+  {"name": "Unown_A", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_B", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_C", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_D", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_E", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_F", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_G", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_H", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_I", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_J", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_K", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_L", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_M", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_N", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_O", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_P", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_Q", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_R", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_S", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_T", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_U", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_V", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_W", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_X", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_Y", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_Z", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_Exclamation", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+  {"name": "Unown_Question", "rarity": "rare", "weight": 2, "types": ["Psychic"], "moves": ["Hidden Power"], "base_stats": {"HP":48,"Atk":72,"Def":48,"SpA":72,"SpD":48,"Spe":48}},
+    {
+    "name": "Numel",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Fire", "Ground"],
+    "base_stats": {
+      "HP": 60, "Atk": 60, "Def": 40,
+      "SpA": 65, "SpD": 45, "Spe": 35
+    }
+  },
+  {
+    "name": "Camerupt",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Fire", "Ground"],
+    "base_stats": {
+      "HP": 70, "Atk": 100, "Def": 70,
+      "SpA": 105, "SpD": 75, "Spe": 40
+    }
+  },
+  {
+    "name": "Torkoal",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Fire"],
+    "base_stats": {
+      "HP": 70, "Atk": 85, "Def": 140,
+      "SpA": 85, "SpD": 70, "Spe": 20
+    }
+  },
+  {
+    "name": "Spoink",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 60, "Atk": 25, "Def": 35,
+      "SpA": 70, "SpD": 80, "Spe": 60
+    }
+  },
+  {
+    "name": "Grumpig",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 80, "Atk": 45, "Def": 65,
+      "SpA": 90, "SpD": 110, "Spe": 80
+    }
+  },
+  {
+    "name": "Spinda",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 60, "Atk": 60, "Def": 60,
+      "SpA": 60, "SpD": 60, "Spe": 60
+    }
+  },
+  {
+    "name": "Trapinch",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ground"],
+    "base_stats": {
+      "HP": 45, "Atk": 100, "Def": 45,
+      "SpA": 45, "SpD": 45, "Spe": 10
+    }
+  },
+  {
+    "name": "Vibrava",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Ground", "Dragon"],
+    "base_stats": {
+      "HP": 50, "Atk": 70, "Def": 50,
+      "SpA": 50, "SpD": 50, "Spe": 70
+    }
+  },
+  {
+    "name": "Flygon",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Ground", "Dragon"],
+    "base_stats": {
+      "HP": 80, "Atk": 100, "Def": 80,
+      "SpA": 80, "SpD": 80, "Spe": 100
+    }
+  },
+  {
+    "name": "Cacnea",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Grass"],
+    "base_stats": {
+      "HP": 50, "Atk": 85, "Def": 40,
+      "SpA": 85, "SpD": 40, "Spe": 35
+    }
+  },
+  {
+    "name": "Cacturne",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Dark"],
+    "base_stats": {
+      "HP": 70, "Atk": 115, "Def": 60,
+      "SpA": 115, "SpD": 60, "Spe": 55
+    }
+  },
+  {
+    "name": "Swablu",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Normal", "Flying"],
+    "base_stats": {
+      "HP": 45, "Atk": 40, "Def": 60,
+      "SpA": 40, "SpD": 75, "Spe": 50
+    }
+  },
+  {
+    "name": "Altaria",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Dragon", "Flying"],
+    "base_stats": {
+      "HP": 75, "Atk": 70, "Def": 90,
+      "SpA": 70, "SpD": 105, "Spe": 80
+    }
+  },
+  {
+    "name": "Zangoose",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 73, "Atk": 115, "Def": 60,
+      "SpA": 60, "SpD": 60, "Spe": 90
+    }
+  },
+  {
+    "name": "Seviper",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Poison"],
+    "base_stats": {
+      "HP": 73, "Atk": 100, "Def": 60,
+      "SpA": 100, "SpD": 60, "Spe": 65
+    }
+  },
+  {
+    "name": "Lunatone",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Psychic"],
+    "base_stats": {
+      "HP": 90, "Atk": 55, "Def": 65,
+      "SpA": 95, "SpD": 85, "Spe": 70
+    }
+  },
+  {
+    "name": "Solrock",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Psychic"],
+    "base_stats": {
+      "HP": 90, "Atk": 95, "Def": 85,
+      "SpA": 55, "SpD": 65, "Spe": 70
+    }
+  },
+  {
+    "name": "Barboach",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water", "Ground"],
+    "base_stats": {
+      "HP": 50, "Atk": 48, "Def": 43,
+      "SpA": 46, "SpD": 41, "Spe": 60
+    }
+  },
+  {
+    "name": "Whiscash",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Ground"],
+    "base_stats": {
+      "HP": 110, "Atk": 78, "Def": 73,
+      "SpA": 76, "SpD": 71, "Spe": 60
+    }
+  },
+  {
+    "name": "Corphish",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 43, "Atk": 80, "Def": 65,
+      "SpA": 50, "SpD": 35, "Spe": 35
+    }
+  },
+    {
+    "name": "Crawdaunt",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Water", "Dark"],
+    "base_stats": {
+      "HP": 63, "Atk": 120, "Def": 85,
+      "SpA": 90, "SpD": 55, "Spe": 55
+    }
+  },
+  {
+    "name": "Baltoy",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ground", "Psychic"],
+    "base_stats": {
+      "HP": 40, "Atk": 40, "Def": 55,
+      "SpA": 40, "SpD": 70, "Spe": 55
+    }
+  },
+  {
+    "name": "Claydol",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Ground", "Psychic"],
+    "base_stats": {
+      "HP": 60, "Atk": 70, "Def": 105,
+      "SpA": 70, "SpD": 120, "Spe": 75
+    }
+  },
+  {
+    "name": "Lileep",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Grass"],
+    "base_stats": {
+      "HP": 66, "Atk": 41, "Def": 77,
+      "SpA": 61, "SpD": 87, "Spe": 23
+    }
+  },
+  {
+    "name": "Cradily",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Grass"],
+    "base_stats": {
+      "HP": 86, "Atk": 81, "Def": 97,
+      "SpA": 81, "SpD": 107, "Spe": 43
+    }
+  },
+  {
+    "name": "Anorith",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Bug"],
+    "base_stats": {
+      "HP": 45, "Atk": 95, "Def": 50,
+      "SpA": 40, "SpD": 50, "Spe": 75
+    }
+  },
+  {
+    "name": "Armaldo",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Rock", "Bug"],
+    "base_stats": {
+      "HP": 75, "Atk": 125, "Def": 100,
+      "SpA": 70, "SpD": 80, "Spe": 45
+    }
+  },
+  {
+    "name": "Feebas",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 20, "Atk": 15, "Def": 20,
+      "SpA": 10, "SpD": 55, "Spe": 80
+    }
+  },
+  {
+    "name": "Milotic",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Water"],
+    "base_stats": {
+      "HP": 95, "Atk": 60, "Def": 79,
+      "SpA": 100, "SpD": 125, "Spe": 81
+    }
+  },
+  {
+    "name": "Castform",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 70, "Atk": 70, "Def": 70,
+      "SpA": 70, "SpD": 70, "Spe": 70
+    }
+  },
+  {
+    "name": "Kecleon",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Normal"],
+    "base_stats": {
+      "HP": 60, "Atk": 90, "Def": 70,
+      "SpA": 60, "SpD": 120, "Spe": 40
+    }
+  },
+  {
+    "name": "Shuppet",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ghost"],
+    "base_stats": {
+      "HP": 44, "Atk": 75, "Def": 35,
+      "SpA": 63, "SpD": 33, "Spe": 45
+    }
+  },
+  {
+    "name": "Banette",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Ghost"],
+    "base_stats": {
+      "HP": 64, "Atk": 115, "Def": 65,
+      "SpA": 83, "SpD": 63, "Spe": 65
+    }
+  },
+  {
+    "name": "Duskull",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ghost"],
+    "base_stats": {
+      "HP": 20, "Atk": 40, "Def": 90,
+      "SpA": 30, "SpD": 90, "Spe": 25
+    }
+  },
+  {
+    "name": "Dusclops",
+    "rarity": "uncommon",
+    "weight": 5,
+    "moves": ["Tackle"],
+    "types": ["Ghost"],
+    "base_stats": {
+      "HP": 40, "Atk": 70, "Def": 130,
+      "SpA": 60, "SpD": 130, "Spe": 25
+    }
+  },
+  {
+    "name": "Tropius",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Grass", "Flying"],
+    "base_stats": {
+      "HP": 99, "Atk": 68, "Def": 83,
+      "SpA": 72, "SpD": 87, "Spe": 51
+    }
+  },
+  {
+    "name": "Chimecho",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 75, "Atk": 50, "Def": 80,
+      "SpA": 95, "SpD": 90, "Spe": 65
+    }
+  },
+  {
+    "name": "Absol",
+    "rarity": "epic",
+    "weight": 1,
+    "moves": ["Tackle"],
+    "types": ["Dark"],
+    "base_stats": {
+      "HP": 65, "Atk": 130, "Def": 60,
+      "SpA": 75, "SpD": 60, "Spe": 75
+    }
+  },
+  {
+    "name": "Wynaut",
+    "rarity": "rare",
+    "weight": 2,
+    "moves": ["Tackle"],
+    "types": ["Psychic"],
+    "base_stats": {
+      "HP": 95, "Atk": 23, "Def": 48,
+      "SpA": 23, "SpD": 48, "Spe": 23
+    }
+  },
+  {
+    "name": "Snorunt",
+    "rarity": "common",
+    "weight": 10,
+    "moves": ["Tackle"],
+    "types": ["Ice"],
+    "base_stats": {
+      "HP": 50, "Atk": 50, "Def": 50,
+      "SpA": 50, "SpD": 50, "Spe": 50
+    }
+  }
+]
+
+  
+
+
+
+
+
+

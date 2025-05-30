@@ -1,0 +1,395 @@
+{
+  "pokeballs": {
+    "pokeball": 0,
+    "superball": 0,
+    "hyperball": 1,
+    "masterball": 92
+  },
+  "items": {
+    "chroma": 0,
+    "multi_exp": 0
+  },
+  "money": 9999999999999999999006701,
+  "box": [
+    {
+      "name": "Jumpluff",
+      "rarity": "rare",
+      "shiny": false,
+      "ivs": {
+        "hp": 12,
+        "atk": 0,
+        "def": 0,
+        "spa": 2,
+        "spd": 25,
+        "spe": 9
+      },
+      "nature": "Sassy",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Sassy"
+      ]
+    },
+    {
+      "name": "Unown_U",
+      "rarity": "rare",
+      "shiny": false,
+      "ivs": {
+        "hp": 2,
+        "atk": 29,
+        "def": 19,
+        "spa": 7,
+        "spd": 22,
+        "spe": 24
+      },
+      "nature": "Bashful",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Bashful"
+      ]
+    },
+    {
+      "name": "Geodude",
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 0,
+        "atk": 2,
+        "def": 18,
+        "spa": 18,
+        "spd": 28,
+        "spe": 26
+      },
+      "nature": "Relaxed",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Relaxed"
+      ]
+    },
+    {
+      "name": "Sunflora",
+      "rarity": "uncommon",
+      "shiny": false,
+      "ivs": {
+        "hp": 16,
+        "atk": 20,
+        "def": 30,
+        "spa": 4,
+        "spd": 29,
+        "spe": 30
+      },
+      "nature": "Quiet",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Quiet"
+      ]
+    },
+    {
+      "name": "Unown_Exclamation",
+      "rarity": "rare",
+      "shiny": false,
+      "ivs": {
+        "hp": 14,
+        "atk": 4,
+        "def": 1,
+        "spa": 13,
+        "spd": 8,
+        "spe": 5
+      },
+      "nature": "Adamant",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Adamant"
+      ]
+    },
+    {
+      "name": "Combusken",
+      "rarity": "uncommon",
+      "shiny": false,
+      "ivs": {
+        "hp": 11,
+        "atk": 21,
+        "def": 20,
+        "spa": 6,
+        "spd": 1,
+        "spe": 6
+      },
+      "nature": "Lonely",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Lonely"
+      ]
+    },
+    {
+      "name": "Furret",
+      "rarity": "uncommon",
+      "shiny": false,
+      "ivs": {
+        "hp": 17,
+        "atk": 14,
+        "def": 23,
+        "spa": 21,
+        "spd": 10,
+        "spe": 24
+      },
+      "nature": "Naughty",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Naughty"
+      ]
+    },
+    {
+      "name": "Snorunt",
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 30,
+        "atk": 25,
+        "def": 21,
+        "spa": 11,
+        "spd": 10,
+        "spe": 17
+      },
+      "nature": "Rash",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Rash"
+      ]
+    },
+    {
+      "name": "Baltoy",
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 23,
+        "atk": 7,
+        "def": 8,
+        "spa": 12,
+        "spd": 23,
+        "spe": 16
+      },
+      "nature": "Careful",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Careful"
+      ]
+    },
+    {
+      "name": "Bulbasaur",
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 29,
+        "atk": 13,
+        "def": 28,
+        "spa": 14,
+        "spd": 31,
+        "spe": 19
+      },
+      "nature": "Naive",
+      "ability": "Engrais",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Naive"
+      ]
+    },
+    {
+      "name": "Exeggcute",
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 0,
+        "atk": 16,
+        "def": 3,
+        "spa": 11,
+        "spd": 23,
+        "spe": 19
+      },
+      "nature": "Docile",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Docile"
+      ]
+    },
+    {
+      "name": "Sandshrew",
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 12,
+        "atk": 11,
+        "def": 19,
+        "spa": 12,
+        "spd": 25,
+        "spe": 0
+      },
+      "nature": "Jolly",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Jolly"
+      ]
+    },
+    {
+      "name": "Staryu",
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 12,
+        "atk": 12,
+        "def": 19,
+        "spa": 2,
+        "spd": 5,
+        "spe": 22
+      },
+      "nature": "Jolly",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Jolly"
+      ]
+    },
+    {
+      "name": "Wigglytuff",
+      "rarity": "uncommon",
+      "shiny": false,
+      "ivs": {
+        "hp": 7,
+        "atk": 24,
+        "def": 28,
+        "spa": 12,
+        "spd": 14,
+        "spe": 8
+      },
+      "nature": "Impish",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Impish"
+      ]
+    },
+    {
+      "name": "Mewtwo",
+      "rarity": "legendary",
+      "shiny": false,
+      "ivs": {
+        "hp": 26,
+        "atk": 18,
+        "def": 31,
+        "spa": 6,
+        "spd": 15,
+        "spe": 31
+      },
+      "nature": "Hardy",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Hardy"
+      ]
+    },
+    {
+      "name": "Rhyhorn",
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 14,
+        "atk": 5,
+        "def": 20,
+        "spa": 7,
+        "spd": 5,
+        "spe": 28
+      },
+      "nature": "Docile",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Docile"
+      ]
+    },
+    {
+      "name": "Weepinbell",
+      "rarity": "uncommon",
+      "shiny": false,
+      "ivs": {
+        "hp": 16,
+        "atk": 21,
+        "def": 26,
+        "spa": 31,
+        "spd": 23,
+        "spe": 1
+      },
+      "nature": "Docile",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Docile"
+      ]
+    },
+    {
+      "name": "Delcatty",
+      "rarity": "uncommon",
+      "shiny": false,
+      "ivs": {
+        "hp": 23,
+        "atk": 23,
+        "def": 21,
+        "spa": 15,
+        "spd": 18,
+        "spe": 12
+      },
+      "nature": "Relaxed",
+      "ability": "Aucun",
+      "level": 1,
+      "quantity": 1,
+      "locked": true,
+      "known_natures": [
+        "Relaxed"
+      ]
+    }
+  ],
+  "daily_claimed": null,
+  "lang": "fr"
+}
