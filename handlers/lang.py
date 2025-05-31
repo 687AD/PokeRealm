@@ -14,7 +14,7 @@ LANG_BUTTONS = ReplyKeyboardMarkup(
 
 async def ask_language(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Demande à l'utilisateur de choisir sa langue
-    await update.message.reply_text("🌍 Choisis ta langue :", reply_markup=LANG_BUTTONS)
+    await update.message.reply_text("🌍 Choisis ta langue : |🌍 Choose your langage :", reply_markup=LANG_BUTTONS)
 
 async def handle_language_choice(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user

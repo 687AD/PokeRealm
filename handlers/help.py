@@ -7,18 +7,22 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     data = load_user(user.id)
     lang = data.get("lang", "fr")
+
     text = {
         "fr": (
             "📖 *Commandes disponibles :*\n\n"
             "/start \\- Redémarrer le bot\n"
             "/lang \\- Changer la langue\n"
-            "/daily \\- Récompense quotidienne\n"
-            "/money \\- Voir votre argent\n"
-            "/nature \\<NomPokémon\\> \\<Nature\\> \\- Changer la nature d’un Pokémon principal \\(ex : `/nature Salamèche Modeste`\\)\n"
-            "/stats \\<NomPokémon\\> \\- Voir les statistiques réelles du Pokémon principal \\(ex : `/stats Pikachu`\\)\n"
-            "/team \\<1\\-6\\> \\<NomPokémon\\> \\- Placer un Pokémon à une position de ton équipe \\(ex : `/team 1 Bulbizarre`\\)\n"
-            "/show\\_team \\- Afficher ton équipe Pokémon actuelle\n"
-            "/sell\\_duplicates \\- Vendre les doublons automatiquement"
+            "/daily \\- Réclamer la récompense quotidienne\n"
+            "/money \\- Voir ton argent\n"
+            "/sell\\_duplicates \\- Vendre automatiquement les doublons\n"
+            "/nature \\<Nom\\> \\<Nature\\> \\- Changer la nature d’un Pokémon principal\n"
+            "/stats \\<Nom\\> \\- Voir les stats réelles du Pokémon principal\n"
+            "/team \\<1\\-6\\> \\<Nom\\> \\- Placer un Pokémon dans ton équipe\n"
+            "/show\\_team \\- Afficher ton équipe actuelle\n"
+            "/pay \\<Utilisateur\\> \\<Montant\\> \\- Envoyer des Pokédollars\n"
+            "/fight \\- Lancer un combat contre un autre joueur\n"
+            "/trade \\<@pseudo\\> \\<Nom\\> \\- Proposer un échange de Pokémon\n"
         ),
         "en": (
             "📖 *Available commands:*\n\n"
@@ -26,13 +30,17 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "/lang \\- Change language\n"
             "/daily \\- Claim your daily reward\n"
             "/money \\- Check your money\n"
-            "/nature \\<PokemonName\\> \\<Nature\\> \\- Change your main Pokémon's nature \\(e\\.g\\. `/nature Charmander Modest`\\)\n"
-            "/stats \\<PokemonName\\> \\- View your main Pokémon’s real stats \\(e\\.g\\. `/stats Pikachu`\\)\n"
-            "/team \\<1\\-6\\> \\<PokemonName\\> \\- Put a Pokémon in a slot of your team \\(e\\.g\\. `/team 1 Bulbasaur`\\)\n"
-            "/show\\_team \\- Display your current Pokémon team\n"
-            "/sell\\_duplicates \\- Automatically sell duplicates"
+            "/sell\\_duplicates \\- Auto\\-sell duplicates\n"
+            "/nature \\<Name\\> \\<Nature\\> \\- Change nature of your main Pokémon\n"
+            "/stats \\<Name\\> \\- View main Pokémon's real stats\n"
+            "/team \\<1\\-6\\> \\<Name\\> \\- Assign Pokémon to your team\n"
+            "/show\\_team \\- Show your current team\n"
+            "/pay \\<User\\> \\<Amount\\> \\- Send Pokédollars\n"
+            "/fight \\- Start a battle against another player\n"
+            "/trade \\<@user\\> \\<Name\\> \\- Propose a Pokémon trade\n"
         )
     }
+
     await update.message.reply_text(
         text.get(lang, text["fr"]),
         parse_mode="MarkdownV2",

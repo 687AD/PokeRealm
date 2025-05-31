@@ -1,4 +1,5 @@
 from core.nature import NATURE_EFFECTS, NATURE_EFFECTS_EN
+from core.user_data import load_user, save_user
 
 def calculate_stats(base, ivs, nature, lang="fr", level=1, evs=None) -> dict:
     if evs is None:
@@ -62,3 +63,4 @@ def format_stats(stats: dict, lang: str = "fr", level: int = 1, exp: int = 0, ev
             lines.append("📊 EVs: " + ", ".join(ev_lines))
 
     return "📊 *Statistiques :*\n" + "\n".join(lines)
+

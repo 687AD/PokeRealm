@@ -1,8 +1,14 @@
 import os
 import json
-from core.translation_data import NATURES 
+from core.translation_data import NATURES
+from core.lang import get_text
 
 DATA_DIR = "data/users"
+
+def get_money_bonus_multiplier(user_data):
+    """Retourne le multiplicateur de gain lié à la Pièce Rune."""
+    amount = user_data.get("items", {}).get("piece_rune", 0)
+    return 1.0 + min(amount, 10) * 0.1  # +10% par Pièce Rune, max +100%
 
 DEFAULT_USER = {
     "pokeballs": {"pokeball": 10, "superball": 5, "hyperball": 2, "masterball": 0},
@@ -17,37 +23,39 @@ def update_or_merge_pokemon(data, new_pkm):
     box = data.get("box", [])
     name = new_pkm["name"]
 
-    # Cherche s’il existe un Pokémon locké avec le même nom
     for existing in box:
         if existing.get("locked") and existing["name"] == name:
             main = existing
             break
     else:
-        # Aucun Pokémon principal, on le crée
         new_pkm["locked"] = True
         new_pkm["known_natures"] = [new_pkm["nature"]]
+        new_pkm["known_abilities"] = [new_pkm["ability"]]
         new_pkm["quantity"] = 1
         box.append(new_pkm)
         data["box"] = box
         return
 
-    # Stack IV
     for stat in new_pkm["ivs"]:
         if new_pkm["ivs"][stat] > main["ivs"].get(stat, 0):
             main["ivs"][stat] = new_pkm["ivs"][stat]
 
-    # Stack talent caché
-    if new_pkm["ability"] == new_pkm.get("hidden_ability") and main.get("ability") != main.get("hidden_ability"):
-        main["ability"] = new_pkm["ability"]
-
-    # Stack nature
     if "known_natures" not in main:
         main["known_natures"] = [main["nature"]]
     if new_pkm["nature"] not in main["known_natures"]:
         main["known_natures"].append(new_pkm["nature"])
 
+    main.setdefault("known_abilities", [])
+    ability = new_pkm["ability"]
+    hidden_ability = new_pkm.get("hidden_ability")
+    if ability not in main["known_abilities"]:
+        main["known_abilities"].append(ability)
+    if ability == hidden_ability and main.get("ability") != hidden_ability:
+        main["ability"] = hidden_ability
+
     main["quantity"] += 1
     data["box"] = box
+
 
 def update_or_merge_pokemon_with_feedback(data, new_pkm, lang):
     """Version avec retour utilisateur pour annoncer les stack d’IVs, talents et natures."""
@@ -62,6 +70,7 @@ def update_or_merge_pokemon_with_feedback(data, new_pkm, lang):
     else:
         new_pkm["locked"] = True
         new_pkm["known_natures"] = [new_pkm["nature"]]
+        new_pkm["known_abilities"] = [new_pkm["ability"]]
         new_pkm["quantity"] = 1
         box.append(new_pkm)
         data["box"] = box
@@ -72,16 +81,26 @@ def update_or_merge_pokemon_with_feedback(data, new_pkm, lang):
             main["ivs"][stat] = new_pkm["ivs"][stat]
             messages.append(f"🧬 IV {stat} stacké !")
 
-    if new_pkm["ability"] == new_pkm.get("hidden_ability") and main.get("ability") != main.get("hidden_ability"):
-        main["ability"] = new_pkm["ability"]
-        messages.append("✨ Talent caché stacké !")
-
     if "known_natures" not in main:
         main["known_natures"] = [main["nature"]]
     if new_pkm["nature"] not in main["known_natures"]:
         main["known_natures"].append(new_pkm["nature"])
         localized_nature = NATURES.get(new_pkm['nature'], {}).get(lang, new_pkm['nature'])
         messages.append(f"🍃 Nouvelle nature connue : {localized_nature}")
+
+    main.setdefault("known_abilities", [])
+    ability = new_pkm["ability"]
+    hidden_ability = new_pkm.get("hidden_ability")
+
+    if ability not in main["known_abilities"]:
+        main["known_abilities"].append(ability)
+        if ability == hidden_ability:
+            messages.append(get_text("stacked_hidden_ability", lang))
+        else:
+            messages.append(get_text("stacked_new_ability", lang))
+
+    if ability == hidden_ability and main.get("ability") != hidden_ability:
+        main["ability"] = hidden_ability
 
     main["quantity"] += 1
     data["box"] = box
@@ -105,3 +124,16 @@ def save_user(user_id: int, data: dict):
     path = get_user_file(user_id)
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
+    
+def get_and_update_user(user_id: int, username: str = None):
+    """Charge les données et met à jour le username si besoin."""
+    data = load_user(user_id)
+
+    if username:
+        current = data.get("username", "").lower()
+        new_username = username.lower()
+        if new_username != current:
+            data["username"] = new_username
+            save_user(user_id, data)
+
+    return data

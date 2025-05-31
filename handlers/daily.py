@@ -5,10 +5,11 @@ from telegram.ext import ContextTypes
 from datetime import datetime
 from core.user_data import load_user, save_user
 from core.lang import get_text
+from core.user_data import get_and_update_user
 
 async def daily(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
-    data = load_user(user.id)
+    data = get_and_update_user(user.id, user.username)
     lang = data.get("lang", "fr")
 
     today = datetime.now().date().isoformat()

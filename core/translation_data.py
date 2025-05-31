@@ -7,6 +7,56 @@ def normalize(text: str) -> str:
                    if unicodedata.category(c) != 'Mn').lower()
 
 POKEMON_NAMES = {
+    "Basculin-White": {"fr": "Bargantua Blanc", "en": "White-Striped Basculin"},
+    "Urshifu-Rapid-Strike": {"fr": "Shifours Style Mille Poings", "en": "Urshifu Rapid Strike"},
+    "Calyrex-Ice": {"fr": "Sylveroy Cavalier du Froid", "en": "Calyrex Ice Rider"},
+    "Calyrex-Shadow": {"fr": "Sylveroy Cavalier d’Effroi", "en": "Calyrex Shadow Rider"},
+    "Ursaluna-Bloodmoon": {"fr": "Ursaking Lunaire", "en": "Ursaluna Bloodmoon"},
+    "Perrserker": {"fr": "Berserkatt", "en": "Perrserker"},
+    "Mr. Rime": {"fr": "M. Glaquette", "en": "Mr. Rime"},
+    "Cursola": {"fr": "Corayôme", "en": "Cursola"},
+    "Obstagoon": {"fr": "Ixon", "en": "Obstagoon"},
+    "Runerigus": {"fr": "Tutétékri", "en": "Runerigus"},
+    "Sirfetch’d": {"fr": "Palarticho", "en": "Sirfetch’d"},
+    "Castform-Sunny": {"fr": "Morpheo (Soleil)", "en": "Castform-Sunny"},
+    "Castform-Rainy": {"fr": "Morpheo (Pluie)", "en": "Castform-Rainy"},
+    "Castform-Snowy": {"fr": "Morpheo (Neige)", "en": "Castform-Snowy"},
+    "Lycanroc-Midday":     {"fr": "Lougaroc (Forme Diurne)", "en": "Lycanroc-Midday"},
+    "Lycanroc-Midnight":   {"fr": "Lougaroc (Forme Nocturne)", "en": "Lycanroc-Midnight"},
+    "Lycanroc-Dusk":       {"fr": "Lougaroc (Crépusculaire)", "en": "Lycanroc-Dusk"},
+    "Necrozma-Dusk-Mane":  {"fr": "Necrozma Crinière du Couchant", "en": "Necrozma-Dusk-Mane"},
+    "Necrozma-Dawn-Wings": {"fr": "Necrozma Ailes de l'Aurore", "en": "Necrozma-Dawn-Wings"},
+    "Necrozma-Ultra":      {"fr": "Necrozma Ultra", "en": "Necrozma-Ultra"},
+    "Oricorio-Baile":      {"fr": "Plumeline (Style Flamenco)", "en": "Oricorio-Baile"},
+    "Oricorio-Pom-Pom":    {"fr": "Plumeline (Style Pom-Pom)", "en": "Oricorio-Pom-Pom"},
+    "Oricorio-Pa'u":       {"fr": "Plumeline (Style Hula)", "en": "Oricorio-Pa'u"},
+    "Oricorio-Sensu":      {"fr": "Plumeline (Style Buyō)", "en": "Oricorio-Sensu"},
+    "Minior-Meteor":       {"fr": "Météno (Forme Météore)", "en": "Minior-Meteor"},
+    "Minior-Core":         {"fr": "Météno (Noyau)", "en": "Minior-Core"},
+    "Hoopa-Unbound": {"fr": "Hoopa (Déchaîné)", "en": "Hoopa-Unbound"},
+    "Zygarde-10%": {"fr": "Zygarde (Forme 10%)", "en": "Zygarde-10%"},
+    "Zygarde-Complete": {"fr": "Zygarde (Forme Parfaite)", "en": "Zygarde-Complete"},
+    "Tornadus-Therian": {"fr": "Boréas (Totémique)", "en": "Tornadus-Therian"},
+    "Thundurus-Therian": {"fr": "Fulguris (Totémique)", "en": "Thundurus-Therian"},
+    "Landorus-Therian": {"fr": "Démétéros (Totémique)", "en": "Landorus-Therian"},
+    "Kyurem-White": {"fr": "Kyurem Blanc", "en": "Kyurem-White"},
+    "Kyurem-Black": {"fr": "Kyurem Noir", "en": "Kyurem-Black"},
+    "Meloetta-Pirouette": {"fr": "Meloetta (Danse)", "en": "Meloetta-Pirouette"},
+    "Keldeo-Resolute": {"fr": "Keldeo (Décidé)", "en": "Keldeo-Resolute"},
+    "Genesect-Douse": {"fr": "Genesect (Aqua Module)", "en": "Genesect-Douse"},
+    "Genesect-Shock": {"fr": "Genesect (Choc Module)", "en": "Genesect-Shock"},
+    "Genesect-Burn": {"fr": "Genesect (Pyro Module)", "en": "Genesect-Burn"},
+    "Genesect-Chill": {"fr": "Genesect (Cryo Module)", "en": "Genesect-Chill"},
+    "Giratina-Origin": {"fr": "Giratina-Originel", "en": "Giratina-Origin"},
+    "Shaymin-Sky": {"fr": "Shaymin-Céleste", "en": "Shaymin-Sky"},
+    "Deoxys-Attack": {"fr": "Deoxys-Attaque", "en": "Deoxys-Attack"},
+    "Deoxys-Defense": {"fr": "Deoxys-Défense", "en": "Deoxys-Defense"},
+    "Deoxys-Speed": {"fr": "Deoxys-Vitesse", "en": "Deoxys-Speed"},
+    "Rotom-Heat": {"fr": "Motisma-Chaleur", "en": "Rotom-Heat"},
+    "Rotom-Wash": {"fr": "Motisma-Lavage", "en": "Rotom-Wash"},
+    "Rotom-Frost": {"fr": "Motisma-Froid", "en": "Rotom-Frost"},
+    "Rotom-Mow": {"fr": "Motisma-Tonte", "en": "Rotom-Mow"},
+    "Rotom-Fan": {"fr": "Motisma-Hélice", "en": "Rotom-Fan"},
     "Bulbasaur": {"fr": "Bulbizarre", "en": "Bulbasaur"},
     "Ivysaur": {"fr": "Herbizarre", "en": "Ivysaur"},
     "Venusaur": {"fr": "Florizarre", "en": "Venusaur"},
@@ -1032,7 +1082,7 @@ POKEMON_NAMES = {
     "Iron Crown": {"fr": "Couronne-de-Fer", "en": "Iron Crown"},
     "Terapagos": {"fr": "Terapagos", "en": "Terapagos"},
     "Pecharunt": {"fr": "Pecharunt", "en": "Pecharunt"},
-     "Rattata-Alola": {"fr": "Rattata d’Alola", "en": "Alolan Rattata"},
+    "Rattata-Alola": {"fr": "Rattata d’Alola", "en": "Alolan Rattata"},
     "Raticate-Alola": {"fr": "Rattatac d’Alola", "en": "Alolan Raticate"},
     "Raichu-Alola": {"fr": "Raichu d’Alola", "en": "Alolan Raichu"},
     "Sandshrew-Alola": {"fr": "Sabelette d’Alola", "en": "Alolan Sandshrew"},
@@ -1103,6 +1153,12 @@ POKEMON_NAMES = {
     "Unown-Z": {"fr": "Zarbi Z", "en": "Unown Z"},
     "Unown-Exclamation": {"fr": "Zarbi !", "en": "Unown !"},
     "Unown-Question": {"fr": "Zarbi ?", "en": "Unown ?"},
+    "Ogerpon-Cornerstone": {"fr": "Ogerpon (Masque Roche)", "en": "Ogerpon-Cornerstone"},
+    "Ogerpon-Hearthflame": {"fr": "Ogerpon (Masque Fournaise)", "en": "Ogerpon-Hearthflame"},
+    "Ogerpon-Wellspring": {"fr": "Ogerpon (Masque Puits)", "en": "Ogerpon-Wellspring"},
+    "Ogerpon-Teal-Mask": {"fr": "Ogerpon (Masque Turquoise)", "en": "Ogerpon-Teal-Mask"},
+    "Terapagos-Terastal": {"fr": "Terapagos (Téracristal)", "en": "Terapagos-Terastal"},
+    "Terapagos-Stellar": {"fr": "Terapagos (Stellaire)", "en": "Terapagos-Stellar"}
 }
 
 NATURES = {
@@ -1133,27 +1189,21 @@ NATURES = {
     "Quirky": {"fr": "Étrange", "en": "Quirky"}
 }
 
-ITEMS = {
-    "pokeball": {"fr": "Pokéball", "en": "Pokéball"},
-    "superball": {"fr": "Superball", "en": "Great Ball"},
-    "hyperball": {"fr": "Hyperball", "en": "Ultra Ball"},
-    "masterball": {"fr": "Masterball", "en": "Master Ball"},
-    "chroma": {"fr": "Charme Chroma", "en": "Shiny Charm"},
-    "multi_exp": {"fr": "Multi Exp", "en": "Exp Share"}
-}
-
 def resolve_pokemon_internal_name(input_name: str, lang: str = "fr") -> str:
     """
     Trouve le nom interne (anglais) d’un Pokémon à partir du nom donné (FR/EN, accents ou non, casse insensible).
-    Si non trouvé, renvoie le nom d’origine.
+    Gère aussi les noms shiny_*. Si non trouvé, renvoie le nom d’origine.
     """
-    norm = normalize(input_name)
+    is_shiny = input_name.lower().startswith("shiny_")
+    name = input_name[6:] if is_shiny else input_name
+
+    norm = normalize(name)
     for en_name, names in POKEMON_NAMES.items():
         if norm == normalize(en_name):
-            return en_name
+            return f"shiny_{en_name}" if is_shiny else en_name
         for l in names.values():
             if norm == normalize(l):
-                return en_name
+                return f"shiny_{en_name}" if is_shiny else en_name
     return input_name  # fallback si inconnu
 
 def get_english_name(input_name: str, lang: str = "fr"):
