@@ -5,6 +5,8 @@ from core.items import BALL_COSTS, ITEM_COSTS, CATEGORIES_ITEMS, GENERAL_ITEMS, 
 from core.lang import get_text
 from utils.buttons import main_menu
 
+ITEMS_PER_PAGE = 10
+
 # Emojis par catégorie
 CATEGORY_EMOJIS = {
     "Poké Balls": "🎯",
@@ -15,7 +17,11 @@ CATEGORY_EMOJIS = {
     "Boosts de combat": "⚔️",
     "Exploration": "🧭",
     "Entraînement / EV": "📘",
-    "Objets tenus": "🎒"
+    "Objets tenus": "🎒",
+    "Baies": "🍓",
+    "Méga-Gemmes": "💠",
+    "Plaques d’Arceus": "🪨",
+    "Objets boost de type": "🔷"
 }
 #emoji d'items
 ITEM_EMOJIS = {
@@ -69,6 +75,125 @@ ITEM_EMOJIS = {
     "orbe_vie": "🔴",
     "ceinture_force": "🥋",
     "oeuf_chance": "🥚",
+
+    "graines_psy": "🧠",
+    "graines_brume": "🌫️",
+    "graines_electr": "⚡",
+    "graines_herbe": "🌿",
+
+    "oran_berry": "🔵",
+    "sitrus_berry": "🟠",
+    "chesto_berry": "😴",
+    "pecha_berry": "🍑",
+    "rawst_berry": "🌶️",
+    "aspear_berry": "❄️",
+    "leppa_berry": "🔋",
+    "lum_berry": "✨",
+    "persim_berry": "🔮",
+
+    "figy_berry": "🍓",
+    "wiki_berry": "🍇",
+    "mago_berry": "🥭",
+    "aguav_berry": "🥝",
+    "iapapa_berry": "🍍",
+    "liechi_berry": "🥊",
+    "ganlon_berry": "🛡️",
+    "salac_berry": "💨",
+    "petaya_berry": "🔥",
+    "apicot_berry": "🔰",
+    "lansat_berry": "🎯",
+    "starf_berry": "🌟",
+    "enigma_berry": "❔",
+    "custap_berry": "⏩",
+    "jaboca_berry": "🪨",
+    "rowap_berry": "🧲",
+    "kee_berry": "🛡️",
+    "maranga_berry": "🌀",
+
+    "venusaurite": "🌿",
+    "abomasite": "❄️",
+    "absolite": "⚫",
+    "aerodactylite": "🦖",
+    "aggronite": "🪨",
+    "alakazite": "🔮",
+    "altarianite": "☁️",
+    "ampharosite": "⚡",
+    "audinite": "💗",
+    "banettite": "🧸",
+    "beedrillite": "🐝",
+    "blastoisinite": "🐢",
+    "blazikenite": "🐓",
+    "cameruptite": "🌋",
+    "charizardite_x": "🔥",
+    "charizardite_y": "🌪️",
+    "diancite": "💎",
+    "galladite": "🗡️",
+    "garchompite": "🦈",
+    "gardevoirite": "💃",
+    "gengarite": "👻",
+    "glalitite": "🧊",
+    "gyaradosite": "🐉",
+    "heracronite": "🪲",
+    "houndoominite": "🐺",
+    "kangaskhanite": "👶",
+    "latiasite": "🔴",
+    "latiosite": "🔵",
+    "lopunnite": "🐰",
+    "lucarionite": "🥋",
+    "manectite": "⚡",
+    "mawilite": "🦷",
+    "medichamite": "🧘",
+    "metagrossite": "🧠",
+    "mewtwonite_x": "🧬",
+    "mewtwonite_y": "🧠",
+    "pidgeotite": "🕊️",
+    "pinsirite": "🪳",
+    "sablenite": "💎",
+    "salamencite": "💨",
+    "sceptilite": "🌿",
+    "scizorite": "✂️",
+    "sharpedonite": "🦈",
+    "slowbronite": "🐚",
+    "steelixite": "🪙",
+    "swampertite": "🌊",
+    "tyranitarite": "🦖",
+
+    "flame_plate": "🔥",
+    "splash_plate": "💧",
+    "zap_plate": "⚡",
+    "meadow_plate": "🌾",
+    "icicle_plate": "❄️",
+    "fist_plate": "✊",
+    "toxic_plate": "☠️",
+    "earth_plate": "🌍",
+    "sky_plate": "☁️",
+    "mind_plate": "🧠",
+    "insect_plate": "🐛",
+    "stone_plate": "🪨",
+    "spooky_plate": "👻",
+    "draco_plate": "🐉",
+    "dread_plate": "🕸️",
+    "iron_plate": "⚙️",
+    "pixie_plate": "🧚",
+    "charcoal": "🔥",
+    "mystic_water": "💧",
+    "magnet": "🧲",
+    "miracle_seed": "🌱",
+    "never_melt_ice": "🧊",
+    "black_belt": "🥋",
+    "poison_barb": "🦠",
+    "soft_sand": "🏜️",
+    "sharp_beak": "🪶",
+    "twisted_spoon": "🥄",
+    "silver_powder": "🪙",
+    "hard_stone": "🪨",
+    "spell_tag": "📿",
+    "dragon_fang": "🐲",
+    "black_glasses": "🕶️",
+    "metal_coat": "🧥",
+    "pixie_dust": "✨",
+    "vitamin_max": "💪",
+    "reset_bag": "🔄"
 }
 
 def build_category_keyboard(lang):
@@ -80,13 +205,22 @@ def build_category_keyboard(lang):
     keyboard.append([get_text("back_button", lang)])
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True, one_time_keyboard=True)
 
-def build_items_keyboard(category, lang):
+def build_items_keyboard(category, lang, shop_page=0):
+    item_list = CATEGORIES_ITEMS.get(category, [])
+    start = shop_page * ITEMS_PER_PAGE
+    end = start + ITEMS_PER_PAGE
     keyboard = []
-    for item in CATEGORIES_ITEMS.get(category, []):
+
+    for item in item_list[start:end]:
         label = ITEMS.get(item, {}).get(lang, item).capitalize()
         emoji = ITEM_EMOJIS.get(item, "📦")
         cost = BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", "?")
         keyboard.append([f"{emoji} {label} - {cost}💰"])
+
+    if end < len(item_list):
+        keyboard.append([get_text("next_page", lang)])
+    if shop_page > 0:
+        keyboard.append([get_text("previous_page", lang)])
     keyboard.append([get_text("back_button", lang)])
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True, one_time_keyboard=True)
 
@@ -100,6 +234,37 @@ async def handle_shop_selection(update: Update, context: ContextTypes.DEFAULT_TY
     data = load_user(user.id)
     lang = data.get("lang", "fr")
     text = update.message.text.strip()
+    if context.user_data.get("state") == "shop_category":
+        for cat in CATEGORIES_ITEMS:
+            full_label = f"{CATEGORY_EMOJIS.get(cat, '📦')} {CATEGORY_NAMES.get(cat, {}).get(lang, cat)}"
+            if text.lower() == full_label.lower():
+                context.user_data.update({
+                    "selected_category": cat,
+                    "state": "shop_items",
+                    "shop_page": 0
+                })
+                await update.message.reply_text(
+                    get_text("shop_select_item", lang),
+                    reply_markup=build_items_keyboard(cat, lang, context.user_data["shop_page"])
+                )
+                return
+        await update.message.reply_text(get_text("item_unknown", lang))
+        return
+
+    category = context.user_data.get("selected_category")
+
+    if text == get_text("next_page", lang):
+        context.user_data["shop_page"] += 1
+        await update.message.reply_text(get_text("shop_select_item", lang),
+                                        reply_markup=build_items_keyboard(category, lang, context.user_data["shop_page"]))
+        return
+
+    elif text == get_text("previous_page", lang):
+        context.user_data["shop_page"] = max(0, context.user_data["shop_page"] - 1)
+        await update.message.reply_text(get_text("shop_select_item", lang),
+                                        reply_markup=build_items_keyboard(category, lang, context.user_data["shop_page"]))
+        return
+
 
     # 🔙 Retour
     if text == get_text("back_button", lang):

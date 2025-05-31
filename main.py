@@ -40,17 +40,23 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text.lower()
     state = context.user_data.get("state")
 
-    # Priorité au shop
-    if (isinstance(state, str) and state.startswith("shop")) or context.user_data.get("pending_item"):
+    # 📦 Shop prioritaire
+    if state in ["shop_category", "shop_items"] or context.user_data.get("pending_item"):
         await handle_shop_selection(update, context)
         return
 
-    # Détection de tri box
+    # 📁 Box manuelle (uniquement si pas en shop)
+    if text in ["📁 box", "📁 Box"] and not state.startswith("shop"):
+        context.user_data["state"] = "box"
+        await show_box(update, context)
+        return
+
+    # 🧮 Tri de la box
     if any(k in text for k in ["nom", "rareté", "niveau", "pokédex", "shiny", "iv"]):
         await handle_sort_choice(update, context)
         return
 
-    # Sinon : logique par défaut
+    # 🔄 Logique par défaut
     await handle_choice(update, context)
 
 TOKEN = "8171438159:AAEC58M69Ddxprn645xTO-WuakzABqJnEUA"
@@ -93,9 +99,7 @@ if __name__ == "__main__":
     app.add_handler(MessageHandler(filters.Regex("^👥 Mon équipe$"), show_team_command))
     app.add_handler(MessageHandler(filters.Regex("^👥 My Team$"), show_team_command))
     app.add_handler(MessageHandler(filters.Text([get_text("menu_help", lang) for lang in langs]), help_command))
-    app.add_handler(MessageHandler(filters.Text(["🔼 Page précédente", "🔽 Page suivante"]), handle_box_navigation))
     app.add_handler(MessageHandler(filters.Text([get_text("button_sort_box", lang) for lang in langs]), handle_sort_choice))
-    app.add_handler(MessageHandler(filters.Text(["📁 Box"]), show_box))
     app.add_handler(MessageHandler(filters.Text(["🗑️ Sell duplicates", "🗑️ Vendre les doublons"]), handle_box_choice))
     app.add_handler(MessageHandler(filters.Text([get_text("button_sell_duplicates", lang) for lang in langs]), sell_duplicates))
     app.add_handler(MessageHandler(filters.Regex("(?i)(français|english)"), handle_language_choice))
