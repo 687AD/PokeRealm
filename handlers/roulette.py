@@ -31,7 +31,6 @@ RARITY_EMOJIS = {
     "mythic": "🔴",
 }
 
-
 def build_ball_keyboard(pokeballs: dict, lang: str):
     buttons = []
     for b in BALL_CHOICES:
@@ -40,11 +39,11 @@ def build_ball_keyboard(pokeballs: dict, lang: str):
         buttons.append(label)
     return ReplyKeyboardMarkup([buttons], resize_keyboard=True, one_time_keyboard=True)
 
-
 def sanitize_for_url(name):
+    # Clean for Pokemondb url
     name = name.lower()
     name = name.replace("nidoran♀", "nidoran-f").replace("nidoran♂", "nidoran-m")
-    name = name.replace("farfetch’d", "farfetchd")
+    name = name.replace("farfetch’d", "farfetchd").replace("farfetch'd", "farfetchd")
     name = name.replace("mr. mime", "mr-mime").replace("mime jr.", "mime-jr")
     name = name.replace("type: null", "type-null")
     name = name.replace("jangmo-o", "jangmoo").replace("hakamo-o", "hakamoo").replace("kommo-o", "kommoo")
@@ -52,7 +51,6 @@ def sanitize_for_url(name):
     name = name.replace(" ", "-").replace(".", "").replace(":", "")
     name = re.sub(r"[^a-z0-9\-]", "", name)
     return name
-
 
 def get_money_reward(rarity):
     ranges = {
@@ -65,17 +63,8 @@ def get_money_reward(rarity):
     }
     return random.randint(*ranges.get(rarity, (150, 300)))
 
-
-def already_captured(data, name):
-    for pkm in data.get("box", []):
-        if pkm.get("locked") and pkm["name"] == name:
-            return True
-    return False
-
-
 def get_money_bonus_multiplier(user_data):
     return 1.5 if user_data.get("items", {}).get("piece_rune", 0) > 0 else 1.0
-
 
 async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
@@ -115,44 +104,40 @@ async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
         display_name = f"✨ {display_name}"
 
     rarity_emoji = RARITY_EMOJIS.get(rarity, "")
-    # Vérifie si un Pokémon de cette espèce est déjà dans le box (verrouillé)
     base_name = chosen.replace("shiny_", "")
     main_pokemon = next((pkm for pkm in data.get("box", []) if pkm.get("locked") and pkm["name"].replace("shiny_", "") == base_name), None)
-
-    # Statut par défaut
     captured = False
 
-    # Si un main_pokemon existe, on vérifie les natures et talents
     if main_pokemon:
         known_natures = main_pokemon.get("known_natures", [])
         known_talents = main_pokemon.get("known_talents", [])
         has_hidden = main_pokemon.get("hidden_ability", False)
-    
-        # On simule un Pokémon pour obtenir les futurs talents/natures
         fake = generate_pokemon(chosen, rarity, chroma_bonus=0)
-
-        # Détection de nouveauté
         is_new_nature = fake["nature"] not in known_natures
         is_new_talent = fake["ability"] not in known_talents
         is_new_hidden = fake.get("hidden_ability", False) and not has_hidden
         is_new_shiny = "shiny_" in chosen and not main_pokemon["name"].startswith("shiny_")
-
-        # Si aucune nouveauté détectée
         if not (is_new_nature or is_new_talent or is_new_hidden or is_new_shiny):
             captured = True
 
     status_text = get_text("already_caught" if captured else "new_catch", lang)
-
     image_base = sanitize_for_url(chosen_base)
 
+    # Tentative image locale sinon fallback web
     image_paths = [f"images/{image_base}.jpg", f"images/{image_base}.png", f"data/shiny/{image_base}.jpg", f"data/shiny/{image_base}.png"]
+    sent_image = False
     for path in image_paths:
         if os.path.exists(path):
             with open(path, "rb") as f:
                 await update.message.reply_photo(photo=f)
-            break
-    else:
-        await update.message.reply_photo(photo=f"https://img.pokemondb.net/artwork/{image_base}.jpg")
+                sent_image = True
+                break
+    if not sent_image:
+        url = f"https://img.pokemondb.net/artwork/{image_base}.jpg"
+        try:
+            await update.message.reply_photo(photo=url)
+        except Exception:
+            await update.message.reply_text("(Pas d'image trouvée)")
 
     await update.message.reply_text(
         f"🎯 *{get_text('wild_appears_simple', lang)}*\n\n"
@@ -193,11 +178,14 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
         return
 
     chroma_bonus = min(data["items"].get("chroma", 0), 10)
-    success = selected == "masterball" or random.random() < get_capture_chance(selected, encounter["rarity"])
+    chance = get_capture_chance(selected, encounter["rarity"])
+    success = selected == "masterball" or random.random() < (chance / 100)
     data["pokeballs"][selected] -= 1
+
 
     if success:
         pkm = generate_pokemon(encounter["name"], encounter["rarity"], chroma_bonus)
+        pkm["caught_with"] = selected
         messages = update_or_merge_pokemon_with_feedback(data, pkm, lang)
         reward = int(get_money_reward(encounter["rarity"]) * get_money_bonus_multiplier(data))
         data["money"] += reward

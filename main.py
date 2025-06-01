@@ -22,7 +22,7 @@ from handlers.inventory import show_inventory
 from handlers.shop import show_shop, handle_shop_selection
 from handlers.unknown import unknown
 from handlers.money import show_money
-from handlers.box import show_box, sell_duplicates, handle_box_choice, handle_sort_choice, handle_box_navigation
+from handlers.box import show_box, sell_duplicates, handle_box_choice, handle_sort_choice
 from utils.buttons import main_menu
 from core.user_data import load_user
 from core.lang import get_text
@@ -39,6 +39,17 @@ from core.battle_engine import handle_attack_selection
 async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text.lower()
     state = context.user_data.get("state")
+
+    # Gestion page suivante/précédente pour shop/box
+    prev_texts = [get_text("previous_page", l).lower() for l in ["fr", "en"]]
+    next_texts = [get_text("next_page", l).lower() for l in ["fr", "en"]]
+
+    if state and state.startswith("shop") and (text in prev_texts or text in next_texts):
+        await handle_shop_selection(update, context)
+        return
+    if (state == "box" or context.user_data.get("box_page") is not None) and (text in prev_texts or text in next_texts):
+        await handle_sort_choice(update, context)
+        return
 
     # 📦 Shop prioritaire
     if state in ["shop_category", "shop_items"] or context.user_data.get("pending_item"):
@@ -96,10 +107,10 @@ if __name__ == "__main__":
     app.add_handler(CommandHandler("pay", pay))
 
     # ✅ Boutons textes
+    app.add_handler(MessageHandler(filters.Text([get_text("button_sort_box", lang) for lang in langs]), handle_sort_choice))
     app.add_handler(MessageHandler(filters.Regex("^👥 Mon équipe$"), show_team_command))
     app.add_handler(MessageHandler(filters.Regex("^👥 My Team$"), show_team_command))
     app.add_handler(MessageHandler(filters.Text([get_text("menu_help", lang) for lang in langs]), help_command))
-    app.add_handler(MessageHandler(filters.Text([get_text("button_sort_box", lang) for lang in langs]), handle_sort_choice))
     app.add_handler(MessageHandler(filters.Text(["🗑️ Sell duplicates", "🗑️ Vendre les doublons"]), handle_box_choice))
     app.add_handler(MessageHandler(filters.Text([get_text("button_sell_duplicates", lang) for lang in langs]), sell_duplicates))
     app.add_handler(MessageHandler(filters.Regex("(?i)(français|english)"), handle_language_choice))

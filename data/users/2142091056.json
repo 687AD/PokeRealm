@@ -1,193 +1,96 @@
 {
   "pokeballs": {
-    "pokeball": 0,
-    "superball": 4,
-    "hyperball": 0,
+    "pokeball": 16,
+    "superball": 5,
+    "hyperball": 1,
     "masterball": 0
   },
   "items": {
     "chroma": 0,
     "multi_exp": 0
   },
-  "money": 3089,
+  "money": 3860,
   "box": [
     {
-      "name": "Gloom",
+      "name": "Dodrio",
       "rarity": "uncommon",
       "shiny": false,
       "ivs": {
-        "hp": 0,
+        "hp": 27,
         "atk": 26,
-        "def": 0,
-        "spa": 11,
-        "spd": 22,
-        "spe": 4
-      },
-      "nature": "Naive",
-      "ability": "Chlorophylle",
-      "hidden_ability": "Puanteur",
-      "level": 1,
-      "quantity": 1,
-      "locked": true,
-      "known_natures": [
-        "Naive"
-      ],
-      "known_abilities": [
-        "Chlorophylle"
-      ]
-    },
-    {
-      "name": "Watchog",
-      "rarity": "uncommon",
-      "shiny": false,
-      "ivs": {
-        "hp": 31,
-        "atk": 7,
-        "def": 15,
-        "spa": 25,
-        "spd": 28,
-        "spe": 18
-      },
-      "nature": "Lax",
-      "ability": "Analyste",
-      "hidden_ability": "Insomnia",
-      "level": 1,
-      "quantity": 1,
-      "locked": true,
-      "known_natures": [
-        "Lax"
-      ],
-      "known_abilities": [
-        "Analyste"
-      ]
-    },
-    {
-      "name": "Yanma",
-      "rarity": "rare",
-      "shiny": false,
-      "ivs": {
-        "hp": 16,
-        "atk": 15,
-        "def": 8,
-        "spa": 19,
+        "def": 17,
+        "spa": 15,
         "spd": 3,
-        "spe": 28
+        "spe": 26
       },
-      "nature": "Bold",
-      "ability": "Regard Vif",
-      "hidden_ability": "Lentiteint\u00e9e",
-      "level": 1,
-      "quantity": 1,
-      "locked": true,
-      "known_natures": [
-        "Bold"
-      ],
-      "known_abilities": [
-        "Regard Vif"
-      ]
-    },
-    {
-      "name": "Dewpider",
-      "rarity": "common",
-      "shiny": false,
-      "ivs": {
-        "hp": 10,
-        "atk": 26,
-        "def": 25,
-        "spa": 14,
-        "spd": 17,
-        "spe": 14
-      },
-      "nature": "Sassy",
-      "ability": "Aquabulle",
-      "hidden_ability": "Insomnia",
-      "level": 1,
-      "quantity": 1,
-      "locked": true,
-      "known_natures": [
-        "Sassy"
-      ],
-      "known_abilities": [
-        "Aquabulle"
-      ]
-    },
-    {
-      "name": "Luvdisc",
-      "rarity": "common",
-      "shiny": false,
-      "ivs": {
-        "hp": 25,
-        "atk": 5,
-        "def": 28,
-        "spa": 14,
-        "spd": 27,
-        "spe": 28
-      },
-      "nature": "Serious",
-      "ability": "Aucun",
-      "hidden_ability": null,
-      "level": 1,
-      "quantity": 1,
-      "locked": true,
-      "known_natures": [
-        "Serious"
-      ],
-      "known_abilities": [
-        "Aucun"
-      ]
-    },
-    {
-      "name": "Sewaddle",
-      "rarity": "common",
-      "shiny": false,
-      "ivs": {
-        "hp": 23,
-        "atk": 18,
-        "def": 0,
-        "spa": 12,
-        "spd": 7,
-        "spe": 4
-      },
-      "nature": "Hasty",
-      "ability": "Chlorophylle",
-      "hidden_ability": "Feuille Garde",
-      "level": 1,
-      "quantity": 1,
-      "locked": true,
-      "known_natures": [
-        "Hasty"
-      ],
-      "known_abilities": [
-        "Chlorophylle"
-      ]
-    },
-    {
-      "name": "Pancham",
-      "rarity": "common",
-      "shiny": false,
-      "ivs": {
-        "hp": 17,
-        "atk": 13,
-        "def": 30,
-        "spa": 10,
-        "spd": 23,
-        "spe": 25
-      },
-      "nature": "Mild",
-      "ability": "Poing de Fer",
+      "nature": "Quiet",
+      "ability": "Fuite",
       "hidden_ability": "Tension",
       "level": 1,
       "quantity": 1,
+      "caught_with": "pokeball",
       "locked": true,
       "known_natures": [
-        "Mild"
+        "Quiet"
       ],
       "known_abilities": [
-        "Poing de Fer"
+        "Fuite"
+      ]
+    },
+    {
+      "name": "Rotom-Wash",
+      "rarity": "epic",
+      "shiny": false,
+      "ivs": {
+        "hp": 7,
+        "atk": 31,
+        "def": 28,
+        "spa": 19,
+        "spd": 19,
+        "spe": 4
+      },
+      "nature": "Modest",
+      "ability": "L\u00e9vitation",
+      "hidden_ability": null,
+      "level": 1,
+      "quantity": 1,
+      "caught_with": "hyperball",
+      "locked": true,
+      "known_natures": [
+        "Modest"
+      ],
+      "known_abilities": [
+        "L\u00e9vitation"
+      ]
+    },
+    {
+      "name": "Axew",
+      "rarity": "common",
+      "shiny": false,
+      "ivs": {
+        "hp": 31,
+        "atk": 28,
+        "def": 18,
+        "spa": 5,
+        "spd": 19,
+        "spe": 27
+      },
+      "nature": "Relaxed",
+      "ability": "Rivalit\u00e9",
+      "hidden_ability": "Tension",
+      "level": 1,
+      "quantity": 1,
+      "caught_with": "pokeball",
+      "locked": true,
+      "known_natures": [
+        "Relaxed"
+      ],
+      "known_abilities": [
+        "Rivalit\u00e9"
       ]
     }
   ],
-  "daily_claimed": null,
+  "daily_claimed": "2025-06-01",
   "username": "ad_687",
   "lang": "fr"
 }

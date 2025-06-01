@@ -1,0 +1,4 @@
+traduction abilities
+bug chelou quand je met Sinistea-Authentic_shiny ça m'ouvre le trie d'la box
+/stats en /view
+/use pour donner un item a un poké

@@ -50,15 +50,32 @@ def update_or_merge_pokemon(data, new_pkm):
     hidden_ability = new_pkm.get("hidden_ability")
     if ability not in main["known_abilities"]:
         main["known_abilities"].append(ability)
-    if ability == hidden_ability and main.get("ability") != hidden_ability:
+    if ability == n_ability and main.get("ability") != hidden_ability:
         main["ability"] = hidden_ability
 
     main["quantity"] += 1
     data["box"] = box
 
+def sync_with_sibling(box, pkm):
+    name = pkm["name"]
+    # Trouve l’autre version dans la box
+    if name.startswith("shiny_"):
+        sibling_name = name[len("shiny_"):]
+    else:
+        sibling_name = "shiny_" + name
+
+    sibling = next((poke for poke in box if poke["name"] == sibling_name), None)
+    if sibling:
+        for field in ["known_natures", "known_abilities"]:
+            known_self = set(pkm.get(field, []))
+            known_sibling = set(sibling.get(field, []))
+            merged = list(known_self | known_sibling)
+            pkm[field] = merged
+            sibling[field] = merged
 
 def update_or_merge_pokemon_with_feedback(data, new_pkm, lang):
-    """Version avec retour utilisateur pour annoncer les stack d’IVs, talents et natures."""
+    # Synchronise avant tout si stack ou fusion
+    sync_with_sibling(data["box"], new_pkm)
     messages = []
     box = data.get("box", [])
     name = new_pkm["name"]
@@ -68,19 +85,24 @@ def update_or_merge_pokemon_with_feedback(data, new_pkm, lang):
             main = existing
             break
     else:
+        # Nouveau Pokémon : initialisation
         new_pkm["locked"] = True
         new_pkm["known_natures"] = [new_pkm["nature"]]
         new_pkm["known_abilities"] = [new_pkm["ability"]]
         new_pkm["quantity"] = 1
         box.append(new_pkm)
         data["box"] = box
+        # Synchronisation rétroactive tout de suite après ajout à la box !
+        sync_with_sibling(box, new_pkm)
         return []
 
+    # Stack IVs
     for stat in new_pkm["ivs"]:
         if new_pkm["ivs"][stat] > main["ivs"].get(stat, 0):
             main["ivs"][stat] = new_pkm["ivs"][stat]
             messages.append(f"🧬 IV {stat} stacké !")
 
+    # Stack natures
     if "known_natures" not in main:
         main["known_natures"] = [main["nature"]]
     if new_pkm["nature"] not in main["known_natures"]:
@@ -88,6 +110,7 @@ def update_or_merge_pokemon_with_feedback(data, new_pkm, lang):
         localized_nature = NATURES.get(new_pkm['nature'], {}).get(lang, new_pkm['nature'])
         messages.append(f"🍃 Nouvelle nature connue : {localized_nature}")
 
+    # Stack abilities
     main.setdefault("known_abilities", [])
     ability = new_pkm["ability"]
     hidden_ability = new_pkm.get("hidden_ability")
@@ -104,6 +127,8 @@ def update_or_merge_pokemon_with_feedback(data, new_pkm, lang):
 
     main["quantity"] += 1
     data["box"] = box
+    # Synchronise après stack, au cas où on ait enrichi la liste
+    sync_with_sibling(box, main)
     return messages
 
 def get_user_file(user_id: int):
