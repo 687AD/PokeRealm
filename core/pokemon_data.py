@@ -4,89 +4,89 @@ from core.translation_data import POKEMON_NAMES
 from core.moves import get_move
 
 POKEMON_TALENTS = {
-    "Sinistea-Phony": {"normal": ["Weak Armor"], "hidden": "Cursed Body"},
-    "Sinistea-Authentic": {"normal": ["Weak Armor"], "hidden": "Cursed Body"},
-    "Polteageist-Phony": {"normal": ["Weak Armor"], "hidden": "Cursed Body"},
-    "Polteageist-Authentic": {"normal": ["Weak Armor"], "hidden": "Cursed Body"},
-    "Vivillon-Elegant":     {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Monsoon":     {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Ocean":       {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-River":       {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Savanna":     {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Sun":         {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Typhoon":     {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Meadow":      {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Polar":       {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Tundra":      {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Garden":      {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Sandstorm":   {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Icy-Snow":    {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Modern":      {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Marine":      {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Archipelago": {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-High-Plains": {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Jungle":      {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Fancy":       {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Vivillon-Pokeball":    {"normal": ["Shield Dust", "Compound Eyes"], "hidden": "Friend Guard"},
-    "Cherrim-Overcast": {"normal": ["Flower Gift"], "hidden": None},
-    "Cherrim-Sunshine": {"normal": ["Flower Gift"], "hidden": None},
-    "Dudunsparce-Two-Segment": {"normal": ["Serene Grace", "Run Away"], "hidden": "Rattled"},
-    "Dudunsparce-Three-Segment": {"normal": ["Serene Grace", "Run Away"], "hidden": "Rattled"},
-    "Gimmighoul-Chest":   {"normal": ["Rattled"], "hidden": None},
-    "Gimmighoul-Roaming": {"normal": ["Run Away"], "hidden": None},
-    "Ogerpon-Teal-Mask":        {"normal": ["Defiant"], "hidden": None},
-    "Ogerpon-Cornerstone-Mask": {"normal": ["Mold Breaker"], "hidden": None},
-    "Ogerpon-Wellspring-Mask":  {"normal": ["Water Absorb"], "hidden": None},
-    "Ogerpon-Hearthflame-Mask": {"normal": ["Regenerator"], "hidden": None},
-    "Palafin-Zero": {"normal": ["Zero to Hero"], "hidden": None},
-    "Palafin-Hero": {"normal": ["Zero to Hero"], "hidden": None},
-    "Urshifu-Single-Strike": {"normal": ["Unseen Fist"], "hidden": None},
-    "Urshifu-Rapid-Strike":  {"normal": ["Unseen Fist"], "hidden": None},
-    "Eiscue-Ice-Face":   {"normal": ["Ice Face"], "hidden": None},
-    "Eiscue-Noice-Face": {"normal": ["Ice Face"], "hidden": None},
+    "Sinistea-Phony": {"normal": ["Armurouillée"], "hidden": "Corps Maudit"},
+    "Sinistea-Authentic": {"normal": ["Armurouillée"], "hidden": "Corps Maudit"},
+    "Polteageist-Phony": {"normal": ["Armurouillée"], "hidden": "Corps Maudit"},
+    "Polteageist-Authentic": {"normal": ["Armurouillée"], "hidden": "Corps Maudit"},
+    "Vivillon-Elegant":     {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Monsoon":     {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Ocean":       {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-River":       {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Savanna":     {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Sun":         {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Typhoon":     {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Meadow":      {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Polar":       {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Tundra":      {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Garden":      {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Sandstorm":   {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Icy-Snow":    {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Modern":      {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Marine":      {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Archipelago": {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-High-Plains": {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Jungle":      {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Fancy":       {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Vivillon-Pokeball":    {"normal": ["Écran Poudre", "Œil Composé"], "hidden": "Garde Amie"},
+    "Cherrim-Overcast": {"normal": ["Don Floral"], "hidden": None},
+    "Cherrim-Sunshine": {"normal": ["Don Floral"], "hidden": None},
+    "Dudunsparce-Two-Segment": {"normal": ["Sérénité", "Fuite"], "hidden": "Phobique"},
+    "Dudunsparce-Three-Segment": {"normal": ["Sérénité", "Fuite"], "hidden": "Phobique"},
+    "Gimmighoul-Chest":   {"normal": ["Phobique"], "hidden": None},
+    "Gimmighoul-Roaming": {"normal": ["Fuite"], "hidden": None},
+    "Ogerpon-Teal-Mask":        {"normal": ["Acharné"], "hidden": None},
+    "Ogerpon-Cornerstone-Mask": {"normal": ["Brise Moule"], "hidden": None},
+    "Ogerpon-Wellspring-Mask":  {"normal": ["Absorb Eau"], "hidden": None},
+    "Ogerpon-Hearthflame-Mask": {"normal": ["Régé-Force"], "hidden": None},
+    "Palafin-Zero": {"normal": ["Héros Modeste"], "hidden": None},
+    "Palafin-Hero": {"normal": ["Héros Modeste"], "hidden": None},
+    "Urshifu-Single-Strike": {"normal": ["Poing Invisible"], "hidden": None},
+    "Urshifu-Rapid-Strike":  {"normal": ["Poing Invisible"], "hidden": None},
+    "Eiscue-Ice-Face":   {"normal": ["Tête de Glace"], "hidden": None},
+    "Eiscue-Noice-Face": {"normal": ["Tête de Glace"], "hidden": None},
     "Meowstic-Male": {
-    "normal": ["Keen Eye", "Infiltrator"],
-    "hidden": "Prankster"
+    "normal": ["Regard Vif", "Infiltration"],
+    "hidden": "Farceu"
 },
 "Meowstic-Female": {
-    "normal": ["Keen Eye", "Infiltrator"],
-    "hidden": "Competitive"
+    "normal": ["Regard Vif", "Infiltration"],
+    "hidden": "Battant"
 },
     "Squawkabilly-Green": {
-    "normal": ["Intimidate", "Hustle"],
-    "hidden": "Guts"
+    "normal": ["Intimidation", "Agitation"],
+    "hidden": "Cran"
 },
 "Squawkabilly-Blue": {
-    "normal": ["Intimidate", "Hustle"],
-    "hidden": "Sheer Force"
+    "normal": ["Intimidation", "Agitation"],
+    "hidden": "Sans Limite"
 },
 "Squawkabilly-Yellow": {
-    "normal": ["Intimidate", "Hustle"],
-    "hidden": "Sheer Force"
+    "normal": ["Intimidation", "Agitation"],
+    "hidden": "Sans Limite"
 },
 "Squawkabilly-White": {
-    "normal": ["Intimidate", "Hustle"],
-    "hidden": "Sheer Force"
+    "normal": ["Intimidation", "Agitation"],
+    "hidden": "Sans Limite"
 },
     "Maushold-Family3": {
-    "normal": ["Friend Guard", "Cheek Pouch"],
-    "hidden": "Technician"
+    "normal": ["Garde Amie", "Bajoues"],
+    "hidden": "Technicien"
 },
 "Maushold-Family4": {
-    "normal": ["Friend Guard", "Cheek Pouch"],
-    "hidden": "Technician"
+    "normal": ["Garde Amie", "Bajoues"],
+    "hidden": "Technicien"
 },
     "Bastiodon":    {"normal": ["Fermeté"], "hidden": "Anti-Bruit"},
     "Bibarel":      {"normal": ["Simple", "Inconscient"], "hidden": "Lunatique"},
     "Bidoof":       {"normal": ["Simple", "Inconscient"], "hidden": "Lunatique"},
     "Budew":        {"normal": ["Médic Nature", "Point Poison"], "hidden": "Feuille Garde"},
     "Buizel":       {"normal": ["Glissade"], "hidden": "Absorb Eau"},
-    "Burmy-Plant": {"normal": ["Shed Skin"], "hidden": None},
-    "Burmy-Sandy": {"normal": ["Shed Skin"], "hidden": None},
-    "Burmy-Trash": {"normal": ["Shed Skin"], "hidden": None},
-    "Wormadam-Plant": {"normal": ["Anticipation"], "hidden": "Overcoat"},
-    "Wormadam-Sandy": {"normal": ["Anticipation"], "hidden": "Overcoat"},
-    "Wormadam-Trash": {"normal": ["Anticipation"], "hidden": "Overcoat"},
+    "Burmy-Plant": {"normal": ["Mue"], "hidden": None},
+    "Burmy-Sandy": {"normal": ["Mue"], "hidden": None},
+    "Burmy-Trash": {"normal": ["Mue"], "hidden": None},
+    "Wormadam-Plant": {"normal": ["Anticipation"], "hidden": "Envelocape"},
+    "Wormadam-Sandy": {"normal": ["Anticipation"], "hidden": "Envelocape"},
+    "Wormadam-Trash": {"normal": ["Anticipation"], "hidden": "Envelocape"},
     "Cherubi":      {"normal": ["Chlorophylle"], "hidden": None},
     "Combee":       {"normal": ["Cherche Miel"], "hidden": "Agitation"},
     "Cranidos":     {"normal": ["Brise Moule"], "hidden": "Sans Limite"},
@@ -225,8 +225,8 @@ POKEMON_TALENTS = {
     "Clefable":    {"normal": ["Joli Sourire", "Garde Magik"], "hidden": "Inconscient"},
     "Vulpix":      {"normal": ["Torche"], "hidden": "Sécheresse"},
     "Ninetales":   {"normal": ["Torche"], "hidden": "Sécheresse"},
-    "Jigglypuff":   {"normal": ["Joli Sourire", "Gluco-Voile"], "hidden": "Friend Guard"},
-    "Wigglytuff":   {"normal": ["Joli Sourire", "Gluco-Voile"], "hidden": "Friend Guard"},
+    "Jigglypuff":   {"normal": ["Joli Sourire", "Gluco-Voile"], "hidden": "Garde Amie"},
+    "Wigglytuff":   {"normal": ["Joli Sourire", "Gluco-Voile"], "hidden": "Garde Amie"},
     "Zubat":        {"normal": ["Attention"], "hidden": "Infiltration"},
     "Golbat":       {"normal": ["Attention"], "hidden": "Infiltration"},
     "Crobat":        {"normal": ["Attention"], "hidden": "Infiltration"},  
@@ -263,8 +263,8 @@ POKEMON_TALENTS = {
     "Golem":         {"normal": ["Tête de Roc", "Fermeté"], "hidden": "Voile Sable"},
     "Ponyta":        {"normal": ["Fuite", "Torche"], "hidden": "Flamme Corps"},
     "Rapidash":      {"normal": ["Fuite", "Torche"], "hidden": "Flamme Corps"},
-    "Slowpoke":      {"normal": ["Benêt", "Own Tempo"], "hidden": "Régé-Force"},
-    "Slowbro":       {"normal": ["Benêt", "Own Tempo"], "hidden": "Régé-Force"},
+    "Slowpoke":      {"normal": ["Benêt", "Tempo Perso"], "hidden": "Régé-Force"},
+    "Slowbro":       {"normal": ["Benêt", "Tempo Perso"], "hidden": "Régé-Force"},
     "Magnemite":     {"normal": ["Magnépiège", "Fermeté"], "hidden": "Analyste"},
     "Magneton":      {"normal": ["Magnépiège", "Fermeté"], "hidden": "Analyste"},
     "Farfetch'd":    {"normal": ["Attention"], "hidden": "Acharné"},
@@ -280,8 +280,8 @@ POKEMON_TALENTS = {
     "Haunter":       {"normal": ["Lévitation"], "hidden": None},
     "Gengar":        {"normal": ["Lévitation"], "hidden": "Corps Maudit"},
     "Onix":          {"normal": ["Tête de Roc", "Fermeté"], "hidden": "Fermeté"},
-    "Drowzee":       {"normal": ["Insomnia", "Prédiction"], "hidden": "Inner Focus"},
-    "Hypno":         {"normal": ["Insomnia", "Prédiction"], "hidden": "Inner Focus"},
+    "Drowzee":       {"normal": ["Insomnia", "Prédiction"], "hidden": "Attention"},
+    "Hypno":         {"normal": ["Insomnia", "Prédiction"], "hidden": "Attention"},
     "Krabby":        {"normal": ["Hyper Cutter", "Coque Armure"], "hidden": "Adaptabilité"},
     "Kingler":       {"normal": ["Hyper Cutter", "Coque Armure"], "hidden": "Adaptabilité"},
     "Voltorb":       {"normal": ["Anti-Bruit", "Statik"], "hidden": "Boom Final"},
@@ -312,12 +312,12 @@ POKEMON_TALENTS = {
     "Electabuzz":    {"normal": ["Statik"], "hidden": "Esprit Vital"},
     "Magmar":        {"normal": ["Corps Ardent"], "hidden": "Esprit Vital"},
     "Pinsir":        {"normal": ["Hyper Cutter", "Brise Moule"], "hidden": "Acharné"},
-    "Enamorus-Incarnate": {"normal": ["Contrary"], "hidden": "Cute Charm"},
-    "Enamorus-Therian": {"normal": ["Overcoat"], "hidden": "Cute Charm"},
+    "Enamorus-Incarnate": {"normal": ["Contestation"], "hidden": "Joli Sourire"},
+    "Enamorus-Therian": {"normal": ["Envelocape"], "hidden": "Joli Sourire"},
     "Tauros":        {"normal": ["Intimidation", "Colérique"], "hidden": "Isograisse"},
-    "Tauros-Paldean-Combat": {"normal": ["Intimidate", "Anger Point"], "hidden": "Cud Chew"},
-    "Tauros-Paldean-Blaze": {"normal": ["Intimidate", "Anger Point"], "hidden": "Cud Chew"},
-    "Tauros-Paldean-Aqua": {"normal": ["Intimidate", "Anger Point"], "hidden": "Cud Chew"},
+    "Tauros-Paldean-Combat": {"normal": ["Intimidation", "Anger Point"], "hidden": "Rumination"},
+    "Tauros-Paldean-Blaze": {"normal": ["Intimidation", "Anger Point"], "hidden": "Rumination"},
+    "Tauros-Paldean-Aqua": {"normal": ["Intimidation", "Anger Point"], "hidden": "Rumination"},
     "Magikarp":      {"normal": ["Glissade"], "hidden": "Tension"},
     "Gyarados":      {"normal": ["Intimidation"], "hidden": "Brise Moule"},
     "Lapras":        {"normal": ["Absorb Eau", "Coque Armure"], "hidden": "Hydratation"},
@@ -447,19 +447,19 @@ POKEMON_TALENTS = {
     "Floatzel":      {"normal": ["Glissade"], "hidden": "Agitation"},
     "Cherubi":       {"normal": ["Chlorophylle"], "hidden": "Matinal"},
     "Shellos-East": {
-        "normal": ["Sticky Hold", "Storm Drain"],
+        "normal": ["Sticky Hold", "Collecteur"],
         "hidden": "Sand Force"
     },
     "Shellos-West": {
-        "normal": ["Sticky Hold", "Storm Drain"],
+        "normal": ["Sticky Hold", "Collecteur"],
         "hidden": "Sand Force"
     },
     "Gastrodon-East": {
-        "normal": ["Sticky Hold", "Storm Drain"],
+        "normal": ["Sticky Hold", "Collecteur"],
         "hidden": "Sand Force"
     },
     "Gastrodon-West": {
-        "normal": ["Sticky Hold", "Storm Drain"],
+        "normal": ["Sticky Hold", "Collecteur"],
         "hidden": "Sand Force"
     },
     "Ambipom":       {"normal": ["Technicien", "Ramassage"], "hidden": "Agitation"},
@@ -531,24 +531,24 @@ POKEMON_TALENTS = {
     "Manaphy":       {"normal": ["Hydratation"], "hidden": None},
     "Darkrai":       {"normal": ["Mauvais Rêve"], "hidden": None},
     "Shaymin":       {"normal": ["Médic Nature"], "hidden": None},
-    "Silvally-Normal":   {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Fire":     {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Water":    {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Electric": {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Grass":    {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Ice":      {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Fighting": {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Poison":   {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Ground":   {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Flying":   {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Psychic":  {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Bug":      {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Rock":     {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Ghost":    {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Dragon":   {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Dark":     {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Steel":    {"normal": ["RKS System"], "hidden": None},
-    "Silvally-Fairy":    {"normal": ["RKS System"], "hidden": None},
+    "Silvally-Normal":   {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Fire":     {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Water":    {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Electric": {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Grass":    {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Ice":      {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Fighting": {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Poison":   {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Ground":   {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Flying":   {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Psychic":  {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Bug":      {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Rock":     {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Ghost":    {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Dragon":   {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Dark":     {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Steel":    {"normal": ["Système Alpha"], "hidden": None},
+    "Silvally-Fairy":    {"normal": ["Système Alpha"], "hidden": None},
     "Arceus-Normal":   {"normal": ["Multitype"], "hidden": None},
     "Arceus-Fire":     {"normal": ["Multitype"], "hidden": None},
     "Arceus-Water":    {"normal": ["Multitype"], "hidden": None},
@@ -623,9 +623,9 @@ POKEMON_TALENTS = {
     "Whimsicott":    {"normal": ["Farceur", "Infiltration"], "hidden": "Chlorophylle"},
     "Petilil":       {"normal": ["Chlorophylle", "Feuille Garde"], "hidden": "Matinal"},
     "Lilligant":     {"normal": ["Chlorophylle", "Feuille Garde"], "hidden": "Matinal"},
-    "Basculin-Red-Striped":   {"normal": ["Reckless", "Adaptability"], "hidden": "Mold Breaker"},
-    "Basculin-Blue-Striped":  {"normal": ["Rock Head", "Adaptability"], "hidden": "Mold Breaker"},
-    "Basculin-White-Striped": {"normal": ["Rattled"], "hidden": None},
+    "Basculin-Red-Striped":   {"normal": ["Reckless", "Adaptability"], "hidden": "Brise Moule"},
+    "Basculin-Blue-Striped":  {"normal": ["Rock Head", "Adaptability"], "hidden": "Brise Moule"},
+    "Basculin-White-Striped": {"normal": ["Phobique"], "hidden": None},
     "Sandile":       {"normal": ["Intimidation", "Annule Garde"], "hidden": "Colérique"},
     "Krokorok":      {"normal": ["Intimidation", "Annule Garde"], "hidden": "Colérique"},
     "Krookodile":    {"normal": ["Intimidation", "Annule Garde"], "hidden": "Colérique"},
@@ -663,14 +663,14 @@ POKEMON_TALENTS = {
     "Vanillite":     {"normal": ["Corps Gel", "Rideau Neige"], "hidden": "Armurouillée"},
     "Vanillish":     {"normal": ["Corps Gel", "Rideau Neige"], "hidden": "Armurouillée"},
     "Vanilluxe":     {"normal": ["Corps Gel", "Rideau Neige"], "hidden": "Armurouillée"},
-    "Deerling-Spring": {"normal": ["Chlorophyll", "Sap Sipper"], "hidden": "Serene Grace"},
-    "Deerling-Summer": {"normal": ["Chlorophyll", "Sap Sipper"], "hidden": "Serene Grace"},
-    "Deerling-Autumn": {"normal": ["Chlorophyll", "Sap Sipper"], "hidden": "Serene Grace"},
-    "Deerling-Winter": {"normal": ["Chlorophyll", "Sap Sipper"], "hidden": "Serene Grace"},
-    "Sawsbuck-Spring": {"normal": ["Chlorophyll", "Sap Sipper"], "hidden": "Serene Grace"},
-    "Sawsbuck-Summer": {"normal": ["Chlorophyll", "Sap Sipper"], "hidden": "Serene Grace"},
-    "Sawsbuck-Autumn": {"normal": ["Chlorophyll", "Sap Sipper"], "hidden": "Serene Grace"},
-    "Sawsbuck-Winter": {"normal": ["Chlorophyll", "Sap Sipper"], "hidden": "Serene Grace"},
+    "Deerling-Spring": {"normal": ["Chlorophyll", "Herbivore"], "hidden": "Sérénité"},
+    "Deerling-Summer": {"normal": ["Chlorophyll", "Herbivore"], "hidden": "Sérénité"},
+    "Deerling-Autumn": {"normal": ["Chlorophyll", "Herbivore"], "hidden": "Sérénité"},
+    "Deerling-Winter": {"normal": ["Chlorophyll", "Herbivore"], "hidden": "Sérénité"},
+    "Sawsbuck-Spring": {"normal": ["Chlorophyll", "Herbivore"], "hidden": "Sérénité"},
+    "Sawsbuck-Summer": {"normal": ["Chlorophyll", "Herbivore"], "hidden": "Sérénité"},
+    "Sawsbuck-Autumn": {"normal": ["Chlorophyll", "Herbivore"], "hidden": "Sérénité"},
+    "Sawsbuck-Winter": {"normal": ["Chlorophyll", "Herbivore"], "hidden": "Sérénité"},
     "Emolga":        {"normal": ["Statik", "Motorisé"], "hidden": None},
     "Karrablast":    {"normal": ["Essaim", "Acharné"], "hidden": "Attention"},
     "Escavalier":    {"normal": ["Essaim", "Acharné"], "hidden": "Coque Armure"},
@@ -754,85 +754,85 @@ POKEMON_TALENTS = {
     "Litleo":        {"normal": ["Rivalité", "Torche"], "hidden": "Tension"},
     "Pyroar":        {"normal": ["Rivalité", "Torche"], "hidden": "Tension"},
     "Flabebe-Red": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Flabebe-Yellow": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Flabebe-Orange": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Flabebe-Blue": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Flabebe-White": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Floette-Red": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Floette-Yellow": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Floette-Orange": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Floette-Blue": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Floette-White": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Florges-Red": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Florges-Yellow": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Florges-Orange": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Florges-Blue": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
 "Florges-White": {
-    "normal": ["Flower Veil"],
-    "hidden": "Symbiosis"
+    "normal": ["Voile Floral"],
+    "hidden": "Symbiose"
 },
-    "Flabebe-Black": {"normal": ["Fleur Voile"], "hidden": "Symbiosis"},
+    "Flabebe-Black": {"normal": ["Fleur Voile"], "hidden": "Symbiose"},
     "Skiddo":        {"normal": ["Herbivore", "Paratonnerre"], "hidden": "Herbivore"},
     "Gogoat":        {"normal": ["Herbivore", "Paratonnerre"], "hidden": "Herbivore"},
     "Pancham":       {"normal": ["Poing de Fer", "Querelleur"], "hidden": "Tension"},
     "Pangoro":       {"normal": ["Poing de Fer", "Querelleur"], "hidden": "Tension"},
     "Furfrou":       {"normal": ["Toison Épaisse"], "hidden": None},
-    "Furfrou-Heart":      {"normal": ["Fur Coat"], "hidden": None},
-    "Furfrou-Star":       {"normal": ["Fur Coat"], "hidden": None},
-    "Furfrou-Diamond":    {"normal": ["Fur Coat"], "hidden": None},
-    "Furfrou-Debutante":  {"normal": ["Fur Coat"], "hidden": None},
-    "Furfrou-Matron":     {"normal": ["Fur Coat"], "hidden": None},
-    "Furfrou-Dandy":      {"normal": ["Fur Coat"], "hidden": None},
-    "Furfrou-La-Reine":   {"normal": ["Fur Coat"], "hidden": None},
-    "Furfrou-Kabuki":     {"normal": ["Fur Coat"], "hidden": None},
-    "Furfrou-Pharaoh":    {"normal": ["Fur Coat"], "hidden": None},
+    "Furfrou-Heart":      {"normal": ["Toison Épaisse"], "hidden": None},
+    "Furfrou-Star":       {"normal": ["Toison Épaisse"], "hidden": None},
+    "Furfrou-Diamond":    {"normal": ["Toison Épaisse"], "hidden": None},
+    "Furfrou-Debutante":  {"normal": ["Toison Épaisse"], "hidden": None},
+    "Furfrou-Matron":     {"normal": ["Toison Épaisse"], "hidden": None},
+    "Furfrou-Dandy":      {"normal": ["Toison Épaisse"], "hidden": None},
+    "Furfrou-La-Reine":   {"normal": ["Toison Épaisse"], "hidden": None},
+    "Furfrou-Kabuki":     {"normal": ["Toison Épaisse"], "hidden": None},
+    "Furfrou-Pharaoh":    {"normal": ["Toison Épaisse"], "hidden": None},
     "Espurr":        {"normal": ["Attention", "Infiltration"], "hidden": "Garde Amie"},
     "Honedge":       {"normal": ["Annule Garde"], "hidden": "Tension"},
     "Doublade":      {"normal": ["Annule Garde"], "hidden": "Tension"},
-    "Aegislash-Shield": {"normal": ["Stance Change"], "hidden": None},
-    "Aegislash-Blade":  {"normal": ["Stance Change"], "hidden": None},
+    "Aegislash-Shield": {"normal": ["Déclic Tactique"], "hidden": None},
+    "Aegislash-Blade":  {"normal": ["Déclic Tactique"], "hidden": None},
     "Spritzee":      {"normal": ["Cœur Soin"], "hidden": "Aroma-Voile"},
     "Aromatisse":    {"normal": ["Cœur Soin"], "hidden": "Aroma-Voile"},
     "Swirlix":       {"normal": ["Glucokinésie"], "hidden": "Cœur Soin"},
@@ -899,11 +899,11 @@ POKEMON_TALENTS = {
     "Cutiefly":      {"normal": ["Écran Poudre", "Régé-Force"], "hidden": "Tension"},
     "Ribombee":      {"normal": ["Écran Poudre", "Régé-Force"], "hidden": "Tension"},
     "Rockruff":      {"normal": ["Regard Vif", "Esprit Vital"], "hidden": "Voix Intérieure"},
-    "Lycanroc-Midday": {"normal": ["Keen Eye", "Sand Rush"], "hidden": "Sturdy"},
+    "Lycanroc-Midday": {"normal": ["Regard Vif", "Sand Rush"], "hidden": "Sturdy"},
     "Lycanroc-Midnight": {"normal": ["Sand Rush", "Vital Spirit"], "hidden": "No Guard"},
     "Lycanroc-Dusk": { "normal": ["Tough Claws"], "hidden": None},
-    "Wishiwashi-Solo":    {"normal": ["Schooling"], "hidden": None},
-    "Wishiwashi-School":    {"normal": ["Schooling"], "hidden": None},
+    "Wishiwashi-Solo":    {"normal": ["Banc"], "hidden": None},
+    "Wishiwashi-School":    {"normal": ["Banc"], "hidden": None},
     "Mareanie":      {"normal": ["Cruauté", "Régé-Force"], "hidden": "Toxitouche"},
     "Toxapex":       {"normal": ["Cruauté", "Régé-Force"], "hidden": "Toxitouche"},
     "Mudbray":       {"normal": ["Tempo Perso", "Téméraire"], "hidden": "Attention"},
@@ -932,19 +932,19 @@ POKEMON_TALENTS = {
     "Type: Null":    {"normal": ["Armurouillée"], "hidden": None},
     "Silvally":      {"normal": ["Système Alpha"], "hidden": None},
     "Minior":        {"normal": ["Bouclier Carapace"], "hidden": None},
-    "Minior-Red":        {"normal": ["Shields Down"], "hidden": None},
-    "Minior-Orange":     {"normal": ["Shields Down"], "hidden": None},
-    "Minior-Yellow":     {"normal": ["Shields Down"], "hidden": None},
-    "Minior-Green":      {"normal": ["Shields Down"], "hidden": None},
-    "Minior-Blue":       {"normal": ["Shields Down"], "hidden": None},
-    "Minior-Indigo":     {"normal": ["Shields Down"], "hidden": None},
-    "Minior-Violet":     {"normal": ["Shields Down"], "hidden": None},
-    "Minior-All-Colors": {"normal": ["Shields Down"], "hidden": None},
+    "Minior-Red":        {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Orange":     {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Yellow":     {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Green":      {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Blue":       {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Indigo":     {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Violet":     {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-All-Colors": {"normal": ["Bouclier-Carcan"], "hidden": None},
     "Komala":        {"normal": ["Hypersommeil"], "hidden": None},
     "Turtonator":    {"normal": ["Carapace Spéciale"], "hidden": None},
     "Togedemaru":    {"normal": ["Épine de Fer", "Paratonnerre"], "hidden": "Pickpocket"},
-    "Mimikyu-Disguised": {"normal": ["Disguise"], "hidden": None},
-    "Mimikyu-Busted":    {"normal": ["Disguise"], "hidden": None},
+    "Mimikyu-Fantômasqued": {"normal": ["Fantômasque"], "hidden": None},
+    "Mimikyu-Busted":    {"normal": ["Fantômasque"], "hidden": None},
     "Bruxish":       {"normal": ["Peau Dure", "Attention"], "hidden": "Prognathe"},
     "Drampa":        {"normal": ["Furie", "Infiltration"], "hidden": "Adaptabilité"},
     "Dhelmise":      {"normal": ["Phytomixeur"], "hidden": None},
@@ -1043,12 +1043,12 @@ POKEMON_TALENTS = {
     "Frosmoth":      {"normal": ["Écran Poudre"], "hidden": "Peau Gelée"},
     "Stonjourner":   {"normal": ["Corps Sain"], "hidden": "Force Pie"},
     "Indeedee-Male": {
-    "normal": ["Inner Focus", "Synchronize"],
-    "hidden": "Psychic Surge"
+    "normal": ["Attention", "Synchro"],
+    "hidden": "Créa-Psy"
 },
 "Indeedee-Female": {
-    "normal": ["Own Tempo", "Synchronize"],
-    "hidden": "Psychic Surge"
+    "normal": ["Tempo Perso", "Synchro"],
+    "hidden": "Créa-Psy"
 },
     "Morpeko":       {"normal": ["Voracité"], "hidden": None},
     "Morpeko-Hangry":       {"normal": ["Voracité"], "hidden": None},
@@ -1106,16 +1106,16 @@ POKEMON_TALENTS = {
     "Wugtrio":       {"normal": ["Glissade", "Voile Sable"], "hidden": "Cuvette"},
     "Dondozo":       {"normal": ["Ignifuge", "Benêt"], "hidden": "Tension"},
    "Tatsugiri-Curly": {
-    "normal": ["Commander", "Storm Drain"],
-    "hidden": "Own Tempo"
+    "normal": ["Commandant", "Collecteur"],
+    "hidden": "Tempo Perso"
 },
 "Tatsugiri-Droopy": {
-    "normal": ["Commander", "Storm Drain"],
-    "hidden": "Own Tempo"
+    "normal": ["Commandant", "Collecteur"],
+    "hidden": "Tempo Perso"
 },
 "Tatsugiri-Stretchy": {
-    "normal": ["Commander", "Storm Drain"],
-    "hidden": "Own Tempo"
+    "normal": ["Commandant", "Collecteur"],
+    "hidden": "Tempo Perso"
 },
     "Annihilape":    {"normal": ["Attention", "Téméraire"], "hidden": "Colérique"},
     "Clodsire":      {"normal": ["Poison Point", "Absorb Eau"], "hidden": "Inconscient"},

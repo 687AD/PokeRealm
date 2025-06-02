@@ -2269,8 +2269,8 @@
   },
   {
     "name": "Porygon",
-    "rarity": "rare",
-    "weight": 2,
+    "rarity": "uncommon",
+    "weight": 5,
     "types": [
       "Normal"
     ],
@@ -3011,8 +3011,8 @@
   },
   {
     "name": "Bellossom",
-    "rarity": "epic",
-    "weight": 1,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Grass"
     ],
@@ -3840,8 +3840,8 @@
   },
   {
     "name": "Porygon2",
-    "rarity": "epic",
-    "weight": 1,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Normal"
     ],
@@ -6917,7 +6917,7 @@
      "base_stats": {"HP": 75, "Atk": 95, "Def": 125, "SpA": 45, "SpD": 75, "Spe": 95}},
     {"name": "Mamoswine", "rarity": "rare", "weight": 2, "types": ["Ice", "Ground"],
      "base_stats": {"HP": 110, "Atk": 130, "Def": 80, "SpA": 70, "SpD": 60, "Spe": 80}},
-    {"name": "Porygon-Z", "rarity": "rare", "weight": 2, "types": ["Normal"],
+    {"name": "Porygon-Z", "rarity": "epic", "weight": 1, "types": ["Normal"],
      "base_stats": {"HP": 85, "Atk": 80, "Def": 70, "SpA": 135, "SpD": 75, "Spe": 90}},
     {"name": "Gallade", "rarity": "epic", "weight": 1, "types": ["Psychic", "Fighting"],
      "base_stats": {"HP": 68, "Atk": 125, "Def": 65, "SpA": 65, "SpD": 115, "Spe": 80}},
@@ -8246,15 +8246,15 @@
     "types": ["Rock", "Flying"],
     "base_stats": {"HP": 60, "Atk": 60, "Def": 100, "SpA": 60, "SpD": 100, "Spe": 60}
     },
-    {"name": "Rattata-Alola", "rarity": "common", "weight": 10, "types": ["Dark", "Normal"],
+    {"name": "Rattata-Alolan", "rarity": "common", "weight": 10, "types": ["Dark", "Normal"],
      "base_stats": {"HP": 30, "Atk": 56, "Def": 35, "SpA": 25, "SpD": 35, "Spe": 72}},
-    {"name": "Raticate-Alola", "rarity": "uncommon", "weight": 5, "types": ["Dark", "Normal"],
+    {"name": "Raticate-Alolan", "rarity": "uncommon", "weight": 5, "types": ["Dark", "Normal"],
      "base_stats": {"HP": 75, "Atk": 71, "Def": 70, "SpA": 40, "SpD": 80, "Spe": 77}},
-    {"name": "Raichu-Alola", "rarity": "rare", "weight": 2, "types": ["Electric", "Psychic"],
+    {"name": "Raichu-Alolan", "rarity": "rare", "weight": 2, "types": ["Electric", "Psychic"],
      "base_stats": {"HP": 60, "Atk": 85, "Def": 50, "SpA": 95, "SpD": 85, "Spe": 110}},
-    {"name": "Sandshrew-Alola", "rarity": "common", "weight": 10, "types": ["Ice", "Steel"],
+    {"name": "Sandshrew-Alolan", "rarity": "common", "weight": 10, "types": ["Ice", "Steel"],
      "base_stats": {"HP": 50, "Atk": 75, "Def": 90, "SpA": 10, "SpD": 35, "Spe": 40}},
-    {"name": "Sandslash-Alola", "rarity": "uncommon", "weight": 5, "types": ["Ice", "Steel"],
+    {"name": "Sandslash-Alolan", "rarity": "uncommon", "weight": 5, "types": ["Ice", "Steel"],
      "base_stats": {"HP": 75, "Atk": 100, "Def": 120, "SpA": 25, "SpD": 65, "Spe": 65}},
         {"name": "Castform-Sunny", "rarity": "rare", "weight": 2, "types": ["Fire"],
      "base_stats": {"HP": 70, "Atk": 70, "Def": 70, "SpA": 70, "SpD": 70, "Spe": 70}},
@@ -8570,43 +8570,43 @@
         {"name": "Meowth-Galar", "rarity": "uncommon", "weight": 5, "types": ["Steel"],
      "base_stats": {"HP": 50, "Atk": 65, "Def": 55, "SpA": 40, "SpD": 40, "Spe": 40}},
 
-    {"name": "Ponyta-Galar", "rarity": "rare", "weight": 2, "types": ["Psychic"],
+    {"name": "Ponyta-Galarian", "rarity": "rare", "weight": 2, "types": ["Psychic"],
      "base_stats": {"HP": 50, "Atk": 85, "Def": 55, "SpA": 65, "SpD": 65, "Spe": 90}},
 
-    {"name": "Rapidash-Galar", "rarity": "rare", "weight": 2, "types": ["Psychic", "Fairy"],
+    {"name": "Rapidash-Galarian", "rarity": "rare", "weight": 2, "types": ["Psychic", "Fairy"],
      "base_stats": {"HP": 65, "Atk": 100, "Def": 70, "SpA": 80, "SpD": 80, "Spe": 105}},
 
-    {"name": "Farfetch’d-Galar", "rarity": "uncommon", "weight": 5, "types": ["Fighting"],
+    {"name": "Farfetch’d-Galarian", "rarity": "uncommon", "weight": 5, "types": ["Fighting"],
      "base_stats": {"HP": 52, "Atk": 95, "Def": 55, "SpA": 58, "SpD": 62, "Spe": 55}},
 
-    {"name": "Mr. Mime-Galar", "rarity": "rare", "weight": 2, "types": ["Ice", "Psychic"],
+    {"name": "Mr. Mime-Galarian", "rarity": "rare", "weight": 2, "types": ["Ice", "Psychic"],
      "base_stats": {"HP": 50, "Atk": 65, "Def": 65, "SpA": 90, "SpD": 90, "Spe": 100}},
 
-    {"name": "Corsola-Galar", "rarity": "rare", "weight": 2, "types": ["Ghost"],
+    {"name": "Corsola-Galarian", "rarity": "rare", "weight": 2, "types": ["Ghost"],
      "base_stats": {"HP": 60, "Atk": 55, "Def": 100, "SpA": 65, "SpD": 100, "Spe": 30}},
 
-    {"name": "Zigzagoon-Galar", "rarity": "common", "weight": 10, "types": ["Dark", "Normal"],
+    {"name": "Zigzagoon-Galarian", "rarity": "common", "weight": 10, "types": ["Dark", "Normal"],
      "base_stats": {"HP": 38, "Atk": 30, "Def": 41, "SpA": 30, "SpD": 41, "Spe": 60}},
 
-    {"name": "Linoone-Galar", "rarity": "uncommon", "weight": 5, "types": ["Dark", "Normal"],
+    {"name": "Linoone-Galarian", "rarity": "uncommon", "weight": 5, "types": ["Dark", "Normal"],
      "base_stats": {"HP": 78, "Atk": 70, "Def": 61, "SpA": 50, "SpD": 61, "Spe": 100}},
 
-    {"name": "Darumaka-Galar", "rarity": "common", "weight": 10, "types": ["Ice"],
+    {"name": "Darumaka-Galarian", "rarity": "common", "weight": 10, "types": ["Ice"],
      "base_stats": {"HP": 70, "Atk": 90, "Def": 45, "SpA": 15, "SpD": 45, "Spe": 50}},
 
-    {"name": "Yamask-Galar", "rarity": "uncommon", "weight": 5, "types": ["Ground", "Ghost"],
+    {"name": "Yamask-Galarian", "rarity": "uncommon", "weight": 5, "types": ["Ground", "Ghost"],
      "base_stats": {"HP": 38, "Atk": 55, "Def": 85, "SpA": 30, "SpD": 65, "Spe": 30}},
 
-    {"name": "Stunfisk-Galar", "rarity": "uncommon", "weight": 5, "types": ["Ground", "Steel"],
+    {"name": "Stunfisk-Galarian", "rarity": "uncommon", "weight": 5, "types": ["Ground", "Steel"],
      "base_stats": {"HP": 109, "Atk": 81, "Def": 99, "SpA": 66, "SpD": 84, "Spe": 32}},
 
-    {"name": "Slowpoke-Galar", "rarity": "rare", "weight": 2, "types": ["Psychic"],
+    {"name": "Slowpoke-Galarian", "rarity": "rare", "weight": 2, "types": ["Psychic"],
      "base_stats": {"HP": 90, "Atk": 65, "Def": 65, "SpA": 40, "SpD": 40, "Spe": 15}},
 
-    {"name": "Slowbro-Galar", "rarity": "rare", "weight": 2, "types": ["Poison", "Psychic"],
+    {"name": "Slowbro-Galarian", "rarity": "rare", "weight": 2, "types": ["Poison", "Psychic"],
      "base_stats": {"HP": 95, "Atk": 100, "Def": 95, "SpA": 100, "SpD": 70, "Spe": 30}},
 
-    {"name": "Slowking-Galar", "rarity": "rare", "weight": 2, "types": ["Poison", "Psychic"],
+    {"name": "Slowking-Galarian", "rarity": "rare", "weight": 2, "types": ["Poison", "Psychic"],
      "base_stats": {"HP": 95, "Atk": 65, "Def": 80, "SpA": 110, "SpD": 110, "Spe": 30}},
         {"name": "Perrserker", "rarity": "uncommon", "weight": 5, "types": ["Steel"],
      "base_stats": {"HP": 70, "Atk": 110, "Def": 100, "SpA": 50, "SpD": 60, "Spe": 50}},
@@ -9122,8 +9122,8 @@
 },
 {
     "name": "Polteageist-Authentic",
-    "rarity": "epic",
-    "weight": 0,
+    "rarity": "mythic",
+    "weight": 0.01,
     "types": ["Ghost"],
     "base_stats": {"HP": 60, "Atk": 65, "Def": 65, "SpA": 134, "SpD": 114, "Spe": 70}
 },

@@ -2,6 +2,7 @@ import os
 import json
 from core.translation_data import NATURES
 from core.lang import get_text
+from core.translation_data import ABILITIES
 
 DATA_DIR = "data/users"
 
@@ -50,7 +51,7 @@ def update_or_merge_pokemon(data, new_pkm):
     hidden_ability = new_pkm.get("hidden_ability")
     if ability not in main["known_abilities"]:
         main["known_abilities"].append(ability)
-    if ability == n_ability and main.get("ability") != hidden_ability:
+    if ability == ability and main.get("ability") != hidden_ability:
         main["ability"] = hidden_ability
 
     main["quantity"] += 1
@@ -117,10 +118,12 @@ def update_or_merge_pokemon_with_feedback(data, new_pkm, lang):
 
     if ability not in main["known_abilities"]:
         main["known_abilities"].append(ability)
+        # On récupère le nom traduit
+        ability_txt = ABILITIES.get(ability, {}).get(lang, ability)
         if ability == hidden_ability:
-            messages.append(get_text("stacked_hidden_ability", lang))
+            messages.append(f"👻 Nouveau talent caché trouvé : {ability_txt} !")
         else:
-            messages.append(get_text("stacked_new_ability", lang))
+            messages.append(f"🎯 Nouveau talent trouvé : {ability_txt} !")
 
     if ability == hidden_ability and main.get("ability") != hidden_ability:
         main["ability"] = hidden_ability

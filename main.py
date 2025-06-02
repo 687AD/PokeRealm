@@ -70,7 +70,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # 🔄 Logique par défaut
     await handle_choice(update, context)
 
-TOKEN = "8171438159:AAEC58M69Ddxprn645xTO-WuakzABqJnEUA"
+TOKEN = "7300187027:AAHWwvyvZKMN0VbCBTkeceIUDfO9-97h0eE"
 
 if __name__ == "__main__":
     app = Application.builder().token(TOKEN).build()

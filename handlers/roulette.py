@@ -12,6 +12,7 @@ from core.items import get_capture_chance, ITEMS
 from core.lang import get_text
 from core.translation_data import POKEMON_NAMES, NATURES
 from utils.buttons import main_menu
+from handlers.box import POKEBALL_EMOJIS
 
 POKEDEX_PATH = "data/pokedex.json"
 if os.path.exists(POKEDEX_PATH):
@@ -35,8 +36,13 @@ def build_ball_keyboard(pokeballs: dict, lang: str):
     buttons = []
     for b in BALL_CHOICES:
         qty = pokeballs.get(b, 0)
-        label = f"{ITEMS[b][lang]} ({qty})"
+        emoji = POKEBALL_EMOJIS.get(b, "")
+        label = f"{emoji} {ITEMS[b][lang]} ({qty})"
         buttons.append(label)
+    # Ajoute le bouton fuite avec emoji à la fin
+    flee_emoji = "🏃‍♂️"
+    flee_label = f"{flee_emoji} {get_text('flee', lang)}"
+    buttons.append(flee_label)
     return ReplyKeyboardMarkup([buttons], resize_keyboard=True, one_time_keyboard=True)
 
 def sanitize_for_url(name):
@@ -80,8 +86,11 @@ async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     now = time.time()
-    if now - context.user_data.get("last_roulette", 0) < 5:
-        await update.message.reply_text(get_text("wait_roulette", lang, seconds=5))
+    cooldown = 5  # en secondes
+    last = context.user_data.get("last_roulette", 0)
+    wait_left = int(cooldown - (now - last))
+    if wait_left > 0:
+        await update.message.reply_text(get_text("wait_roulette", lang, seconds=wait_left))
         return
 
     context.user_data["last_roulette"] = now
@@ -153,7 +162,15 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
     user = update.effective_user
     data = get_and_update_user(user.id, user.username)
     lang = data.get("lang", "fr")
-    text = update.message.text.lower().replace("(", "").replace(")", "").replace("✨", "").strip()
+    text = update.message.text.lower().replace("(", "").replace(")", "").replace("✨", "").replace("🏃‍♂️", "").strip()
+
+    # Vérifier la fuite
+    flee_label = get_text("flee", lang).lower()
+    if flee_label in text or "fuite" in text or "flee" in text:
+        await update.message.reply_text(get_text("flee_success", lang), reply_markup=main_menu(lang))
+        context.user_data["current_encounter"] = None
+        context.user_data["state"] = None
+        return
 
     selected = None
     for ball in BALL_CHOICES:
