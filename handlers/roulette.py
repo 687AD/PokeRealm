@@ -115,21 +115,30 @@ async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
     rarity_emoji = RARITY_EMOJIS.get(rarity, "")
     base_name = chosen.replace("shiny_", "")
     main_pokemon = next((pkm for pkm in data.get("box", []) if pkm.get("locked") and pkm["name"].replace("shiny_", "") == base_name), None)
-    captured = False
+    status_key = "new_catch"
 
     if main_pokemon:
         known_natures = main_pokemon.get("known_natures", [])
-        known_talents = main_pokemon.get("known_talents", [])
+        known_talents = main_pokemon.get("known_abilities", [])  # corrige "known_talents"
         has_hidden = main_pokemon.get("hidden_ability", False)
         fake = generate_pokemon(chosen, rarity, chroma_bonus=0)
+
         is_new_nature = fake["nature"] not in known_natures
         is_new_talent = fake["ability"] not in known_talents
         is_new_hidden = fake.get("hidden_ability", False) and not has_hidden
         is_new_shiny = "shiny_" in chosen and not main_pokemon["name"].startswith("shiny_")
-        if not (is_new_nature or is_new_talent or is_new_hidden or is_new_shiny):
-            captured = True
 
-    status_text = get_text("already_caught" if captured else "new_catch", lang)
+        known_ivs = main_pokemon.get("ivs", {})
+        is_new_ivs = any(fake["ivs"].get(stat, 0) > known_ivs.get(stat, -1) for stat in fake["ivs"])
+
+        any_new_info = is_new_nature or is_new_talent or is_new_hidden or is_new_shiny or is_new_ivs
+
+        if any_new_info:
+            status_key = "already_caught_with_new_info"
+        else:
+            status_key = "already_caught"
+
+    status_text = get_text(status_key, lang)
     image_base = sanitize_for_url(chosen_base)
 
     # Tentative image locale sinon fallback web
@@ -142,12 +151,18 @@ async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 sent_image = True
                 break
     if not sent_image:
-        url = f"https://img.pokemondb.net/artwork/{image_base}.jpg"
+        url = f"https://img.pokemondb.net/artwork/{image_base}.png"
         try:
             await update.message.reply_photo(photo=url)
         except Exception:
             await update.message.reply_text("(Pas d'image trouvée)")
 
+    # Message bonus si shiny ou mythique
+    if is_shiny or rarity == "mythic":
+        special_msg = "🤯 Quelle singerie ! Ce Pokémon est ultra rare !" if lang == "fr" else "🤯 What madness! This Pokémon is ultra rare!"
+        await update.message.reply_text(special_msg)
+
+    # Message principal
     await update.message.reply_text(
         f"🎯 *{get_text('wild_appears_simple', lang)}*\n\n"
         f"🆔 *Nom :* {display_name}\n"

@@ -1,4 +1,7 @@
-traduction abilities
+traduction abilities (à finir)
 bug chelou quand je met Sinistea-Authentic_shiny ça m'ouvre le trie d'la box
 /stats en /view
 /use pour donner un item a un poké
+installer les images de floette, flabebe et florges
+ajouter un handle tout en bas a guauche
+talent kyurem black et white

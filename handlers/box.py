@@ -9,9 +9,10 @@ ITEMS_PER_PAGE = 10
 
 user_box_pages = {}
 
-RARITY_ORDER = {"common": 0, "uncommon": 1, "rare": 2, "epic": 3, "legendary": 4}
+RARITY_ORDER = {"common": 0, "uncommon": 1, "rare": 2, "epic": 3, "legendary": 4, "mythic" : 5}
 
 POKEDEX_ORDER = {
+    "Pikachu-Original-Cap": 25,
     "Bulbasaur": 1, "Ivysaur": 2, "Venusaur": 3, "Charmander": 4, "Charmeleon": 5, "Charizard": 6,
     "Squirtle": 7, "Wartortle": 8, "Blastoise": 9, "Caterpie": 10, "Metapod": 11, "Butterfree": 12,
     "Weedle": 13, "Kakuna": 14, "Beedrill": 15, "Pidgey": 16, "Pidgeotto": 17, "Pidgeot": 18,
@@ -253,7 +254,8 @@ POKEDEX_ORDER = {
     "Pansear": 513, "Simisear": 514,
     "Panpour": 515, "Simipour": 516,
     "Munna": 517, "Musharna": 518,
-    "Pidove": 519, "Tranquill": 520, "Unfezant": 521,
+    "Pidove": 519, "Tranquill": 520, "Unfezant-Male": 521,
+    "Unfezant-Female": 521,
     "Blitzle": 522, "Zebstrika": 523,
     "Roggenrola": 524, "Boldore": 525, "Gigalith": 526,
     "Woobat": 527, "Swoobat": 528,
@@ -336,7 +338,8 @@ POKEDEX_ORDER = {
     "Vivillon-Savanna": 666,
     "Vivillon-Sun": 666,
     "Vivillon-Typhoon": 666,
-    "Litleo": 667, "Pyroar": 668,
+    "Litleo": 667, "Pyroar-Male": 668,
+    "Pyroar-Female": 668,
     "Skiddo": 672, "Gogoat": 673,
     "Pancham": 674, "Pangoro": 675,
     "Espurr": 677,
@@ -458,7 +461,8 @@ POKEDEX_ORDER = {
     "Wyrdeer": 899,
     "Kleavor": 900,
     "Ursaluna": 901,
-    "Basculegion": 902,
+    "Basculegion-Male": 902,
+    "Basculegion-Female" : 902,
     "Sneasler": 903,
     "Overqwil": 904,
     "Enamorus": 905,
@@ -554,13 +558,12 @@ POKEDEX_ORDER = {
     "Necrozma-Dusk-Mane": 800,
     "Necrozma-Ultra": 800,
     "Magearna-Original": 801,
-    "Polteageist-Antique": 855,
     "Sinistea-Antique": 854,
     "Calyrex-Ice-Rider": 898,
     "Calyrex-Shadow-Rider": 898,
-    "Maushold-Family-of-Three": 925,
+    "Maushold-Family3": 925,
     "Calyrex": 898,
-    "Flabebe-Black": 669,       
+    "Floette-Eternal": 669,       
     "Oinkologne-Male": 916,
     "Oinkologne-Female": 916,
     "Tauros-Paldean-Combat": 128,
@@ -578,9 +581,7 @@ POKEDEX_ORDER = {
     "Tatsugiri-Curly": 978,
     "Tatsugiri-Droopy": 978,
     "Tatsugiri-Stretchy": 978,
-    "Maushold": 925,
-    "Maushold-Family-of-Three": 925,
-    "Maushold-Family-of-Four": 925,
+    "Maushold-Family4": 925,
     "Squawkabilly-Green": 931,
     "Squawkabilly-Blue": 931,
     "Squawkabilly-Yellow": 931,
@@ -648,13 +649,13 @@ POKEDEX_ORDER = {
     "Toxtricity-Amped": 849,
     "Toxtricity-Low-Key": 849,
     "Minior": 774,
-    "Minior-Red": 774,
-    "Minior-Orange": 774,
-    "Minior-Yellow": 774,
-    "Minior-Green": 774,
-    "Minior-Blue": 774,
-    "Minior-Indigo": 774,
-    "Minior-Violet": 774,
+    "Minior-Red-Core": 774,
+    "Minior-Orange-Core": 774,
+    "Minior-Yellow-Core": 774,
+    "Minior-Green-Core": 774,
+    "Minior-Blue-Core": 774,
+    "Minior-Indigo-Core": 774,
+    "Minior-Violet-Core": 774,
     "Minior-Core": 774,
     "Oricorio-Baile": 741,
     "Oricorio-Pom-Pom": 741,
@@ -701,7 +702,61 @@ POKEDEX_ORDER = {
     "Ogerpon-Wellspring-Mask": 1017, "Ogerpon-Hearthflame-Mask": 1017,
     "Palafin-Zero": 964, "Palafin-Hero": 964,
     "Urshifu-Single-Strike": 892, "Urshifu-Rapid-Strike": 892,
-    "Eiscue-Ice-Face": 875, "Eiscue-Noice-Face": 875,
+    "Eiscue-Ice": 875, "Eiscue-Noice": 875,
+    "Rattata-Alolan": 19,
+    "Raticate-Alolan": 20,
+    "Raichu-Alolan": 26,
+    "Sandshrew-Alolan": 27,
+    "Sandslash-Alolan": 28,
+    "Vulpix-Alolan": 37,
+    "Ninetales-Alolan": 38,
+    "Diglett-Alolan": 50,
+    "Dugtrio-Alolan": 51,
+    "Meowth-Alolan": 52,
+    "Persian-Alolan": 53,
+    "Geodude-Alolan": 74,
+    "Graveler-Alolan": 75,
+    "Golem-Alolan": 76,
+    "Grimer-Alolan": 88,
+    "Muk-Alolan": 89,
+    "Exeggutor-Alolan": 103,
+    "Marowak-Alolan": 105,
+    "Meowth-Galarian": 52,
+    "Ponyta-Galarian": 77,
+    "Rapidash-Galarian": 78,
+    "Farfetchd-Galarian": 83,
+    "Weezing-Galarian": 110,
+    "MrMime-Galarian": 122,
+    "Articuno-Galarian": 144,
+    "Zapdos-Galarian": 145,
+    "Moltres-Galarian": 146,
+    "Slowpoke-Galarian": 79,
+    "Slowbro-Galarian": 80,
+    "Slowking-Galarian": 199, 
+    "Corsola-Galarian": 222,
+    "Zigzagoon-Galarian": 263,
+    "Linoone-Galarian": 264,
+    "Darumaka-Galarian": 554,
+    "Yamask-Galarian": 562,
+    "Stunfisk-Galarian": 618,
+    "Growlithe-Hisuian": 58,
+    "Arcanine-Hisuian": 59,
+    "Voltorb-Hisuian": 100,
+    "Electrode-Hisuian": 101,
+    "Typhlosion-Hisuian": 157,
+    "Qwilfish-Hisuian": 211,
+    "Sneasel-Hisuian": 215,
+    "Zorua-Hisuian": 570,
+    "Zoroark-Hisuian": 571,
+    "Braviary-Hisuian": 628,
+    "Samurott-Hisuian": 503,
+    "Lilligant-Hisuian": 549,
+    "Avalugg-Hisuian": 713,
+    "Decidueye-Hisuian": 724,
+    "Goodra-Hisuian": 706,
+    "Sliggoo-Hisuian": 705,
+    "Basculin-Hisuian": 550,
+    "Dipplin" : 1011
     }
 
 def format_iv(iv_dict):
@@ -810,16 +865,22 @@ def format_pokemon_display(pkm, lang, box=None):
     ability_line = f"{get_text('abilities_label', lang)} : {', '.join(abilities_display)}" if abilities_display else ""
 
     # Talent caché
-    if pkm.get("hidden_ability", False) and pkm.get("hidden_name"):
-        hidden_line = f"{get_text('hidden_ability_label', lang)} : {get_text(pkm['hidden_name'], lang)}"
-    else:
+    hidden = pkm.get("hidden_ability")
+    known = set(pkm.get("known_talents", []))
+
+    if hidden and hidden in known:
+        hidden_line = f"{get_text('hidden_ability_label', lang)} : ✅ {get_text(hidden, lang)}"
+    elif hidden:
         hidden_line = f"{get_text('hidden_ability_label', lang)} : ❓"
+    else:
+        hidden_line = f"{get_text('hidden_ability_label', lang)} : {get_text('none', lang)}"
+
 
     # IVs
     ivs = pkm.get("ivs", {})
     iv_line = f"{get_text('ivs_label', lang)} : " + " / ".join(f"{k.upper()}:{v}" for k, v in ivs.items())
 
-    rarity_line = f"{rarity} {get_text('rarity_label', lang)} : {rarity_text}"
+    rarity_line = f"{rarity} {get_text('rarity_label', lang)} {rarity_text}"
 
     lines = [
         f"{ball} #{pokedex_id} {name}{count_display} {shiny}\n",
@@ -918,47 +979,53 @@ async def sell_duplicates(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     sold = 0
     money_gained = 0
-    details = []
 
     def get_rarity_price(rarity):
         prices = {
-            "common": 150,
-            "uncommon": 300,
-            "rare": 600,
+            "common": 50,
+            "uncommon": 150,
+            "rare": 400,
             "epic": 1200,
-            "legendary": 2500,
-            "mythic": 5000
+            "legendary": 10000,
+            "mythic": 50000
         }
         return prices.get(rarity, 100)
 
+    rarity_counter = {
+        "common": 0,
+        "uncommon": 0,
+        "rare": 0,
+        "epic": 0,
+        "legendary": 0,
+        "mythic": 0
+    }
+
     for pkm in box:
         if pkm.get("shiny"):
-            continue  # Jamais vendre les shiny
+            continue
         qty = pkm.get("quantity", 1)
         if qty > 1:
             to_sell = qty - 1
             sold += to_sell
-            gain = get_rarity_price(pkm.get("rarity", "common")) * to_sell
+            rarity = pkm.get("rarity", "common")
+            gain = get_rarity_price(rarity) * to_sell
             money_gained += gain
-            # Détail traduit depuis le fichier de trad
-            details.append(
-                get_text("duplicate_detail", lang, 
-                    name=POKEMON_NAMES.get(pkm['name'].replace('shiny_', ''), {}).get(lang, pkm['name']),
-                    qty=to_sell,
-                    rarity=get_text(pkm.get('rarity', 'common'), lang),
-                    gain=gain
-                )
-            )
+            rarity_counter[rarity] += to_sell
             pkm["quantity"] = 1
 
     data["money"] = data.get("money", 0) + money_gained
     save_user(user.id, data)
 
     if sold:
-        detail_str = "\n".join(details)
-        msg = get_text("duplicates_sold", lang, money=money_gained) + f"\n\n{detail_str}"
+        lines = []
+        for rarity, count in rarity_counter.items():
+            if count > 0:
+                rarity_label = get_text(rarity, lang)
+                lines.append(get_text("rarity_sold_summary", lang, qty=count, rarity=rarity_label))
+        msg = get_text("duplicates_sold_simple", lang, money=money_gained) + "\n\n" + "\n".join(lines)
     else:
         msg = get_text("no_duplicates", lang)
+
     await update.message.reply_text(msg, reply_markup=main_menu(lang))
 
 async def handle_box_choice(update: Update, context: ContextTypes.DEFAULT_TYPE):

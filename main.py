@@ -9,9 +9,6 @@ from telegram.ext import (
 )
 
 from handlers.spawn import spawn
-from handlers.trade import propose_trade
-from handlers.confirm_trade import confirm_trade
-from handlers.callbacks_trade import handle_trade_callback
 from handlers.pay import pay
 from handlers.lang import ask_language, handle_language_choice
 from handlers.choice import handle_choice
@@ -29,24 +26,32 @@ from core.lang import get_text
 from handlers.nature import handle_nature_command
 from handlers.help import help_command
 from handlers.stats import handle_stats_command
-from handlers.adventure import handle_adventure_command
 from handlers.team import handle_team_command, show_team_command
 from handlers.ability import ability_command
-from handlers.fight import fight, handle_fight_response
-from core.battle_engine import handle_attack_selection
+from handlers.pokedex import pokedex_command, handle_pokedex_sort_choice, handle_pokedex_back
+
 
 # ✅ Routeur texte intelligent
 async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text.lower()
     state = context.user_data.get("state")
 
-    # Gestion page suivante/précédente pour shop/box
-    prev_texts = [get_text("previous_page", l).lower() for l in ["fr", "en"]]
-    next_texts = [get_text("next_page", l).lower() for l in ["fr", "en"]]
+    # 🧭 Navigation générique
+    prev_texts = [get_text("previous_page", l).lower() for l in ["fr", "en"]] + ["⬅️ page précédente", "précédent", "previous", "🔼"]
+    next_texts = [get_text("next_page", l).lower() for l in ["fr", "en"]] + ["➡️ page suivante", "suivant", "next", "▶"]
 
+    # 📖 Pokédex navigation (🔁 doit venir en premier)
+    if context.user_data.get("pokedex_page") is not None and (text in prev_texts or text in next_texts):
+        from handlers.pokedex import handle_pokedex_navigation
+        await handle_pokedex_navigation(update, context)
+        return
+
+    # 📦 Shop navigation
     if state and state.startswith("shop") and (text in prev_texts or text in next_texts):
         await handle_shop_selection(update, context)
         return
+
+    # 📁 Box navigation
     if (state == "box" or context.user_data.get("box_page") is not None) and (text in prev_texts or text in next_texts):
         await handle_sort_choice(update, context)
         return
@@ -62,15 +67,21 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await show_box(update, context)
         return
 
+    # 📖 Tri du Pokédex
+    if context.user_data.get("awaiting_pokedex_sort"):
+        from handlers.pokedex import handle_pokedex_sort_choice
+        await handle_pokedex_sort_choice(update, context)
+        return
+
     # 🧮 Tri de la box
-    if any(k in text for k in ["nom", "rareté", "niveau", "pokédex", "shiny", "iv"]):
+    if context.user_data.get("awaiting_sort_choice") or any(k in text for k in ["nom", "rareté", "niveau", "pokédex", "shiny", "iv"]):
         await handle_sort_choice(update, context)
         return
 
     # 🔄 Logique par défaut
     await handle_choice(update, context)
 
-TOKEN = "7300187027:AAHWwvyvZKMN0VbCBTkeceIUDfO9-97h0eE"
+TOKEN = "8171438159:AAEC58M69Ddxprn645xTO-WuakzABqJnEUA"
 
 if __name__ == "__main__":
     app = Application.builder().token(TOKEN).build()
@@ -85,13 +96,8 @@ if __name__ == "__main__":
     langs = ["fr", "en"]
 
     # ✅ Commandes
+    app.add_handler(CommandHandler("pokedex", pokedex_command))
     app.add_handler(CommandHandler("spawn", spawn))
-    app.add_handler(CommandHandler("fight", fight))
-    app.add_handler(CallbackQueryHandler(handle_fight_response, pattern="^(accept_fight|decline_fight):"))
-    app.add_handler(CallbackQueryHandler(handle_attack_selection, pattern="^move:"))
-    app.add_handler(CommandHandler("trade", propose_trade))
-    app.add_handler(CommandHandler("confirmtrade", confirm_trade))
-    app.add_handler(CallbackQueryHandler(handle_trade_callback, pattern="^(accept_trade|refuse_trade):"))
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("daily", daily))
     app.add_handler(CommandHandler("lang", ask_language))
@@ -100,13 +106,14 @@ if __name__ == "__main__":
     app.add_handler(CommandHandler("sell_duplicates", sell_duplicates))
     app.add_handler(CommandHandler("help", help_command))
     app.add_handler(CommandHandler("stats", handle_stats_command))
-    app.add_handler(CommandHandler("adventure", handle_adventure_command))
     app.add_handler(CommandHandler("team", handle_team_command))
     app.add_handler(CommandHandler("show_team", show_team_command))
     app.add_handler(CommandHandler("ability", ability_command))
     app.add_handler(CommandHandler("pay", pay))
 
     # ✅ Boutons textes
+    app.add_handler(MessageHandler(filters.Text(["📊 Trier le Pokédex"]), handle_pokedex_sort_choice))
+    app.add_handler(MessageHandler(filters.Text(["⬅️ Retour"]), handle_pokedex_back))
     app.add_handler(MessageHandler(filters.Text([get_text("button_sort_box", lang) for lang in langs]), handle_sort_choice))
     app.add_handler(MessageHandler(filters.Regex("^👥 Mon équipe$"), show_team_command))
     app.add_handler(MessageHandler(filters.Regex("^👥 My Team$"), show_team_command))

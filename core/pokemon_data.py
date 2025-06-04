@@ -4,6 +4,7 @@ from core.translation_data import POKEMON_NAMES
 from core.moves import get_move
 
 POKEMON_TALENTS = {
+    "Pikachu-Original-Cap": {"normal": ["Statik"], "hidden": "Paratonnerre"},
     "Sinistea-Phony": {"normal": ["Armurouillée"], "hidden": "Corps Maudit"},
     "Sinistea-Authentic": {"normal": ["Armurouillée"], "hidden": "Corps Maudit"},
     "Polteageist-Phony": {"normal": ["Armurouillée"], "hidden": "Corps Maudit"},
@@ -42,40 +43,16 @@ POKEMON_TALENTS = {
     "Palafin-Hero": {"normal": ["Héros Modeste"], "hidden": None},
     "Urshifu-Single-Strike": {"normal": ["Poing Invisible"], "hidden": None},
     "Urshifu-Rapid-Strike":  {"normal": ["Poing Invisible"], "hidden": None},
-    "Eiscue-Ice-Face":   {"normal": ["Tête de Glace"], "hidden": None},
-    "Eiscue-Noice-Face": {"normal": ["Tête de Glace"], "hidden": None},
-    "Meowstic-Male": {
-    "normal": ["Regard Vif", "Infiltration"],
-    "hidden": "Farceu"
-},
-"Meowstic-Female": {
-    "normal": ["Regard Vif", "Infiltration"],
-    "hidden": "Battant"
-},
-    "Squawkabilly-Green": {
-    "normal": ["Intimidation", "Agitation"],
-    "hidden": "Cran"
-},
-"Squawkabilly-Blue": {
-    "normal": ["Intimidation", "Agitation"],
-    "hidden": "Sans Limite"
-},
-"Squawkabilly-Yellow": {
-    "normal": ["Intimidation", "Agitation"],
-    "hidden": "Sans Limite"
-},
-"Squawkabilly-White": {
-    "normal": ["Intimidation", "Agitation"],
-    "hidden": "Sans Limite"
-},
-    "Maushold-Family3": {
-    "normal": ["Garde Amie", "Bajoues"],
-    "hidden": "Technicien"
-},
-"Maushold-Family4": {
-    "normal": ["Garde Amie", "Bajoues"],
-    "hidden": "Technicien"
-},
+    "Eiscue-Ice":   {"normal": ["Tête de Glace"], "hidden": None},
+    "Eiscue-Noice": {"normal": ["Tête de Glace"], "hidden": None},
+    "Meowstic-Male": {"normal": ["Regard Vif", "Infiltration"], "hidden": "Farceur"},
+    "Meowstic-Female": {"normal": ["Regard Vif", "Infiltration"], "hidden": "Battant"},
+    "Squawkabilly-Green": {"normal": ["Intimidation", "Agitation"], "hidden": "Cran"},
+    "Squawkabilly-Blue": {"normal": ["Intimidation", "Agitation"], "hidden": "Sans Limite"},
+    "Squawkabilly-Yellow": {"normal": ["Intimidation", "Agitation"], "hidden": "Sans Limite"},
+    "Squawkabilly-White": {"normal": ["Intimidation", "Agitation"], "hidden": "Sans Limite"},
+    "Maushold-Family3": {"normal": ["Garde Amie", "Bajoues"], "hidden": "Technicien"},
+    "Maushold-Family4": {"normal": ["Garde Amie", "Bajoues"], "hidden": "Technicien"},
     "Bastiodon":    {"normal": ["Fermeté"], "hidden": "Anti-Bruit"},
     "Bibarel":      {"normal": ["Simple", "Inconscient"], "hidden": "Lunatique"},
     "Bidoof":       {"normal": ["Simple", "Inconscient"], "hidden": "Lunatique"},
@@ -446,22 +423,10 @@ POKEMON_TALENTS = {
     "Buizel":        {"normal": ["Glissade"], "hidden": "Agitation"},
     "Floatzel":      {"normal": ["Glissade"], "hidden": "Agitation"},
     "Cherubi":       {"normal": ["Chlorophylle"], "hidden": "Matinal"},
-    "Shellos-East": {
-        "normal": ["Sticky Hold", "Collecteur"],
-        "hidden": "Sand Force"
-    },
-    "Shellos-West": {
-        "normal": ["Sticky Hold", "Collecteur"],
-        "hidden": "Sand Force"
-    },
-    "Gastrodon-East": {
-        "normal": ["Sticky Hold", "Collecteur"],
-        "hidden": "Sand Force"
-    },
-    "Gastrodon-West": {
-        "normal": ["Sticky Hold", "Collecteur"],
-        "hidden": "Sand Force"
-    },
+    "Shellos-East":  {"normal": ["Sticky Hold", "Collecteur"],"hidden": "Sand Force"},
+    "Shellos-West":  {"normal": ["Sticky Hold", "Collecteur"],"hidden": "Sand Force"},
+    "Gastrodon-East": {"normal": ["Sticky Hold", "Collecteur"],"hidden": "Sand Force"},
+    "Gastrodon-West": {"normal": ["Sticky Hold", "Collecteur"], "hidden": "Sand Force"},
     "Ambipom":       {"normal": ["Technicien", "Ramassage"], "hidden": "Agitation"},
     "Drifloon":      {"normal": ["Déflagration", "Fuite"], "hidden": "Délestage"},
     "Drifblim":      {"normal": ["Déflagration", "Fuite"], "hidden": "Délestage"},
@@ -594,7 +559,14 @@ POKEMON_TALENTS = {
     "Musharna":      {"normal": ["Prédiction", "Garde Magik"], "hidden": "Télépathe"},
     "Pidove":        {"normal": ["Regard Vif", "Coeur de Coq"], "hidden": "Chanceux"},
     "Tranquill":     {"normal": ["Regard Vif", "Coeur de Coq"], "hidden": "Chanceux"},
-    "Unfezant":      {"normal": ["Regard Vif", "Coeur de Coq"], "hidden": "Chanceux"},
+    "Unfezant-Male": {
+    "normal": ["Œil Composé", "Cœur de Coq"],
+    "hidden": "Chanceux"
+},
+"Unfezant-Female": {
+    "normal": ["Œil Composé", "Cœur de Coq"],
+    "hidden": "Chanceux"
+},
     "Blitzle":       {"normal": ["Paratonnerre", "Motorisé"], "hidden": "Tension"},
     "Zebstrika":     {"normal": ["Paratonnerre", "Motorisé"], "hidden": "Tension"},
     "Roggenrola":    {"normal": ["Fermeté"], "hidden": "Sable Humide"},
@@ -631,8 +603,8 @@ POKEMON_TALENTS = {
     "Krookodile":    {"normal": ["Intimidation", "Annule Garde"], "hidden": "Colérique"},
     "Darumaka":      {"normal": ["Esprit Vital"], "hidden": "Absentéisme"},
     "Darmanitan":    {"normal": ["Force Pure"], "hidden": "Mode Transe"},
-    "Darmanitan-Galarian-Standard": {"normal": ["Gorilla Tactics"], "hidden": "Zen Mode"},
-    "Darmanitan-Galarian-Zen":      {"normal": ["Zen Mode"],        "hidden": None},
+    "Darmanitan-Galarianian-Standard": {"normal": ["Gorilla Tactics"], "hidden": "Zen Mode"},
+    "Darmanitan-Galarianian-Zen":      {"normal": ["Zen Mode"],        "hidden": None},
     "Darmanitan-Zen":               {"normal": ["Zen Mode"],        "hidden": None},
     "Maractus":      {"normal": ["Chlorophylle", "Absorb Eau"], "hidden": "Pickpocket"},
     "Dwebble":       {"normal": ["Fermeté", "Coque Armure"], "hidden": "Acharné"},
@@ -731,6 +703,8 @@ POKEMON_TALENTS = {
     "Zekrom":        {"normal": ["Téra-Voltage"], "hidden": None},
     "Landorus":      {"normal": ["Force Sable"], "hidden": "Acharné"},
     "Kyurem":        {"normal": ["Pression"], "hidden": None},
+    "Kyurem-White":  {"normal": ["TurboBrasier"], "hidden": None},
+    "Kyurem-Black":  {"normal": ["Téra-Voltage"], "hidden": None},
     "Keldeo":        {"normal": ["Cœur Noble"], "hidden": None},
     "Meloetta":      {"normal": ["Sérénité"], "hidden": None},
     "Genesect":      {"normal": ["Télécharge"], "hidden": None},
@@ -743,7 +717,7 @@ POKEMON_TALENTS = {
     "Froakie":       {"normal": ["Torrent"], "hidden": "Protéen"},
     "Frogadier":     {"normal": ["Torrent"], "hidden": "Protéen"},
     "Greninja":      {"normal": ["Torrent"], "hidden": "Protéen"},
-    "Greninja-Ash":      {"normal": ["Torrent"], "hidden": "Protéen"},
+    "Greninja-Ash":  {"normal": ["Torrent"], "hidden": "Protéen"},
     "Bunnelby":      {"normal": ["Ramassage", "Agitation"], "hidden": "Coloforce"},
     "Diggersby":     {"normal": ["Ramassage", "Agitation"], "hidden": "Coloforce"},
     "Fletchling":    {"normal": ["Regard Vif"], "hidden": "Ailes Bourrasque"},
@@ -752,7 +726,6 @@ POKEMON_TALENTS = {
     "Scatterbug":    {"normal": ["Écran Poudre"], "hidden": "Garde Amie"},
     "Spewpa":        {"normal": ["Écran Poudre"], "hidden": "Garde Amie"},
     "Litleo":        {"normal": ["Rivalité", "Torche"], "hidden": "Tension"},
-    "Pyroar":        {"normal": ["Rivalité", "Torche"], "hidden": "Tension"},
     "Flabebe-Red": {
     "normal": ["Voile Floral"],
     "hidden": "Symbiose"
@@ -813,7 +786,15 @@ POKEMON_TALENTS = {
     "normal": ["Voile Floral"],
     "hidden": "Symbiose"
 },
-    "Flabebe-Black": {"normal": ["Fleur Voile"], "hidden": "Symbiose"},
+    "Pyroar-Male": {
+    "normal": ["Rivalité", "Tension"],
+    "hidden": "Torche"
+},
+"Pyroar-Female": {
+    "normal": ["Rivalité", "Tension"],
+    "hidden": "Torche"
+},
+    "Floette-Eternal": {"normal": ["Fleur Voile"], "hidden": "Symbiose"},
     "Skiddo":        {"normal": ["Herbivore", "Paratonnerre"], "hidden": "Herbivore"},
     "Gogoat":        {"normal": ["Herbivore", "Paratonnerre"], "hidden": "Herbivore"},
     "Pancham":       {"normal": ["Poing de Fer", "Querelleur"], "hidden": "Tension"},
@@ -932,14 +913,14 @@ POKEMON_TALENTS = {
     "Type: Null":    {"normal": ["Armurouillée"], "hidden": None},
     "Silvally":      {"normal": ["Système Alpha"], "hidden": None},
     "Minior":        {"normal": ["Bouclier Carapace"], "hidden": None},
-    "Minior-Red":        {"normal": ["Bouclier-Carcan"], "hidden": None},
-    "Minior-Orange":     {"normal": ["Bouclier-Carcan"], "hidden": None},
-    "Minior-Yellow":     {"normal": ["Bouclier-Carcan"], "hidden": None},
-    "Minior-Green":      {"normal": ["Bouclier-Carcan"], "hidden": None},
-    "Minior-Blue":       {"normal": ["Bouclier-Carcan"], "hidden": None},
-    "Minior-Indigo":     {"normal": ["Bouclier-Carcan"], "hidden": None},
-    "Minior-Violet":     {"normal": ["Bouclier-Carcan"], "hidden": None},
-    "Minior-All-Colors": {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Red-Core":        {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Orange-Core":     {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Yellow-Core":     {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Green-Core":      {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Blue-Core":       {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Indigo-Core":     {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Violet-Core":     {"normal": ["Bouclier-Carcan"], "hidden": None},
+    "Minior-Core": {"normal": ["Bouclier-Carcan"], "hidden": None},
     "Komala":        {"normal": ["Hypersommeil"], "hidden": None},
     "Turtonator":    {"normal": ["Carapace Spéciale"], "hidden": None},
     "Togedemaru":    {"normal": ["Épine de Fer", "Paratonnerre"], "hidden": "Pickpocket"},
@@ -1021,8 +1002,6 @@ POKEMON_TALENTS = {
     "Centiskorch":   {"normal": ["Torche", "Échauffement"], "hidden": "Flamme Libérée"},
     "Clobbopus":     {"normal": ["Technicien"], "hidden": "Colérique"},
     "Grapploct":     {"normal": ["Technicien"], "hidden": "Colérique"},
-    "Sinistea":      {"normal": ["Armurouillée"], "hidden": "Infiltration"},
-    "Polteageist":   {"normal": ["Armurouillée"], "hidden": "Infiltration"},
     "Hatenna":       {"normal": ["Anticipation"], "hidden": "Calque"},
     "Hattrem":       {"normal": ["Anticipation"], "hidden": "Calque"},
     "Hatterene":     {"normal": ["Calme"], "hidden": "Magicien"},
@@ -1050,7 +1029,7 @@ POKEMON_TALENTS = {
     "normal": ["Tempo Perso", "Synchro"],
     "hidden": "Créa-Psy"
 },
-    "Morpeko":       {"normal": ["Voracité"], "hidden": None},
+    "Morpeko-Full-Belly":       {"normal": ["Voracité"], "hidden": None},
     "Morpeko-Hangry":       {"normal": ["Voracité"], "hidden": None},
     "Cufant":        {"normal": ["Force Hercule"], "hidden": "Anti-Bruit"},
     "Copperajah":    {"normal": ["Force Hercule"], "hidden": "Anti-Bruit"},
@@ -1160,27 +1139,55 @@ POKEMON_TALENTS = {
     "Iron Crown":    {"normal": ["Charge Quantique"], "hidden": None},
     "Terapagos":     {"normal": ["Téra-Carapace"], "hidden": None},
     "Pecharunt":     {"normal": ["Chaîne Toxique"], "hidden": None},
-    "Growlithe-Hisui":  {"normal": ["Intimidation", "Torche"], "hidden": "Cœur Noble"},
-    "Arcanine-Hisui":   {"normal": ["Intimidation", "Torche"], "hidden": "Cœur Noble"},
-    "Voltorb-Hisui":    {"normal": ["Anti-Bruit", "Statik"], "hidden": "Boom Final"},
-    "Electrode-Hisui":  {"normal": ["Anti-Bruit", "Statik"], "hidden": "Boom Final"},
-    "Zigzagoon-Galar":  {"normal": ["Ramassage", "Gloutonnerie"], "hidden": "Pied Véloce"},
-    "Linoone-Galar":    {"normal": ["Ramassage", "Gloutonnerie"], "hidden": "Pied Véloce"},
-    "Darumaka-Galar":   {"normal": ["Agitation"], "hidden": "Attention"},
-    "Ponyta-Galar":     {"normal": ["Fuite", "Voile Pastel"], "hidden": "Anticipation"},
-    "Rapidash-Galar":   {"normal": ["Fuite", "Voile Pastel"], "hidden": "Anticipation"},
-    "Rattata-Alola":    {"normal": ["Gloutonnerie", "Agitation"], "hidden": "Isograisse"},
-    "Raticate-Alola":   {"normal": ["Gloutonnerie", "Agitation"], "hidden": "Isograisse"},
-    "Raichu-Alola":     {"normal": ["Surf Caudal"], "hidden": None},
-    "Sandshrew-Alola":  {"normal": ["Rideau Neige"], "hidden": "Chasse-Neige"},
-    "Sandslash-Alola":  {"normal": ["Rideau Neige"], "hidden": "Chasse-Neige"},
-    "Vulpix-Alola":     {"normal": ["Rideau Neige"], "hidden": "Alerte Neige"},
-    "Ninetales-Alola":  {"normal": ["Rideau Neige"], "hidden": "Alerte Neige"},
-    "Diglett-Alola":    {"normal": ["Voile Sable", "Mèche Rebelle"], "hidden": "Force Sable"},
-    "Dugtrio-Alola":    {"normal": ["Voile Sable", "Mèche Rebelle"], "hidden": "Force Sable"},
-    "Meowth-Alola":     {"normal": ["Ramassage", "Technicien"], "hidden": "Phobique"},
-    "Persian-Alola":    {"normal": ["Toison Épaisse", "Technicien"], "hidden": "Phobique"}
-}
+    "Growlithe-Hisuian": {"normal": ["Intimidate", "Flash Fire"], "hidden": "Justified"},
+    "Arcanine-Hisuian": {"normal": ["Intimidate", "Flash Fire"], "hidden": "Justified"},
+    "Voltorb-Hisuian": {"normal": ["Soundproof", "Static"], "hidden": "Aftermath"},
+    "Electrode-Hisuian": {"normal": ["Soundproof", "Static"], "hidden": "Aftermath"},
+    "Typhlosion-Hisuian": {"normal": ["Blaze"], "hidden": "Frisk"},
+    "Qwilfish-Hisuian": {"normal": ["Poison Point", "Swift Swim"], "hidden": "Intimidate"},
+    "Sneasel-Hisuian": {"normal": ["Inner Focus", "Keen Eye"], "hidden": "Pickpocket"},
+    "Zorua-Hisuian": {"normal": ["Illusion"], "hidden": None},
+    "Zoroark-Hisuian": {"normal": ["Illusion"], "hidden": None},
+    "Braviary-Hisuian": {"normal": ["Keen Eye", "Sheer Force"], "hidden": "Defiant"},
+    "Meowth-Galarian":    {"normal": ["Ramassage", "Ténacité"], "hidden": "Querelleur"},
+    "Ponyta-Galarian":    {"normal": ["Fuite", "Voile Pastel"], "hidden": "Anticipation"},
+    "Rapidash-Galarian":  {"normal": ["Fuite", "Voile Pastel"], "hidden": "Anticipation"},
+    "Farfetchd-Galarian": {"normal": ["Acharné"], "hidden": "Querelleur"},
+    "Weezing-Galarian":   {"normal": ["Lévitation", "Gaz Inhibiteur"], "hidden": "Murmure Fluide"},
+    "MrMime-Galarian":    {"normal": ["Ecran Magique", "Boule de Neige"], "hidden": "Garde Amie"},
+    "Articuno-Galarian":  {"normal": ["Calque"], "hidden": "Esprit Vital"},
+    "Zapdos-Galarian":    {"normal": ["Acharné"], "hidden": "Acharné"},  
+    "Moltres-Galarian":   {"normal": ["Colérique"], "hidden": "Colérique"}, 
+    "Slowpoke-Galarian":  {"normal": ["Tempo Perso", "Gloutonnerie"], "hidden": "Régé-Force"},
+    "Slowbro-Galarian":   {"normal": ["Main-Forte", "Armurouillée"], "hidden": "Régé-Force"},
+    "Slowking-Galarian":  {"normal": ["Tempo Perso", "Armurouillée"], "hidden": "Régé-Force"},
+    "Corsola-Galarian":   {"normal": ["Corps Maudit"], "hidden": "Corps Maudit"},
+    "Zigzagoon-Galarian": {"normal": ["Ramassage", "Gloutonnerie"], "hidden": "Pied Véloce"},
+    "Linoone-Galarian":   {"normal": ["Ramassage", "Gloutonnerie"], "hidden": "Pied Véloce"},
+    "Darumaka-Galarian":  {"normal": ["Agitation"], "hidden": "Attention"},
+    "Yamask-Galarian":    {"normal": ["Momie"], "hidden": "Momie"},
+    "Stunfisk-Galarian":  {"normal": ["Piège de Fer"], "hidden": "Tension"},
+    "Rattata-Alolan":    {"normal": ["Gloutonnerie", "Agitation"], "hidden": "Isograisse"},
+    "Raticate-Alolan":   {"normal": ["Gloutonnerie", "Agitation"], "hidden": "Isograisse"},
+    "Raichu-Alolan":     {"normal": ["Surf Caudal"], "hidden": None},
+    "Sandshrew-Alolan":  {"normal": ["Rideau Neige"], "hidden": "Chasse-Neige"},
+    "Sandslash-Alolan":  {"normal": ["Rideau Neige"], "hidden": "Chasse-Neige"},
+    "Vulpix-Alolan":     {"normal": ["Rideau Neige"], "hidden": "Alerte Neige"},
+    "Ninetales-Alolan":  {"normal": ["Rideau Neige"], "hidden": "Alerte Neige"},
+    "Diglett-Alolan":    {"normal": ["Voile Sable", "Mèche Rebelle"], "hidden": "Force Sable"},
+    "Dugtrio-Alolan":    {"normal": ["Voile Sable", "Mèche Rebelle"], "hidden": "Force Sable"},
+    "Meowth-Alolan":     {"normal": ["Ramassage", "Technicien"], "hidden": "Phobique"},
+    "Persian-Alolan":    {"normal": ["Toison Épaisse", "Technicien"], "hidden": "Phobique"},
+    "Tandemaus": {"normal": ["Garde Amie", "Bajoues"], "hidden": "Tempo Perso"},
+    "Samurott-Hisuian": {"normal": ["Torrent", "Coque Armure"], "hidden": "Acharné"},
+    "Lilligant-Hisuian": {"normal": ["Chlorophylle", "Tempo Perso"], "hidden": "Essaim Royal"},
+    "Avalugg-Hisuian": {"normal": ["Glissade", "Corps Gel"], "hidden": "Fermeté"},
+    "Decidueye-Hisuian": {"normal": ["Engrais"], "hidden": "Longue Portée"},
+    "Goodra-Hisuian": {"normal": ["Hydratation", "Écaille Spéciale"], "hidden": "Poisseux"},
+    "Sliggoo-Hisuian": {"normal": ["Hydratation", "Écaille Spéciale"], "hidden": "Poisseux"},
+    "Basculegion-Male" : {"normal": ["Hydratation", "Écaille Spéciale"], "hidden": "Poisseux"},
+    "Basculegion-Female" : {"normal": ["Hydratation", "Écaille Spéciale"], "hidden": "Poisseux"}
+    }
 
 def generate_pokemon(name: str, rarity: str, chroma_bonus: int = 0):
     forced_shiny = name.startswith("shiny_")

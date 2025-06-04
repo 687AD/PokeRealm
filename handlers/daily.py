@@ -37,8 +37,8 @@ def get_streak_bonus(streak, lang="fr"):
             break
     # Récompense daily générique si pas de gros palier
     if not bonus:
-        bonus = {"money": 1200, "pokeball": 12}
-        msg = "🎁 Récompense quotidienne : +12 Pokéballs" if lang == "fr" else "🎁 Daily reward: +12 Pokéballs"
+        bonus = {"money": 1000, "pokeball": 10}
+        msg = "🎁 Récompense quotidienne : +10 Pokéballs" if lang == "fr" else "🎁 Daily reward: +10 Pokéballs"
 
     # Entre deux gros paliers, on file un bonus boosté
     palier_list = [palier for palier, _, _, _ in PALIER_REWARDS]

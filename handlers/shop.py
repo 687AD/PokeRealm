@@ -314,7 +314,7 @@ async def handle_shop_selection(update: Update, context: ContextTypes.DEFAULT_TY
         await update.message.reply_text(get_text("item_unknown", lang))
         return
 
-    # Sélection d’un objet
+        # Sélection d’un objet
     if context.user_data.get("state") == "shop_items":
         for item in CATEGORIES_ITEMS.get(context.user_data.get("selected_category"), []):
             label = ITEMS.get(item, {}).get(lang, item).capitalize()
@@ -323,7 +323,19 @@ async def handle_shop_selection(update: Update, context: ContextTypes.DEFAULT_TY
             full_label = f"{emoji} {label} - {cost}💰".lower()
             if text.lower() == full_label:
                 context.user_data["pending_item"] = item
-                await update.message.reply_text(get_text("enter_quantity", lang))
+                # Affiche le clavier avec le bouton Retour
+                await update.message.reply_text(
+                    get_text("enter_quantity", lang),
+                    reply_markup=build_quantity_keyboard(lang)
+                )
                 return
 
     await update.message.reply_text(get_text("item_unknown", lang))
+
+def build_quantity_keyboard(lang):
+    # Tu peux personnaliser ce clavier si tu veux d'autres options plus tard
+    return ReplyKeyboardMarkup(
+        [[get_text("back_button", lang)]],
+        resize_keyboard=True,
+        one_time_keyboard=True
+    )
