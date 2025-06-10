@@ -1,5 +1,5 @@
 {
-  "already_caught_with_new_info": "Already caught but new info discovered",
+  "already_caught_with_new_info": "ℹ️ New info",
   "none": "None",
   "duplicates_sold_simple": "💸 You earned {money} Pokédollars by selling duplicates:",
   "rarity_sold_summary": "- {qty} duplicate(s) of rarity {rarity}",

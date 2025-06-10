@@ -33,17 +33,24 @@ RARITY_EMOJIS = {
 }
 
 def build_ball_keyboard(pokeballs: dict, lang: str):
-    buttons = []
-    for b in BALL_CHOICES:
-        qty = pokeballs.get(b, 0)
-        emoji = POKEBALL_EMOJIS.get(b, "")
-        label = f"{emoji} {ITEMS[b][lang]} ({qty})"
-        buttons.append(label)
-    # Ajoute le bouton fuite avec emoji à la fin
-    flee_emoji = "🏃‍♂️"
-    flee_label = f"{flee_emoji} {get_text('flee', lang)}"
-    buttons.append(flee_label)
-    return ReplyKeyboardMarkup([buttons], resize_keyboard=True, one_time_keyboard=True)
+    ball_emojis = {
+        "pokeball": "🔴",
+        "superball": "🔵",
+        "hyperball": "🟡",
+        "masterball": "🟣"
+    }
+    ball_labels = {
+        "pokeball": "Pokéball",
+        "superball": "Superball",
+        "hyperball": "Hyperball",
+        "masterball": "Masterball"
+    }
+    row1 = [f"{ball_emojis['pokeball']} {ball_labels['pokeball']} ({pokeballs.get('pokeball',0)})",
+            f"{ball_emojis['superball']} {ball_labels['superball']} ({pokeballs.get('superball',0)})"]
+    row2 = [f"{ball_emojis['hyperball']} {ball_labels['hyperball']} ({pokeballs.get('hyperball',0)})",
+            f"{ball_emojis['masterball']} {ball_labels['masterball']} ({pokeballs.get('masterball',0)})"]
+    row3 = [f"🏃 {get_text('flee', lang)}"]
+    return ReplyKeyboardMarkup([row1, row2, row3], resize_keyboard=True, one_time_keyboard=True)
 
 def sanitize_for_url(name):
     # Clean for Pokemondb url
@@ -70,7 +77,9 @@ def get_money_reward(rarity):
     return random.randint(*ranges.get(rarity, (150, 300)))
 
 def get_money_bonus_multiplier(user_data):
-    return 1.5 if user_data.get("items", {}).get("piece_rune", 0) > 0 else 1.0
+    """Retourne le multiplicateur de gain lié à la Pièce Rune."""
+    amount = min(user_data.get("items", {}).get("piece_rune", 0), 20)
+    return 1.0 + amount * 0.05  # +5% par Pièce Rune, max +100%
 
 async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
@@ -101,8 +110,9 @@ async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chosen_base = random.choices(names, weights=weights, k=1)[0]
     rarity = next((m["rarity"] for m in POKEDEX if m["name"] == chosen_base), "common")
 
-    chroma_bonus = min(data["items"].get("chroma", 0), 10)
-    shiny_rate = 1 / (4096 / (1 + chroma_bonus))
+    nb_charmes = min(data["items"].get("chroma", 0), 20)
+    taux_base = 1 / 4096
+    shiny_rate = taux_base * (1 + 0.05 * nb_charmes)
     is_shiny = random.random() < shiny_rate
 
     chosen = f"shiny_{chosen_base}" if is_shiny else chosen_base
@@ -114,35 +124,66 @@ async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     rarity_emoji = RARITY_EMOJIS.get(rarity, "")
     base_name = chosen.replace("shiny_", "")
-    main_pokemon = next((pkm for pkm in data.get("box", []) if pkm.get("locked") and pkm["name"].replace("shiny_", "") == base_name), None)
+    # Récupère tous les Pokémon du joueur de ce nom (base_name, shiny ou pas)
+    box_pokemons = [pkm for pkm in data.get("box", []) if pkm["name"].replace("shiny_", "") == base_name]
+
     status_key = "new_catch"
+    if box_pokemons:
+        is_shiny_encounter = chosen.startswith("shiny_")
+        # Est-ce qu'on possède déjà CE TYPE (shiny ou non) ?
+        is_already_owned = any(
+            (pkm["name"].startswith("shiny_") if is_shiny_encounter else not pkm["name"].startswith("shiny_"))
+            for pkm in box_pokemons
+        )
 
-    if main_pokemon:
-        known_natures = main_pokemon.get("known_natures", [])
-        known_talents = main_pokemon.get("known_abilities", [])  # corrige "known_talents"
-        has_hidden = main_pokemon.get("hidden_ability", False)
+        # Simulation de la rencontre
         fake = generate_pokemon(chosen, rarity, chroma_bonus=0)
+        info_nouvelle = False
 
-        is_new_nature = fake["nature"] not in known_natures
-        is_new_talent = fake["ability"] not in known_talents
-        is_new_hidden = fake.get("hidden_ability", False) and not has_hidden
-        is_new_shiny = "shiny_" in chosen and not main_pokemon["name"].startswith("shiny_")
+        # Pour chaque Pokémon du même type déjà possédé, regarde si cette nouvelle rencontre apporte quelque chose de neuf
+        for pkm in box_pokemons:
+            # On ne compare qu'aux exemplaires de même type (shiny ou non)
+            if pkm["name"].startswith("shiny_") == is_shiny_encounter:
+                known_natures = pkm.get("known_natures", [])
+                known_talents = pkm.get("known_abilities", [])
+                has_hidden = pkm.get("hidden_ability", False)
+                known_ivs = pkm.get("ivs", {})
 
-        known_ivs = main_pokemon.get("ivs", {})
-        is_new_ivs = any(fake["ivs"].get(stat, 0) > known_ivs.get(stat, -1) for stat in fake["ivs"])
+                is_new_nature = fake["nature"] not in known_natures
+                is_new_talent = fake["ability"] not in known_talents
+                is_new_hidden = fake.get("hidden_ability", False) and not has_hidden
+                is_new_ivs = any(fake["ivs"].get(stat, 0) > known_ivs.get(stat, -1) for stat in fake["ivs"])
 
-        any_new_info = is_new_nature or is_new_talent or is_new_hidden or is_new_shiny or is_new_ivs
+                if is_new_nature or is_new_talent or is_new_hidden or is_new_ivs:
+                    info_nouvelle = True
+                    break
 
-        if any_new_info:
-            status_key = "already_caught_with_new_info"
+        if is_already_owned:
+            status_key = "already_caught_with_new_info" if info_nouvelle else "already_caught"
         else:
-            status_key = "already_caught"
+            status_key = "new_catch"
 
     status_text = get_text(status_key, lang)
     image_base = sanitize_for_url(chosen_base)
+    is_shiny_encounter = chosen.startswith("shiny_")
 
-    # Tentative image locale sinon fallback web
-    image_paths = [f"images/{image_base}.jpg", f"images/{image_base}.png", f"data/shiny/{image_base}.jpg", f"data/shiny/{image_base}.png"]
+    if is_shiny_encounter:
+        # Priorité aux images shiny
+        image_paths = [
+            f"data/shiny/{image_base}.png",
+            f"data/shiny/{image_base}.jpg",
+            f"images/{image_base}.png",
+            f"images/{image_base}.jpg"
+        ]
+    else:
+        # Priorité aux images normales
+        image_paths = [
+            f"images/{image_base}.png",
+            f"images/{image_base}.jpg",
+            f"data/shiny/{image_base}.png",
+            f"data/shiny/{image_base}.jpg"
+        ]
+
     sent_image = False
     for path in image_paths:
         if os.path.exists(path):
@@ -150,12 +191,17 @@ async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 await update.message.reply_photo(photo=f)
                 sent_image = True
                 break
+
     if not sent_image:
-        url = f"https://img.pokemondb.net/artwork/{image_base}.png"
+        # Fallback web : cherche une image shiny ou normale selon le cas
+        if is_shiny_encounter:
+            url = f"https://img.pokemondb.net/sprites/home/shiny/{image_base}.png"
+        else:
+            url = f"https://img.pokemondb.net/sprites/home/normal/{image_base}.png"
         try:
             await update.message.reply_photo(photo=url)
         except Exception:
-            await update.message.reply_text("(Pas d'image trouvée)")
+            await update.m
 
     # Message bonus si shiny ou mythique
     if is_shiny or rarity == "mythic":
@@ -187,9 +233,16 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
         context.user_data["state"] = None
         return
 
+    ball_labels = {
+        "pokeball": "pokéball",
+        "superball": "superball",
+        "hyperball": "hyperball",
+        "masterball": "masterball"
+    }
     selected = None
     for ball in BALL_CHOICES:
-        if ITEMS[ball][lang].lower() in text:
+        # On vérifie si le texte contient le nom complet de la ball (insensible à la casse, ignore l’emoji et la quantité)
+        if ball_labels[ball] in text:
             selected = ball
             break
 

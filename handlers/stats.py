@@ -7,6 +7,47 @@ from core.stats import calculate_stats
 import json
 import os
 
+def get_pokemon_image_path(pkm):
+    import re
+    import os
+
+    def sanitize_for_url(name):
+        name = name.lower()
+        name = name.replace("nidoran♀", "nidoran-f").replace("nidoran♂", "nidoran-m")
+        name = name.replace("farfetch’d", "farfetchd").replace("farfetch'd", "farfetchd")
+        name = name.replace("mr. mime", "mr-mime").replace("mime jr.", "mime-jr")
+        name = name.replace("type: null", "type-null")
+        name = name.replace("jangmo-o", "jangmoo").replace("hakamo-o", "hakamoo").replace("kommo-o", "kommoo")
+        name = name.replace("’", "").replace("‘", "").replace("é", "e").replace("è", "e").replace("ê", "e").replace("à", "a")
+        name = name.replace(" ", "-").replace(".", "").replace(":", "")
+        name = re.sub(r"[^a-z0-9\-]", "", name)
+        return name
+
+    image_base = sanitize_for_url(pkm["name"].replace("shiny_", ""))
+    is_shiny = pkm["name"].startswith("shiny_") or pkm.get("shiny", False)
+    if is_shiny:
+        image_paths = [
+            f"data/shiny/{image_base}.png",
+            f"data/shiny/{image_base}.jpg",
+            f"images/{image_base}.png",
+            f"images/{image_base}.jpg"
+        ]
+    else:
+        image_paths = [
+            f"images/{image_base}.png",
+            f"images/{image_base}.jpg",
+            f"data/shiny/{image_base}.png",
+            f"data/shiny/{image_base}.jpg"
+        ]
+    for path in image_paths:
+        if os.path.exists(path):
+            return path
+    # Fallback web
+    if is_shiny:
+        return f"https://img.pokemondb.net/sprites/home/shiny/{image_base}.png"
+    else:
+        return f"https://img.pokemondb.net/sprites/home/normal/{image_base}.png"
+
 # Chargement du Pokédex
 POKEDEX_PATH = "data/pokedex.json"
 if os.path.exists(POKEDEX_PATH):
@@ -68,4 +109,14 @@ async def handle_stats_command(update: Update, context: ContextTypes.DEFAULT_TYP
     msg += f"`SPD : {stats['spd']}`\n"
     msg += f"`SPE : {stats['spe']}`"
 
-    await update.message.reply_text(msg, parse_mode="Markdown")
+    image_path = get_pokemon_image_path(pkm)
+
+    try:
+        if os.path.exists(image_path):
+            with open(image_path, "rb") as f:
+                await update.message.reply_photo(photo=f, caption=msg, parse_mode="Markdown")
+        else:
+            await update.message.reply_photo(photo=image_path, caption=msg, parse_mode="Markdown")
+    except Exception:
+        await update.message.reply_text(msg, parse_mode="Markdown")
+

@@ -8,6 +8,7 @@ from telegram.ext import (
     filters,
 )
 
+from handlers.profile import profile_command
 from handlers.spawn import spawn
 from handlers.pay import pay
 from handlers.lang import ask_language, handle_language_choice
@@ -81,7 +82,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # 🔄 Logique par défaut
     await handle_choice(update, context)
 
-TOKEN = "8171438159:AAEC58M69Ddxprn645xTO-WuakzABqJnEUA"
+TOKEN = "7300187027:AAHWwvyvZKMN0VbCBTkeceIUDfO9-97h0eE"
 
 if __name__ == "__main__":
     app = Application.builder().token(TOKEN).build()
@@ -96,6 +97,8 @@ if __name__ == "__main__":
     langs = ["fr", "en"]
 
     # ✅ Commandes
+    app.add_handler(CommandHandler("profile", profile_command))
+    app.add_handler(CommandHandler("profil", profile_command))
     app.add_handler(CommandHandler("pokedex", pokedex_command))
     app.add_handler(CommandHandler("spawn", spawn))
     app.add_handler(CommandHandler("start", start))

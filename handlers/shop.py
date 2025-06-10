@@ -1,7 +1,7 @@
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ContextTypes
 from core.user_data import load_user, save_user
-from core.items import BALL_COSTS, ITEM_COSTS, CATEGORIES_ITEMS, GENERAL_ITEMS, buy_item, CATEGORY_NAMES, SHOP_CATEGORY_PREFIX, ITEMS
+from core.items import BALL_COSTS, ITEM_COSTS, CATEGORIES_ITEMS, GENERAL_ITEMS, buy_item, CATEGORY_NAMES, SHOP_CATEGORY_PREFIX, ITEMS, get_special_item_cost
 from core.lang import get_text
 from utils.buttons import main_menu
 
@@ -205,7 +205,9 @@ def build_category_keyboard(lang):
     keyboard.append([get_text("back_button", lang)])
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True, one_time_keyboard=True)
 
-def build_items_keyboard(category, lang, shop_page=0):
+def build_items_keyboard(category, lang, shop_page=0, user_data=None):
+    if user_data is None:
+        user_data = {}
     item_list = CATEGORIES_ITEMS.get(category, [])
     start = shop_page * ITEMS_PER_PAGE
     end = start + ITEMS_PER_PAGE
@@ -214,7 +216,11 @@ def build_items_keyboard(category, lang, shop_page=0):
     for item in item_list[start:end]:
         label = ITEMS.get(item, {}).get(lang, item).capitalize()
         emoji = ITEM_EMOJIS.get(item, "📦")
-        cost = BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", "?")
+        # Prix dynamique pour les objets spéciaux
+        if item in ["oeuf_chance", "piece_rune", "chroma"]:
+            cost = get_special_item_cost(user_data, item)
+        else:
+            cost = BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", "?")
         keyboard.append([f"{emoji} {label} - {cost}💰"])
 
     if end < len(item_list):
@@ -223,6 +229,7 @@ def build_items_keyboard(category, lang, shop_page=0):
         keyboard.append([get_text("previous_page", lang)])
     keyboard.append([get_text("back_button", lang)])
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True, one_time_keyboard=True)
+
 
 async def show_shop(update: Update, context: ContextTypes.DEFAULT_TYPE):
     lang = load_user(update.effective_user.id).get("lang", "fr")
@@ -245,7 +252,7 @@ async def handle_shop_selection(update: Update, context: ContextTypes.DEFAULT_TY
                 })
                 await update.message.reply_text(
                     get_text("shop_select_item", lang),
-                    reply_markup=build_items_keyboard(cat, lang, context.user_data["shop_page"])
+                    reply_markup=build_items_keyboard(cat, lang, context.user_data["shop_page"], user_data=data)
                 )
                 return
         await update.message.reply_text(get_text("item_unknown", lang))
@@ -256,13 +263,13 @@ async def handle_shop_selection(update: Update, context: ContextTypes.DEFAULT_TY
     if text == get_text("next_page", lang):
         context.user_data["shop_page"] += 1
         await update.message.reply_text(get_text("shop_select_item", lang),
-                                        reply_markup=build_items_keyboard(category, lang, context.user_data["shop_page"]))
+                                        reply_markup=build_items_keyboard(category, lang, context.user_data["shop_page"], user_data=data))
         return
 
     elif text == get_text("previous_page", lang):
         context.user_data["shop_page"] = max(0, context.user_data["shop_page"] - 1)
         await update.message.reply_text(get_text("shop_select_item", lang),
-                                        reply_markup=build_items_keyboard(category, lang, context.user_data["shop_page"]))
+                                        reply_markup=build_items_keyboard(category, lang, context.user_data["shop_page"], user_data=data))
         return
 
 
@@ -290,7 +297,26 @@ async def handle_shop_selection(update: Update, context: ContextTypes.DEFAULT_TY
             return
         quantity = int(text)
         item = context.user_data["pending_item"]
-        price = (BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", 0)) * quantity
+        owned = data.get("items", {}).get(item, 0)
+
+        # Limites spécifiques selon l'objet
+        if item == "piece_rune" and owned + quantity > 20:
+            await update.message.reply_text("❌ Tu ne peux pas posséder plus de 10 Pièces Rune.")
+            return
+        if item == "oeuf_chance" and owned + quantity > 10:
+            await update.message.reply_text("❌ Tu ne peux pas posséder plus de 10 Œufs Chance.")
+            return
+        if item == "chroma" and owned + quantity > 20:
+            await update.message.reply_text("❌ Tu ne peux pas posséder plus de 20 Shiny Charme.")
+            return
+
+        if item in ["oeuf_chance", "piece_rune", "chroma"]:
+            price = 0
+            for i in range(quantity):
+                price += 100_000 * (owned + i + 1)
+        else:
+            price = (BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", 0)) * quantity
+
         if data["money"] >= price:
             buy_item(data, item, quantity)
             save_user(user.id, data)
@@ -316,10 +342,14 @@ async def handle_shop_selection(update: Update, context: ContextTypes.DEFAULT_TY
 
         # Sélection d’un objet
     if context.user_data.get("state") == "shop_items":
+        found = False
         for item in CATEGORIES_ITEMS.get(context.user_data.get("selected_category"), []):
             label = ITEMS.get(item, {}).get(lang, item).capitalize()
             emoji = ITEM_EMOJIS.get(item, "📦")
-            cost = BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", "?")
+            if item in ["oeuf_chance", "piece_rune", "chroma"]:
+                cost = get_special_item_cost(data, item)  # Utilise bien l'user data à jour !
+            else:
+                cost = BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", "?")
             full_label = f"{emoji} {label} - {cost}💰".lower()
             if text.lower() == full_label:
                 context.user_data["pending_item"] = item
@@ -328,9 +358,11 @@ async def handle_shop_selection(update: Update, context: ContextTypes.DEFAULT_TY
                     get_text("enter_quantity", lang),
                     reply_markup=build_quantity_keyboard(lang)
                 )
-                return
-
-    await update.message.reply_text(get_text("item_unknown", lang))
+                found = True
+                break
+        if not found:
+            await update.message.reply_text(get_text("item_unknown", lang))
+        return
 
 def build_quantity_keyboard(lang):
     # Tu peux personnaliser ce clavier si tu veux d'autres options plus tard

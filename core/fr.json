@@ -1,5 +1,5 @@
 {
-  "already_caught_with_new_info": "Déjà capturé mais nouvelles infos découvertes",
+  "already_caught_with_new_info": "ℹ️ Nouvelles Informations",
   "none": "Aucun",
   "duplicates_sold_simple": "💸 Tu as gagné {money} Pokédollars en vendant les doublons :",
   "rarity_sold_summary": "- {qty} doublon(s) de rareté {rarity}",

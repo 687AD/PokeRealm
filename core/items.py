@@ -51,33 +51,56 @@ BALL_COSTS = {
 }
 
 ITEM_COSTS = {
-    "escape_rope": 5000,
-    "chroma": 200000,
+    "escape_rope": 100000,
     "multi_exp": 200000,
-    "oeuf_chance": 200000,
-    "piece_rune": 200000
+    "chroma": 0,
+    "oeuf_chance": 0,
+    "piece_rune": 0
 }
 
 def get_capture_chance(ball_type: str, rarity: str) -> int:
     return BALL_RATES.get(ball_type, {}).get(rarity, 0)
 
 def can_afford(user_data, item, quantity=1):
-    price = BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", 0)
+    price = BALL_COSTS.get(item) or get_special_item_cost(user_data, item)
     return user_data["money"] >= price * quantity
 
+SPECIAL_SCALING_ITEMS = ["oeuf_chance", "piece_rune", "chroma"]
+
+def get_special_item_cost(user_data, item):
+    if item in SPECIAL_SCALING_ITEMS:
+        owned = user_data.get("items", {}).get(item, 0)
+        return 100_000 * (owned + 1)
+    return ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", 0)
+
 def buy_item(user_data, item, quantity):
-    price = BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", 0)
-    total = price * quantity
-    if user_data["money"] >= total:
-        user_data["money"] -= total
-        if item in user_data["pokeballs"]:
-            user_data["pokeballs"][item] += quantity
-        elif item in user_data["items"]:
-            user_data["items"][item] += quantity
-        else:
-            user_data["items"][item] = quantity
+    is_ball = item in BALL_COSTS
+
+    if item in SPECIAL_SCALING_ITEMS:
+        for _ in range(quantity):
+            price = get_special_item_cost(user_data, item)
+            if user_data["money"] < price:
+                return False
+            user_data["money"] -= price
+            if is_ball:
+                user_data.setdefault("pokeballs", {})
+                user_data["pokeballs"][item] = user_data["pokeballs"].get(item, 0) + 1
+            else:
+                user_data.setdefault("items", {})
+                user_data["items"][item] = user_data["items"].get(item, 0) + 1
         return True
-    return False
+    else:
+        price = BALL_COSTS.get(item) or ITEM_COSTS.get(item) or GENERAL_ITEMS.get(item, {}).get("cost", 0)
+        if user_data["money"] < price * quantity:
+            return False
+        user_data["money"] -= price * quantity
+        if is_ball:
+            user_data.setdefault("pokeballs", {})
+            user_data["pokeballs"][item] = user_data["pokeballs"].get(item, 0) + quantity
+        else:
+            user_data.setdefault("items", {})
+            user_data["items"][item] = user_data["items"].get(item, 0) + quantity
+        return True
 
 # === Objets de soins ===
 HEALING_ITEMS = {

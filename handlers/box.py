@@ -4,6 +4,7 @@ from core.user_data import load_user, save_user
 from core.translation_data import POKEMON_NAMES, NATURES
 from core.lang import get_text
 from utils.buttons import main_menu
+from core.lang import get_ability_name
 
 ITEMS_PER_PAGE = 10
 
@@ -12,6 +13,8 @@ user_box_pages = {}
 RARITY_ORDER = {"common": 0, "uncommon": 1, "rare": 2, "epic": 3, "legendary": 4, "mythic" : 5}
 
 POKEDEX_ORDER = {
+    "Frillish-Male": 592,
+    "Frillish-Female": 592,
     "Pikachu-Original-Cap": 25,
     "Bulbasaur": 1, "Ivysaur": 2, "Venusaur": 3, "Charmander": 4, "Charmeleon": 5, "Charizard": 6,
     "Squirtle": 7, "Wartortle": 8, "Blastoise": 9, "Caterpie": 10, "Metapod": 11, "Butterfree": 12,
@@ -26,7 +29,7 @@ POKEDEX_ORDER = {
     "Poliwhirl": 61, "Poliwrath": 62, "Abra": 63, "Kadabra": 64, "Alakazam": 65, "Machop": 66,
     "Machoke": 67, "Machamp": 68, "Bellsprout": 69, "Weepinbell": 70, "Victreebel": 71, "Tentacool": 72,
     "Tentacruel": 73, "Geodude": 74, "Graveler": 75, "Golem": 76, "Ponyta": 77, "Rapidash": 78,
-    "Slowpoke": 79, "Slowbro": 80, "Magnemite": 81, "Magneton": 82, "Farfetch'd": 83, "Doduo": 84,
+    "Slowpoke": 79, "Slowbro": 80, "Magnemite": 81, "Magneton": 82, "Farfetch'd": 83, "Farfetch’d-Galarian":83, "Doduo": 84,
     "Dodrio": 85, "Seel": 86, "Dewgong": 87, "Grimer": 88, "Muk": 89, "Shellder": 90, "Cloyster": 91,
     "Gastly": 92, "Haunter": 93, "Gengar": 94, "Onix": 95, "Drowzee": 96, "Hypno": 97, "Krabby": 98,
     "Kingler": 99, "Voltorb": 100, "Electrode": 101, "Exeggcute": 102, "Exeggutor": 103, "Cubone": 104,
@@ -153,6 +156,9 @@ POKEDEX_ORDER = {
     "Anorith": 347, "Armaldo": 348,
     "Feebas": 349, "Milotic": 350,
     "Castform": 351,
+    "Castform-Sunny": 351,
+    "Castform-Rainy": 351,
+    "Castform-Snowy": 351,
     "Kecleon": 352,
     "Shuppet": 353, "Banette": 354,
     "Duskull": 355, "Dusclops": 356,
@@ -173,7 +179,7 @@ POKEDEX_ORDER = {
     "Jirachi": 385, "Deoxys": 386,
     "Turtwig": 387, "Grotle": 388, "Torterra": 389,
     "Chimchar": 390, "Monferno": 391, "Infernape": 392,
-    "Piplup": 393, "Prinplup": 394, "Empoleon": 395,
+    "Piplup": 393, "Prinplup": 394, "Empoleon": 395, "Piplup-Dawn-Hat": 393,
     "Starly": 396, "Staravia": 397, "Staraptor": 398,
     "Bidoof": 399, "Bibarel": 400,
     "Kricketot": 401, "Kricketune": 402,
@@ -400,7 +406,7 @@ POKEDEX_ORDER = {
     "Bruxish": 779,
     "Drampa": 780,
     "Dhelmise": 781,
-    "Jangmo-o": 782, "Hakamo-o": 783, "Kommo-o": 784,
+    "Jangmo": 782, "Hakamo": 783, "Kommo": 784,
     "Tapu Koko": 785, "Tapu Lele": 786, "Tapu Bulu": 787, "Tapu Fini": 788,
     "Cosmog": 789, "Cosmoem": 790, "Solgaleo": 791, "Lunala": 792,
     "Nihilego": 793, "Buzzwole": 794, "Pheromosa": 795,
@@ -463,7 +469,8 @@ POKEDEX_ORDER = {
     "Ursaluna": 901,
     "Basculegion-Male": 902,
     "Basculegion-Female" : 902,
-    "Sneasler": 903,
+    "Sneasler-Female": 903,
+    "Sneasler-Male": 903,
     "Overqwil": 904,
     "Enamorus": 905,
     "Sprigatito": 906, "Floragato": 907, "Meowscarada": 908,
@@ -859,22 +866,21 @@ def format_pokemon_display(pkm, lang, box=None):
         abilities_unique.append(ability)
     abilities_unique += [ab for ab in abilities_list if ab != ability]
     abilities_display = [
-        f"✅ {get_text(ab, lang)}" if ab == ability else get_text(ab, lang)
+        f"✅ {get_ability_name(ab, lang)}" if ab == ability else get_ability_name(ab, lang)
         for ab in abilities_unique
     ]
     ability_line = f"{get_text('abilities_label', lang)} : {', '.join(abilities_display)}" if abilities_display else ""
 
-    # Talent caché
+    # --- Talent caché (pareil ici pour hidden)
     hidden = pkm.get("hidden_ability")
-    known = set(pkm.get("known_talents", []))
+    known_hidden = pkm.get("known_hidden_abilities", [])
 
-    if hidden and hidden in known:
-        hidden_line = f"{get_text('hidden_ability_label', lang)} : ✅ {get_text(hidden, lang)}"
+    if hidden and hidden in known_hidden:
+        hidden_line = f"{get_text('hidden_ability_label', lang)} : ✅ {get_ability_name(hidden, lang)}"
     elif hidden:
         hidden_line = f"{get_text('hidden_ability_label', lang)} : ❓"
     else:
         hidden_line = f"{get_text('hidden_ability_label', lang)} : {get_text('none', lang)}"
-
 
     # IVs
     ivs = pkm.get("ivs", {})

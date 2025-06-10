@@ -1,15 +1,10 @@
 import os
 import json
 from core.translation_data import NATURES
-from core.lang import get_text
-from core.translation_data import ABILITIES
+from core.lang import get_text, get_ability_name
+
 
 DATA_DIR = "data/users"
-
-def get_money_bonus_multiplier(user_data):
-    """Retourne le multiplicateur de gain lié à la Pièce Rune."""
-    amount = user_data.get("items", {}).get("piece_rune", 0)
-    return 1.0 + min(amount, 10) * 0.1  # +10% par Pièce Rune, max +100%
 
 DEFAULT_USER = {
     "pokeballs": {"pokeball": 10, "superball": 5, "hyperball": 2, "masterball": 0},
@@ -119,7 +114,7 @@ def update_or_merge_pokemon_with_feedback(data, new_pkm, lang):
     if ability not in main["known_abilities"]:
         main["known_abilities"].append(ability)
         # On récupère le nom traduit
-        ability_txt = ABILITIES.get(ability, {}).get(lang, ability)
+        ability_txt = get_ability_name(ability, lang)
         if ability == hidden_ability:
             messages.append(f"👻 Nouveau talent caché trouvé : {ability_txt} !")
         else:

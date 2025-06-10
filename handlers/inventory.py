@@ -14,6 +14,9 @@ async def show_inventory(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     title = "🎒 *INVENTORY*" if lang == "en" else "🎒 *INVENTAIRE*"
     text = f"{title}\n\n"
+    money = data.get("money", 0)
+    money_label = "Pokédollars" if lang == "fr" else "Pokédollars"
+    text += f"💸 *{money_label}* : {money}\n\n"
 
     # 🎯 Poké Balls
     category = "Poké Balls"

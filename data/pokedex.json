@@ -1481,8 +1481,8 @@
   },
   {
     "name": "Shellder",
-    "rarity": "common",
-    "weight": 10,
+    "rarity": "uncommon",
+    "weight": 5,
     "types": [
       "Water"
     ],
@@ -1497,8 +1497,8 @@
   },
   {
     "name": "Cloyster",
-    "rarity": "epic",
-    "weight": 1,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Water",
       "Ice"
@@ -2070,8 +2070,8 @@
   },
   {
     "name": "Magmar",
-    "rarity": "epic",
-    "weight": 1,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Fire"
     ],
@@ -2221,8 +2221,8 @@
   },
   {
     "name": "Vaporeon",
-    "rarity": "epic",
-    "weight": 1,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Water"
     ],
@@ -2237,8 +2237,8 @@
   },
   {
     "name": "Jolteon",
-    "rarity": "epic",
-    "weight": 1,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Electric"
     ],
@@ -2253,8 +2253,8 @@
   },
   {
     "name": "Flareon",
-    "rarity": "epic",
-    "weight": 1,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Fire"
     ],
@@ -2896,8 +2896,8 @@
   },
   {
     "name": "Togepi",
-    "rarity": "rare",
-    "weight": 2,
+    "rarity": "uncommon",
+    "weight": 5,
     "types": [
       "Fairy"
     ],
@@ -2912,8 +2912,8 @@
   },
   {
     "name": "Togetic",
-    "rarity": "epic",
-    "weight": 1,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Fairy",
       "Flying"
@@ -2995,8 +2995,8 @@
   },
   {
     "name": "Ampharos",
-    "rarity": "rare",
-    "weight": 2,
+    "rarity": "epic",
+    "weight": 1,
     "types": [
       "Electric"
     ],
@@ -3808,8 +3808,8 @@
   },
   {
     "name": "Phanpy",
-    "rarity": "common",
-    "weight": 10,
+    "rarity": "uncommon",
+    "weight": 5,
     "types": [
       "Ground"
     ],
@@ -3824,8 +3824,8 @@
   },
   {
     "name": "Donphan",
-    "rarity": "uncommon",
-    "weight": 5,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Ground"
     ],
@@ -4049,8 +4049,8 @@
   },
   {
     "name": "Larvitar",
-    "rarity": "rare",
-    "weight": 2,
+    "rarity": "uncommon",
+    "weight": 5,
     "types": [
       "Rock",
       "Ground"
@@ -4066,8 +4066,8 @@
   },
   {
     "name": "Pupitar",
-    "rarity": "epic",
-    "weight": 1,
+    "rarity": "rare",
+    "weight": 2,
     "types": [
       "Rock",
       "Ground"
@@ -4183,7 +4183,7 @@
   },
   {
     "name": "Sceptile",
-    "rarity": "legendary",
+    "rarity": "epic",
     "weight": 1,
     "types": [
       "Grass"
@@ -6553,8 +6553,8 @@
   },
   {
     "name": "Metagross",
-    "rarity": "legendary",
-    "weight": 0.1,
+    "rarity": "epic",
+    "weight": 1,
     "types": ["Steel", "Psychic"],
     "base_stats": {
       "HP": 80, "Atk": 135, "Def": 130,
@@ -6704,6 +6704,8 @@
     {"name": "Infernape", "rarity": "epic", "weight": 1, "types": ["Fire", "Fighting"],
      "base_stats": {"HP": 76, "Atk": 104, "Def": 71, "SpA": 104, "SpD": 71, "Spe": 108}},
     {"name": "Piplup", "rarity": "uncommon", "weight": 5, "types": ["Water"],
+     "base_stats": {"HP": 53, "Atk": 51, "Def": 53, "SpA": 61, "SpD": 56, "Spe": 40}},
+    {"name": "Piplup-Dawn-Hat", "rarity": "mythic", "weight": 0.01, "types": ["Water"],
      "base_stats": {"HP": 53, "Atk": 51, "Def": 53, "SpA": 61, "SpD": 56, "Spe": 40}},
     {"name": "Prinplup", "rarity": "rare", "weight": 2, "types": ["Water"],
      "base_stats": {"HP": 64, "Atk": 66, "Def": 68, "SpA": 81, "SpD": 76, "Spe": 50}},
@@ -6905,7 +6907,7 @@
      "base_stats": {"HP": 75, "Atk": 123, "Def": 67, "SpA": 95, "SpD": 85, "Spe": 95}},
     {"name": "Magmortar", "rarity": "epic", "weight": 1, "types": ["Fire"],
      "base_stats": {"HP": 75, "Atk": 95, "Def": 67, "SpA": 125, "SpD": 95, "Spe": 83}},
-    {"name": "Togekiss", "rarity": "rare", "weight": 2, "types": ["Fairy", "Flying"],
+    {"name": "Togekiss", "rarity": "epic", "weight": 1, "types": ["Fairy", "Flying"],
      "base_stats": {"HP": 85, "Atk": 50, "Def": 95, "SpA": 120, "SpD": 115, "Spe": 80}},
     {"name": "Yanmega", "rarity": "rare", "weight": 2, "types": ["Bug", "Flying"],
      "base_stats": {"HP": 86, "Atk": 76, "Def": 86, "SpA": 116, "SpD": 56, "Spe": 95}},
@@ -7449,8 +7451,6 @@
      "base_stats": {"HP": 69, "Atk": 55, "Def": 45, "SpA": 55, "SpD": 55, "Spe": 15}},
     {"name": "Amoonguss", "rarity": "rare", "weight": 2, "types": ["Grass", "Poison"],
      "base_stats": {"HP": 114, "Atk": 85, "Def": 70, "SpA": 85, "SpD": 80, "Spe": 30}},
-    {"name": "Frillish", "rarity": "common", "weight": 10, "types": ["Water", "Ghost"],
-     "base_stats": {"HP": 55, "Atk": 40, "Def": 50, "SpA": 65, "SpD": 85, "Spe": 40}},
     {"name": "Jellicent", "rarity": "rare", "weight": 2, "types": ["Water", "Ghost"],
      "base_stats": {"HP": 100, "Atk": 60, "Def": 70, "SpA": 85, "SpD": 105, "Spe": 60}},
     {"name": "Alomomola", "rarity": "rare", "weight": 2, "types": ["Water"],
@@ -8136,11 +8136,11 @@
      "base_stats": {"HP": 78, "Atk": 60, "Def": 85, "SpA": 135, "SpD": 91, "Spe": 36}},
     {"name": "Dhelmise", "rarity": "rare", "weight": 2, "types": ["Ghost", "Grass"],
      "base_stats": {"HP": 70, "Atk": 131, "Def": 100, "SpA": 86, "SpD": 90, "Spe": 40}},
-    {"name": "Jangmo-o", "rarity": "uncommon", "weight": 5, "types": ["Dragon"],
+    {"name": "Jangmo", "rarity": "uncommon", "weight": 5, "types": ["Dragon"],
      "base_stats": {"HP": 45, "Atk": 55, "Def": 65, "SpA": 45, "SpD": 45, "Spe": 45}},
-    {"name": "Hakamo-o", "rarity": "rare", "weight": 2, "types": ["Dragon", "Fighting"],
+    {"name": "Hakamo", "rarity": "rare", "weight": 2, "types": ["Dragon", "Fighting"],
      "base_stats": {"HP": 55, "Atk": 75, "Def": 90, "SpA": 65, "SpD": 70, "Spe": 65}},
-    {"name": "Kommo-o", "rarity": "epic", "weight": 1, "types": ["Dragon", "Fighting"],
+    {"name": "Kommo", "rarity": "epic", "weight": 1, "types": ["Dragon", "Fighting"],
      "base_stats": {"HP": 75, "Atk": 110, "Def": 125, "SpA": 100, "SpD": 105, "Spe": 85}},
       {"name": "Tapu Koko", "rarity": "legendary", "weight": 0.1, "types": ["Electric", "Fairy"],
      "base_stats": {"HP": 70, "Atk": 115, "Def": 85, "SpA": 95, "SpD": 75, "Spe": 130}},
@@ -8552,16 +8552,10 @@
     {"name": "Basculegion-Female", "rarity": "rare", "weight": 2, "types": ["Water", "Ghost"],
      "base_stats": {"HP": 120, "Atk": 92, "Def": 65, "SpA": 100, "SpD": 75, "Spe": 78}},
 
-    {"name": "Sneasler-Male", "rarity": "rare", "weight": 2, "types": ["Fighting", "Poison"],
+    {"name": "Sneasler", "rarity": "epic", "weight": 1, "types": ["Fighting", "Poison"],
      "base_stats": {"HP": 80, "Atk": 130, "Def": 60, "SpA": 40, "SpD": 80, "Spe": 120}},
 
-    {"name": "Sneasler-Female", "rarity": "rare", "weight": 2, "types": ["Fighting", "Poison"],
-     "base_stats": {"HP": 80, "Atk": 130, "Def": 60, "SpA": 40, "SpD": 80, "Spe": 120}},
-
-    {"name": "Overqwil-Male", "rarity": "rare", "weight": 2, "types": ["Dark", "Poison"],
-     "base_stats": {"HP": 85, "Atk": 115, "Def": 95, "SpA": 65, "SpD": 65, "Spe": 85}},
-
-    {"name": "Overqwil-Female", "rarity": "rare", "weight": 2, "types": ["Dark", "Poison"],
+    {"name": "Overqwil", "rarity": "rare", "weight": 2, "types": ["Dark", "Poison"],
      "base_stats": {"HP": 85, "Atk": 115, "Def": 95, "SpA": 65, "SpD": 65, "Spe": 85}},
 
     {"name": "Enamorus-Incarnate", "rarity": "legendary", "weight": 0.1, "types": ["Fairy", "Flying"],
@@ -8656,43 +8650,43 @@
     },
     {
         "name": "Fuecoco",
-        "rarity": "common",
+        "rarity": "uncommon",
         "weight": 10,
         "types": ["Fire"],
         "base_stats": {"HP": 67, "Atk": 45, "Def": 59, "SpA": 63, "SpD": 40, "Spe": 36}
     },
     {
         "name": "Crocalor",
-        "rarity": "uncommon",
+        "rarity": "rare",
         "weight": 5,
         "types": ["Fire"],
         "base_stats": {"HP": 81, "Atk": 55, "Def": 78, "SpA": 90, "SpD": 58, "Spe": 49}
     },
     {
         "name": "Skeledirge",
-        "rarity": "rare",
-        "weight": 2,
+        "rarity": "epic",
+        "weight": 1,
         "types": ["Fire", "Ghost"],
         "base_stats": {"HP": 104, "Atk": 75, "Def": 100, "SpA": 110, "SpD": 75, "Spe": 66}
     },
     {
         "name": "Quaxly",
-        "rarity": "common",
-        "weight": 10,
+        "rarity": "uncommon",
+        "weight": 5,
         "types": ["Water"],
         "base_stats": {"HP": 55, "Atk": 65, "Def": 45, "SpA": 50, "SpD": 45, "Spe": 50}
     },
     {
         "name": "Quaxwell",
-        "rarity": "uncommon",
-        "weight": 5,
+        "rarity": "rare",
+        "weight": 2,
         "types": ["Water"],
         "base_stats": {"HP": 70, "Atk": 85, "Def": 65, "SpA": 65, "SpD": 60, "Spe": 65}
     },
     {
         "name": "Quaquaval",
-        "rarity": "rare",
-        "weight": 2,
+        "rarity": "epic",
+        "weight": 1,
         "types": ["Water", "Fighting"],
         "base_stats": {"HP": 85, "Atk": 120, "Def": 80, "SpA": 85, "SpD": 75, "Spe": 85}
     },
@@ -9332,5 +9326,19 @@
     "rarity": "mythic",
     "weight": 0.01,
     "types": ["Electric"],
-    "base_stats": {"HP": 35, "Atk": 55, "Def": 40, "SpA": 50, "SpD": 50, "Spe": 90}}
+    "base_stats": {"HP": 35, "Atk": 55, "Def": 40, "SpA": 50, "SpD": 50, "Spe": 90}},
+    {
+    "name": "Frillish-Male",
+    "rarity": "rare",
+    "weight": 1,
+    "types": ["Water", "Ghost"],
+    "base_stats": {"HP": 55, "Atk": 40, "Def": 50, "SpA": 65, "SpD": 85, "Spe": 40}
+},
+{
+    "name": "Frillish-Female",
+    "rarity": "rare",
+    "weight": 0,
+    "types": ["Water", "Ghost"],
+    "base_stats": {"HP": 55, "Atk": 40, "Def": 50, "SpA": 65, "SpD": 85, "Spe": 40}
+}
   ]
