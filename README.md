@@ -98,6 +98,22 @@ PokeRealm/
 └── requirements.txt   # Dépendances
 ```
 
+### Format du fichier `pokemon_talents.json`
+
+Le fichier `data/pokemon_talents.json` regroupe les talents disponibles pour chaque Pokémon.
+Chaque entrée suit la structure :
+
+```json
+{
+  "NomPokemon": {
+    "normal": ["Talent1", "Talent2"],
+    "hidden": "Talent Caché ou null"
+  }
+}
+```
+
+`"hidden"` peut valoir `null` lorsqu’aucun talent caché n’existe.
+
 ---
 
 ## 📜 Licence
