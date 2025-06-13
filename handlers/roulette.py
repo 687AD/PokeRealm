@@ -200,8 +200,11 @@ async def roulette(update: Update, context: ContextTypes.DEFAULT_TYPE):
             url = f"https://img.pokemondb.net/sprites/home/normal/{image_base}.png"
         try:
             await update.message.reply_photo(photo=url)
-        except Exception:
-            await update.m
+        except Exception as e:
+            print(f"Failed to load fallback image: {e}")
+            await update.message.reply_text(
+                "🌐 Image non trouvée. Le Pokémon apparaît sans image."
+            )
 
     # Message bonus si shiny ou mythique
     if is_shiny or rarity == "mythic":

@@ -1,7 +1,0 @@
-eiscue-ice-face supp inv
-polteageist supp inv
-Unfezant supp
-Frillish supp inv
-Sneasler male et femelle supp inv
-Pupitar et Larvitar baisser d'une rareté dans inv
-Ampharos augmenter d'une rareté dans inv

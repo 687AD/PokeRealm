@@ -14,8 +14,7 @@
       "SpA": 65,
       "SpD": 65,
       "Spe": 45
-    },
-    "evolution": "Ivysaur"
+    }
   },
   {
     "name": "Ivysaur",
@@ -32,8 +31,7 @@
       "SpA": 80,
       "SpD": 80,
       "Spe": 60
-    },
-    "evolution": "Venusaur"
+    }
   },
   {
     "name": "Venusaur",
@@ -66,8 +64,7 @@
       "SpA": 60,
       "SpD": 50,
       "Spe": 65
-    },
-    "evolution": "Charmeleon"
+    }
   },
   {
     "name": "Charmeleon",
@@ -83,8 +80,7 @@
       "SpA": 80,
       "SpD": 65,
       "Spe": 80
-    },
-    "evolution": "Charizard"
+    }
   },
   {
     "name": "Charizard",
@@ -117,8 +113,23 @@
       "SpA": 50,
       "SpD": 64,
       "Spe": 43
-    },
-    "evolution": "Wartortle"
+    }
+  },
+    {
+    "name": "Squirtle-Sunglasses",
+    "rarity": "mythic",
+    "weight": 0.01,
+    "types": [
+      "Water"
+    ],
+    "base_stats": {
+      "HP": 44,
+      "Atk": 48,
+      "Def": 65,
+      "SpA": 50,
+      "SpD": 64,
+      "Spe": 43
+    }
   },
   {
     "name": "Wartortle",
@@ -134,8 +145,7 @@
       "SpA": 65,
       "SpD": 80,
       "Spe": 58
-    },
-    "evolution": "Blastoise"
+    }
   },
   {
     "name": "Blastoise",
@@ -167,8 +177,7 @@
       "SpA": 20,
       "SpD": 20,
       "Spe": 45
-    },
-    "evolution": "Metapod"
+    }
   },
   {
     "name": "Metapod",
@@ -184,8 +193,7 @@
       "SpA": 25,
       "SpD": 25,
       "Spe": 30
-    },
-    "evolution": "Butterfree"
+    }
   },
   {
     "name": "Butterfree",
@@ -219,8 +227,7 @@
       "SpA": 20,
       "SpD": 20,
       "Spe": 50
-    },
-    "evolution": "Kakuna"
+    }
   },
   {
     "name": "Kakuna",
@@ -237,8 +244,7 @@
       "SpA": 25,
       "SpD": 25,
       "Spe": 35
-    },
-    "evolution": "Beedrill"
+    }
   },
   {
     "name": "Beedrill",
@@ -272,8 +278,7 @@
       "SpA": 35,
       "SpD": 35,
       "Spe": 56
-    },
-    "evolution": "Pidgeotto"
+    }
   },
   {
     "name": "Pidgeotto",
@@ -290,8 +295,7 @@
       "SpA": 50,
       "SpD": 50,
       "Spe": 71
-    },
-    "evolution": "Pidgeot"
+    }
   },
   {
     "name": "Pidgeot",
@@ -324,8 +328,7 @@
       "SpA": 25,
       "SpD": 35,
       "Spe": 72
-    },
-    "evolution": "Raticate"
+    }
   },
   {
     "name": "Raticate",

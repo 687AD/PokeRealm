@@ -102,6 +102,7 @@ POKEMON_NAMES = {
     "Charmeleon": {"fr": "Reptincel", "en": "Charmeleon"},
     "Charizard": {"fr": "Dracaufeu", "en": "Charizard"},
     "Squirtle": {"fr": "Carapuce", "en": "Squirtle"},
+    "Squirtle-Sunglasses": {"fr": "Carapuce Lunette De Soleil", "en": "Squirtle Sunglasses"},
     "Wartortle": {"fr": "Carabaffe", "en": "Wartortle"},
     "Blastoise": {"fr": "Tortank", "en": "Blastoise"},
     "Caterpie": {"fr": "Chenipan", "en": "Caterpie"},

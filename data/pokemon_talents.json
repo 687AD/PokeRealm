@@ -1,0 +1,7378 @@
+ {
+   "Frillish-Male": {
+     "normal": [
+       "Absorb Eau",
+       "Corps Maudit"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Frillish-Female": {
+     "normal": [
+       "Absorb Eau",
+       "Corps Maudit"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Pikachu-Original-Cap": {
+     "normal": [
+       "Statik"
+     ],
+     "hidden": "Paratonnerre"
+   },
+   "Sinistea-Phony": {
+     "normal": [
+       "Armurouillée"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Sinistea-Authentic": {
+     "normal": [
+       "Armurouillée"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Polteageist-Phony": {
+     "normal": [
+       "Armurouillée"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Polteageist-Authentic": {
+     "normal": [
+       "Armurouillée"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Vivillon-Elegant": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Monsoon": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Ocean": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-River": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Savanna": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Sun": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Typhoon": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Meadow": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Polar": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Tundra": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Garden": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Sandstorm": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Icy-Snow": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Modern": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Marine": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Archipelago": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-High-Plains": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Jungle": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Fancy": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Vivillon-Pokeball": {
+     "normal": [
+       "Écran Poudre",
+       "Œil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Cherrim-Overcast": {
+     "normal": [
+       "Don Floral"
+     ],
+     "hidden": null
+   },
+   "Cherrim-Sunshine": {
+     "normal": [
+       "Don Floral"
+     ],
+     "hidden": null
+   },
+   "Dudunsparce-Two-Segment": {
+     "normal": [
+       "Sérénité",
+       "Fuite"
+     ],
+     "hidden": "Phobique"
+   },
+   "Dudunsparce-Three-Segment": {
+     "normal": [
+       "Sérénité",
+       "Fuite"
+     ],
+     "hidden": "Phobique"
+   },
+   "Gimmighoul-Chest": {
+     "normal": [
+       "Phobique"
+     ],
+     "hidden": "fuite"
+   },
+   "Gimmighoul-Roaming": {
+     "normal": [
+       "Fuite"
+     ],
+     "hidden": "fuite"
+   },
+   "Ogerpon-Teal-Mask": {
+     "normal": [
+       "Acharné"
+     ],
+     "hidden": "Force Mémorielle"
+   },
+   "Ogerpon-Cornerstone-Mask": {
+     "normal": [
+       "Brise Moule"
+     ],
+     "hidden": "Force Mémorielle"
+   },
+   "Ogerpon-Wellspring-Mask": {
+     "normal": [
+       "Absorb Eau"
+     ],
+     "hidden": "Force Mémorielle"
+   },
+   "Ogerpon-Hearthflame-Mask": {
+     "normal": [
+       "Régé-Force"
+     ],
+     "hidden": null
+   },
+   "Palafin-Zero": {
+     "normal": [
+       "Héros Modeste"
+     ],
+     "hidden": null
+   },
+   "Palafin-Hero": {
+     "normal": [
+       "Héros Modeste"
+     ],
+     "hidden": null
+   },
+   "Urshifu-Single-Strike": {
+     "normal": [
+       "Poing Invisible"
+     ],
+     "hidden": null
+   },
+   "Urshifu-Rapid-Strike": {
+     "normal": [
+       "Poing Invisible"
+     ],
+     "hidden": null
+   },
+   "Eiscue-Ice": {
+     "normal": [
+       "Tête de Glace"
+     ],
+     "hidden": null
+   },
+   "Eiscue-Noice": {
+     "normal": [
+       "Tête de Glace"
+     ],
+     "hidden": null
+   },
+   "Meowstic-Male": {
+     "normal": [
+       "Regard Vif",
+       "Infiltration"
+     ],
+     "hidden": "Farceur"
+   },
+   "Meowstic-Female": {
+     "normal": [
+       "Regard Vif",
+       "Infiltration"
+     ],
+     "hidden": "Battant"
+   },
+   "Squawkabilly-Green": {
+     "normal": [
+       "Intimidation",
+       "Agitation"
+     ],
+     "hidden": "Cran"
+   },
+   "Squawkabilly-Blue": {
+     "normal": [
+       "Intimidation",
+       "Agitation"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Squawkabilly-Yellow": {
+     "normal": [
+       "Intimidation",
+       "Agitation"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Squawkabilly-White": {
+     "normal": [
+       "Intimidation",
+       "Agitation"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Maushold-Family3": {
+     "normal": [
+       "Garde Amie",
+       "Bajoues"
+     ],
+     "hidden": "Technicien"
+   },
+   "Maushold-Family4": {
+     "normal": [
+       "Garde Amie",
+       "Bajoues"
+     ],
+     "hidden": "Technicien"
+   },
+   "Bastiodon": {
+     "normal": [
+       "Fermeté"
+     ],
+     "hidden": "Anti-Bruit"
+   },
+   "Bibarel": {
+     "normal": [
+       "Inconscient",
+       "Simple"
+     ],
+     "hidden": "Lunatique"
+   },
+   "Bidoof": {
+     "normal": [
+       "Inconscient",
+       "Simple"
+     ],
+     "hidden": "Lunatique"
+   },
+   "Budew": {
+     "normal": [
+       "Médic Nature",
+       "Point Poison"
+     ],
+     "hidden": "Feuille Garde"
+   },
+   "Buizel": {
+     "normal": [
+       "Glissade"
+     ],
+     "hidden": "Ignifu-Voile"
+   },
+   "Burmy-Plant": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": null
+   },
+   "Burmy-Sandy": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": null
+   },
+   "Burmy-Trash": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": null
+   },
+   "Wormadam-Plant": {
+     "normal": [
+       "Anticipation"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Wormadam-Sandy": {
+     "normal": [
+       "Anticipation"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Wormadam-Trash": {
+     "normal": [
+       "Anticipation"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Cherubi": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": null
+   },
+   "Combee": {
+     "normal": [
+       "Cherche Miel"
+     ],
+     "hidden": "Agitation"
+   },
+   "Cranidos": {
+     "normal": [
+       "Brise Moule"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Empoleon": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Battant"
+   },
+   "Floatzel": {
+     "normal": [
+       "Glissade"
+     ],
+     "hidden": "Ignifu-Voile"
+   },
+   "Grotle": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Coque Armure"
+   },
+   "Infernape": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Poing de Fer"
+   },
+   "Kricketot": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": "Fuite"
+   },
+   "Kricketune": {
+     "normal": [
+       "Essaim"
+     ],
+     "hidden": "Technicien"
+   },
+   "Absol": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Chanceux"
+   },
+   "Aggron": {
+     "normal": [
+       "Fermeté",
+       "Tête de Roc"
+     ],
+     "hidden": "Heavy Metal"
+   },
+   "Anorith": {
+     "normal": [
+       "Armurbaston"
+     ],
+     "hidden": "Glissade"
+   },
+   "Armaldo": {
+     "normal": [
+       "Armurbaston"
+     ],
+     "hidden": "Glissade"
+   },
+   "Aron": {
+     "normal": [
+       "Fermeté",
+       "Tête de Roc"
+     ],
+     "hidden": "Heavy Metal"
+   },
+   "Azurill": {
+     "normal": [
+       "Isograisse",
+       "Coloforce"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Baltoy": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Banette": {
+     "normal": [
+       "Insomnia"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Beautifly": {
+     "normal": [
+       "Essaim"
+     ],
+     "hidden": "Rivalité"
+   },
+   "Blaziken": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Turbo"
+   },
+   "Breloom": {
+     "normal": [
+       "Pose Spore",
+       "Soin Poison"
+     ],
+     "hidden": "Technicien"
+   },
+   "Cacnea": {
+     "normal": [
+       "Voile Sable"
+     ],
+     "hidden": "Absorb Eau"
+   },
+   "Cacturne": {
+     "normal": [
+       "Voile Sable"
+     ],
+     "hidden": "Absorb Eau"
+   },
+   "Camerupt": {
+     "normal": [
+       "Armumagma",
+       "Solide Roc"
+     ],
+     "hidden": "Colérique"
+   },
+   "Carvanha": {
+     "normal": [
+       "Peau Dure"
+     ],
+     "hidden": "Turbo"
+   },
+   "Sharpedo": {
+     "normal": [
+       "Peau Dure"
+     ],
+     "hidden": "Turbo"
+   },
+   "Cascoon": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": null
+   },
+   "Castform": {
+     "normal": [
+       "Météo"
+     ],
+     "hidden": null
+   },
+   "Castform-Sunny": {
+     "normal": [
+       "Météo"
+     ],
+     "hidden": null
+   },
+   "Castform-Rainy": {
+     "normal": [
+       "Météo"
+     ],
+     "hidden": null
+   },
+   "Castform-Snowy": {
+     "normal": [
+       "Météo"
+     ],
+     "hidden": null
+   },
+   "Chimecho": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Claydol": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Combusken": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Turbo"
+   },
+   "Cradily": {
+     "normal": [
+       "Ventouse"
+     ],
+     "hidden": "Lavabo"
+   },
+   "Delcatty": {
+     "normal": [
+       "Joli Sourire",
+       "Normalise"
+     ],
+     "hidden": "Peau Miracle"
+   },
+   "Dusclops": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Fouille"
+   },
+   "Duskull": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": "Fouille"
+   },
+   "Dustox": {
+     "normal": [
+       "Écran Poudre"
+     ],
+     "hidden": "Œil Composé"
+   },
+   "Electrike": {
+     "normal": [
+       "Statik",
+       "Paratonnerre"
+     ],
+     "hidden": "Moins"
+   },
+   "Exploud": {
+     "normal": [
+       "Anti-Bruit"
+     ],
+     "hidden": "Querelleur"
+   },
+   "Feebas": {
+     "normal": [
+       "Glissade",
+       "Benêt"
+     ],
+     "hidden": "Adaptabilité"
+   },
+   "Gardevoir": {
+     "normal": [
+       "Synchro",
+       "Calque"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Grovyle": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Délestage"
+   },
+   "Gulpin": {
+     "normal": [
+       "Glue",
+       "Suintement"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Hariyama": {
+     "normal": [
+       "Isograisse",
+       "Cran"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Illumise": {
+     "normal": [
+       "Benêt",
+       "Lentiteintée"
+     ],
+     "hidden": "Farceur"
+   },
+   "Kecleon": {
+     "normal": [
+       "Homochromie"
+     ],
+     "hidden": "Protéen"
+   },
+   "Kirlia": {
+     "normal": [
+       "Synchro",
+       "Calque"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Bagon": {
+     "normal": [
+       "Tête de Roc"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Shelgon": {
+     "normal": [
+       "Tête de Roc"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Salamence": {
+     "normal": [
+       "Intimidation"
+     ],
+     "hidden": "Impudence"
+   },
+   "Beldum": {
+     "normal": [
+       "Corps Sain"
+     ],
+     "hidden": "Light Metal"
+   },
+   "Metang": {
+     "normal": [
+       "Corps Sain"
+     ],
+     "hidden": "Light Metal"
+   },
+   "Metagross": {
+     "normal": [
+       "Corps Sain"
+     ],
+     "hidden": "Light Metal"
+   },
+   "Regirock": {
+     "normal": [
+       "Corps Sain"
+     ],
+     "hidden": "Fermeté"
+   },
+   "Regice": {
+     "normal": [
+       "Corps Sain"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Registeel": {
+     "normal": [
+       "Corps Sain"
+     ],
+     "hidden": "Light Metal"
+   },
+   "Latias": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Latios": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Kyogre": {
+     "normal": [
+       "Crachin"
+     ],
+     "hidden": null
+   },
+   "Groudon": {
+     "normal": [
+       "Sécheresse"
+     ],
+     "hidden": null
+   },
+   "Rayquaza": {
+     "normal": [
+       "Air Lock"
+     ],
+     "hidden": null
+   },
+   "Jirachi": {
+     "normal": [
+       "Sérénité"
+     ],
+     "hidden": null
+   },
+   "Deoxys": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": null
+   },
+   "Deoxys-Vitesse": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": null
+   },
+   "Deoxys-Attaque": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": null
+   },
+   "Deoxys-Défense": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": null
+   },
+   "Snorunt": {
+     "normal": [
+       "Attention",
+       "Corps Gel"
+     ],
+     "hidden": "Lunatique"
+   },
+   "Glalie": {
+     "normal": [
+       "Attention",
+       "Corps Gel"
+     ],
+     "hidden": "Lunatique"
+   },
+   "Spheal": {
+     "normal": [
+       "Isograisse",
+       "Corps Gel"
+     ],
+     "hidden": "Benêt"
+   },
+   "Sealeo": {
+     "normal": [
+       "Isograisse",
+       "Corps Gel"
+     ],
+     "hidden": "Benêt"
+   },
+   "Walrein": {
+     "normal": [
+       "Isograisse",
+       "Corps Gel"
+     ],
+     "hidden": "Benêt"
+   },
+   "Wynaut": {
+     "normal": [
+       "Marque Ombre"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Koraidon": {
+     "normal": [
+       "Pouls Orichalque"
+     ],
+     "hidden": null
+   },
+   "Miraidon": {
+     "normal": [
+       "Moteur Hadron"
+     ],
+     "hidden": null
+   },
+   "Terapagos": {
+     "normal": [
+       "Téramorphose"
+     ],
+     "hidden": null
+   },
+   "Rotom-Heat": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Rotom-Wash": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Rotom-Frost": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Rotom-Fan": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Rotom-Mow": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Treecko": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Délestage"
+   },
+   "Sceptile": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Délestage"
+   },
+   "Torchic": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Turbo"
+   },
+   "Mudkip": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Marshtomp": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Swampert": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Taillow": {
+     "normal": [
+       "Cran"
+     ],
+     "hidden": "Querelleur"
+   },
+   "Swellow": {
+     "normal": [
+       "Cran"
+     ],
+     "hidden": "Querelleur"
+   },
+   "Swablu": {
+     "normal": [
+       "Médic Nature",
+       "Fouille"
+     ],
+     "hidden": "Ciel Gris"
+   },
+   "Altaria": {
+     "normal": [
+       "Médic Nature",
+       "Fouille"
+     ],
+     "hidden": "Ciel Gris"
+   },
+   "Spinda": {
+     "normal": [
+       "Tempo Perso",
+       "Pieds Confus"
+     ],
+     "hidden": "Contestation"
+   },
+   "Spoink": {
+     "normal": [
+       "Tempo Perso",
+       "Isograisse"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Grumpig": {
+     "normal": [
+       "Tempo Perso",
+       "Isograisse"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Zangoose": {
+     "normal": [
+       "Vaccin"
+     ],
+     "hidden": "Rage Poison"
+   },
+   "Seviper": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Solrock": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Lunatone": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Barboach": {
+     "normal": [
+       "Benêt",
+       "Anticipation"
+     ],
+     "hidden": "Hydratation"
+   },
+   "Whiscash": {
+     "normal": [
+       "Benêt",
+       "Anticipation"
+     ],
+     "hidden": "Hydratation"
+   },
+   "Corphish": {
+     "normal": [
+       "Hyper Cutter",
+       "Coque Armure"
+     ],
+     "hidden": "Adaptabilité"
+   },
+   "Crawdaunt": {
+     "normal": [
+       "Hyper Cutter",
+       "Coque Armure"
+     ],
+     "hidden": "Adaptabilité"
+   },
+   "Bulbasaur": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Chlorophylle"
+   },
+   "Ivysaur": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Chlorophylle"
+   },
+   "Venusaur": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Chlorophylle"
+   },
+   "Charmander": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Force Soleil"
+   },
+   "Charmeleon": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Force Soleil"
+   },
+   "Charizard": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Force Soleil"
+   },
+   "Squirtle": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Cuvette"
+   },
+    "Squirtle-Sunglasses": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Cuvette"
+   },
+   "Wartortle": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Cuvette"
+   },
+   "Blastoise": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Cuvette"
+   },
+   "Caterpie": {
+     "normal": [
+       "Écran Poudre"
+     ],
+     "hidden": "Fuite"
+   },
+   "Metapod": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": "Fuite"
+   },
+   "Butterfree": {
+     "normal": [
+       "Œil Composé"
+     ],
+     "hidden": "Lentiteintée"
+   },
+   "Weedle": {
+     "normal": [
+       "Écran Poudre"
+     ],
+     "hidden": "Fuite"
+   },
+   "Kakuna": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": "Fuite"
+   },
+   "Beedrill": {
+     "normal": [
+       "Essaim"
+     ],
+     "hidden": "Sniper"
+   },
+   "Pidgey": {
+     "normal": [
+       "Regard Vif",
+       "Pieds Confus"
+     ],
+     "hidden": "Cœur de Coq"
+   },
+   "Pidgeotto": {
+     "normal": [
+       "Regard Vif",
+       "Pieds Confus"
+     ],
+     "hidden": "Cœur de Coq"
+   },
+   "Pidgeot": {
+     "normal": [
+       "Regard Vif",
+       "Pieds Confus"
+     ],
+     "hidden": "Cœur de Coq"
+   },
+   "Rattata": {
+     "normal": [
+       "Fuite",
+       "Cran"
+     ],
+     "hidden": "Agitation"
+   },
+   "Raticate": {
+     "normal": [
+       "Fuite",
+       "Cran"
+     ],
+     "hidden": "Agitation"
+   },
+   "Spearow": {
+     "normal": [
+       "Regard Vif"
+     ],
+     "hidden": "Sniper"
+   },
+   "Fearow": {
+     "normal": [
+       "Regard Vif"
+     ],
+     "hidden": "Sniper"
+   },
+   "Ekans": {
+     "normal": [
+       "Intimidation",
+       "Mue"
+     ],
+     "hidden": "Tension"
+   },
+   "Arbok": {
+     "normal": [
+       "Intimidation",
+       "Mue"
+     ],
+     "hidden": "Tension"
+   },
+   "Pikachu": {
+     "normal": [
+       "Statik"
+     ],
+     "hidden": "Paratonnerre"
+   },
+   "Raichu": {
+     "normal": [
+       "Statik"
+     ],
+     "hidden": "Paratonnerre"
+   },
+   "Sandshrew": {
+     "normal": [
+       "Voile Sable"
+     ],
+     "hidden": "Baigne Sable"
+   },
+   "Sandslash": {
+     "normal": [
+       "Voile Sable"
+     ],
+     "hidden": "Baigne Sable"
+   },
+   "Nidoran♀": {
+     "normal": [
+       "Point Poison",
+       "Rivalité"
+     ],
+     "hidden": "Agitation"
+   },
+   "Nidorina": {
+     "normal": [
+       "Point Poison",
+       "Rivalité"
+     ],
+     "hidden": "Agitation"
+   },
+   "Nidoqueen": {
+     "normal": [
+       "Point Poison",
+       "Rivalité"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Nidoran♂": {
+     "normal": [
+       "Point Poison",
+       "Rivalité"
+     ],
+     "hidden": "Agitation"
+   },
+   "Nidorino": {
+     "normal": [
+       "Point Poison",
+       "Rivalité"
+     ],
+     "hidden": "Agitation"
+   },
+   "Nidoking": {
+     "normal": [
+       "Point Poison",
+       "Rivalité"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Clefairy": {
+     "normal": [
+       "Joli Sourire",
+       "Garde Magik"
+     ],
+     "hidden": "Garde-Ami"
+   },
+   "Clefable": {
+     "normal": [
+       "Joli Sourire",
+       "Garde Magik"
+     ],
+     "hidden": "Garde-Ami"
+   },
+   "Vulpix": {
+     "normal": [
+       "Torche"
+     ],
+     "hidden": "Sécheresse"
+   },
+   "Ninetales": {
+     "normal": [
+       "Torche"
+     ],
+     "hidden": "Sécheresse"
+   },
+   "Jigglypuff": {
+     "normal": [
+       "Joli Sourire",
+       "Battant"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Wigglytuff": {
+     "normal": [
+       "Joli Sourire",
+       "Battant"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Zubat": {
+     "normal": [
+       "Attention"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Golbat": {
+     "normal": [
+       "Attention"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Crobat": {
+     "normal": [
+       "Attention"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Oddish": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": "Fuite"
+   },
+   "Gloom": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": "Puanteur"
+   },
+   "Vileplume": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": "Pose Spore"
+   },
+   "Paras": {
+     "normal": [
+       "Pose Spore",
+       "Peau Sèche"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Parasect": {
+     "normal": [
+       "Pose Spore",
+       "Peau Sèche"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Venonat": {
+     "normal": [
+       "Oeil Composé",
+       "Lentiteintée"
+     ],
+     "hidden": "Fuite"
+   },
+   "Venomoth": {
+     "normal": [
+       "Écran Poudre",
+       "Lentiteintée"
+     ],
+     "hidden": "Peau Miracle"
+   },
+   "Diglett": {
+     "normal": [
+       "Voile Sable",
+       "Piège Sable"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Dugtrio": {
+     "normal": [
+       "Voile Sable",
+       "Piège Sable"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Meowth": {
+     "normal": [
+       "Ramassage",
+       "Technicien"
+     ],
+     "hidden": "Tension"
+   },
+   "Persian": {
+     "normal": [
+       "Échauffement",
+       "Technicien"
+     ],
+     "hidden": "Tension"
+   },
+   "Psyduck": {
+     "normal": [
+       "Moiteur",
+       "Ciel Gris"
+     ],
+     "hidden": "Glissade"
+   },
+   "Golduck": {
+     "normal": [
+       "Moiteur",
+       "Ciel Gris"
+     ],
+     "hidden": "Glissade"
+   },
+   "Mankey": {
+     "normal": [
+       "Esprit Vital",
+       "Colérique"
+     ],
+     "hidden": "Acharné"
+   },
+   "Primeape": {
+     "normal": [
+       "Esprit Vital",
+       "Colérique"
+     ],
+     "hidden": "Acharné"
+   },
+   "Growlithe": {
+     "normal": [
+       "Intimidation",
+       "Torche"
+     ],
+     "hidden": "Cœur Noble"
+   },
+   "Arcanine": {
+     "normal": [
+       "Intimidation",
+       "Torche"
+     ],
+     "hidden": "Cœur Noble"
+   },
+   "Poliwag": {
+     "normal": [
+       "Absorb Eau",
+       "Moiteur"
+     ],
+     "hidden": "Glissade"
+   },
+   "Poliwhirl": {
+     "normal": [
+       "Absorb Eau",
+       "Moiteur"
+     ],
+     "hidden": "Glissade"
+   },
+   "Poliwrath": {
+     "normal": [
+       "Absorb Eau",
+       "Moiteur"
+     ],
+     "hidden": "Coque Armure"
+   },
+   "Abra": {
+     "normal": [
+       "Synchro",
+       "Attention"
+     ],
+     "hidden": "Garde Magik"
+   },
+   "Kadabra": {
+     "normal": [
+       "Synchro",
+       "Attention"
+     ],
+     "hidden": "Garde Magik"
+   },
+   "Alakazam": {
+     "normal": [
+       "Synchro",
+       "Attention"
+     ],
+     "hidden": "Garde Magik"
+   },
+   "Machop": {
+     "normal": [
+       "Cran",
+       "Annule Garde"
+     ],
+     "hidden": "Impassible"
+   },
+   "Machoke": {
+     "normal": [
+       "Cran",
+       "Annule Garde"
+     ],
+     "hidden": "Impassible"
+   },
+   "Machamp": {
+     "normal": [
+       "Cran",
+       "Annule Garde"
+     ],
+     "hidden": "Impassible"
+   },
+   "Tentacool": {
+     "normal": [
+       "Corps Sain",
+       "Suintement"
+     ],
+     "hidden": "Cuvette"
+   },
+   "Tentacruel": {
+     "normal": [
+       "Corps Sain",
+       "Suintement"
+     ],
+     "hidden": "Cuvette"
+   },
+   "Geodude": {
+     "normal": [
+       "Tête de Roc",
+       "Fermeté"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Geodude-Alolan": {
+     "normal": [
+       "Magnépiège",
+       "Fermeté"
+     ],
+     "hidden": "Peau Électrique"
+   },
+   "Graveler": {
+     "normal": [
+       "Tête de Roc",
+       "Fermeté"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Graveler-Alolan": {
+     "normal": [
+       "Magnépiège",
+       "Fermeté"
+     ],
+     "hidden": "Peau Électrique"
+   },
+   "Golem": {
+     "normal": [
+       "Tête de Roc",
+       "Fermeté"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Golem-Alolan": {
+     "normal": [
+       "Magnépiège",
+       "Fermeté"
+     ],
+     "hidden": "Peau Électrique"
+   },
+   "Ponyta": {
+     "normal": [
+       "Fuite",
+       "Torche"
+     ],
+     "hidden": "Corps Ardent"
+   },
+   "Rapidash": {
+     "normal": [
+       "Fuite",
+       "Torche"
+     ],
+     "hidden": "Corps Ardent"
+   },
+   "Slowpoke": {
+     "normal": [
+       "Benêt",
+       "Tempo Perso"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Slowbro": {
+     "normal": [
+       "Benêt",
+       "Tempo Perso"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Magnemite": {
+     "normal": [
+       "Magnépiège",
+       "Fermeté"
+     ],
+     "hidden": "Analyste"
+   },
+   "Magneton": {
+     "normal": [
+       "Magnépiège",
+       "Fermeté"
+     ],
+     "hidden": "Analyste"
+   },
+   "Farfetch'd": {
+     "normal": [
+       "Attention",
+       "Regard Vif"
+     ],
+     "hidden": "Acharné"
+   },
+   "Doduo": {
+     "normal": [
+       "Fuite",
+       "Matinal"
+     ],
+     "hidden": "Pieds Confus"
+   },
+   "Dodrio": {
+     "normal": [
+       "Fuite",
+       "Matinal"
+     ],
+     "hidden": "Pieds Confus"
+   },
+   "Seel": {
+     "normal": [
+       "Isograisse",
+       "Hydratation"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Dewgong": {
+     "normal": [
+       "Isograisse",
+       "Hydratation"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Grimer": {
+     "normal": [
+       "Puanteur",
+       "Glue"
+     ],
+     "hidden": "Toxitouche"
+   },
+   "Muk": {
+     "normal": [
+       "Puanteur",
+       "Glue"
+     ],
+     "hidden": "Toxitouche"
+   },
+   "Shellder": {
+     "normal": [
+       "Coque Armure",
+       "Multi-Coups"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Cloyster": {
+     "normal": [
+       "Coque Armure",
+       "Multi-Coups"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Gastly": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Haunter": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Gengar": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Onix": {
+     "normal": [
+       "Tête de Roc",
+       "Fermeté"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Drowzee": {
+     "normal": [
+       "Insomnia",
+       "Prédiction"
+     ],
+     "hidden": "Attention"
+   },
+   "Hypno": {
+     "normal": [
+       "Insomnia",
+       "Prédiction"
+     ],
+     "hidden": "Attention"
+   },
+   "Krabby": {
+     "normal": [
+       "Hyper Cutter",
+       "Coque Armure"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Kingler": {
+     "normal": [
+       "Hyper Cutter",
+       "Coque Armure"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Voltorb": {
+     "normal": [
+       "Anti-Bruit",
+       "Statik"
+     ],
+     "hidden": "Boom Final"
+   },
+   "Electrode": {
+     "normal": [
+       "Anti-Bruit",
+       "Statik"
+     ],
+     "hidden": "Boom Final"
+   },
+   "Exeggcute": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": "Récolte"
+   },
+   "Exeggutor": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": "Récolte"
+   },
+   "Cubone": {
+     "normal": [
+       "Tête de Roc",
+       "Paratonnerre"
+     ],
+     "hidden": "Armurbaston"
+   },
+   "Marowak": {
+     "normal": [
+       "Tête de Roc",
+       "Paratonnerre"
+     ],
+     "hidden": "Armurbaston"
+   },
+   "Hitmonlee": {
+     "normal": [
+       "Échauffement",
+       "Téméraire"
+     ],
+     "hidden": "Délestage"
+   },
+   "Hitmonchan": {
+     "normal": [
+       "Regard Vif",
+       "Poing de Fer"
+     ],
+     "hidden": "Attention"
+   },
+   "Lickitung": {
+     "normal": [
+       "Tempo Perso",
+       "Benêt"
+     ],
+     "hidden": "Ciel Gris"
+   },
+   "Koffing": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": "Puanteur"
+   },
+   "Weezing": {
+     "normal": [
+       "Lévitation",
+       "Gaz Inhibiteur"
+     ],
+     "hidden": "Puanteur"
+   },
+   "Rhyhorn": {
+     "normal": [
+       "Paratonnerre",
+       "Tête de Roc"
+     ],
+     "hidden": "Téméraire"
+   },
+   "Rhydon": {
+     "normal": [
+       "Paratonnerre",
+       "Tête de Roc"
+     ],
+     "hidden": "Téméraire"
+   },
+   "Chansey": {
+     "normal": [
+       "Médic Nature",
+       "Sérénité"
+     ],
+     "hidden": "Cœur Soin"
+   },
+   "Tangela": {
+     "normal": [
+       "Médic Nature",
+       "Sérénité"
+     ],
+     "hidden": "Feuille Garde"
+   },
+   "Kangaskhan": {
+     "normal": [
+       "Querelleur",
+       "Matinal"
+     ],
+     "hidden": "Attention"
+   },
+   "Horsea": {
+     "normal": [
+       "Glissade",
+       "Sniper"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Seadra": {
+     "normal": [
+       "Point Poison",
+       "Sniper"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Goldeen": {
+     "normal": [
+       "Glissade",
+       "Ignifu-Voile"
+     ],
+     "hidden": "Paratonnerre"
+   },
+   "Seaking": {
+     "normal": [
+       "Glissade",
+       "Ignifu-Voile"
+     ],
+     "hidden": "Paratonnerre"
+   },
+   "Staryu": {
+     "normal": [
+       "Médic Nature",
+       "Luminescence"
+     ],
+     "hidden": "Analyste"
+   },
+   "Starmie": {
+     "normal": [
+       "Médic Nature",
+       "Luminescence"
+     ],
+     "hidden": "Analyste"
+   },
+   "Mr. Mime": {
+     "normal": [
+       "Anti-Bruit",
+       "Filtre"
+     ],
+     "hidden": "Technicien"
+   },
+   "Scyther": {
+     "normal": [
+       "Essaim",
+       "Technicien"
+     ],
+     "hidden": "Impassible"
+   },
+   "Jynx": {
+     "normal": [
+       "Benêt",
+       "Prédiction"
+     ],
+     "hidden": "Peau Sèche"
+   },
+   "Electabuzz": {
+     "normal": [
+       "Statik"
+     ],
+     "hidden": "Esprit Vital"
+   },
+   "Magmar": {
+     "normal": [
+       "Corps Ardent"
+     ],
+     "hidden": "Esprit Vital"
+   },
+   "Pinsir": {
+     "normal": [
+       "Hyper Cutter",
+       "Brise Moule"
+     ],
+     "hidden": "Impudence"
+   },
+   "Enamorus-Incarnate": {
+     "normal": [
+       "Joli Sourire"
+     ],
+     "hidden": "Contestation"
+   },
+   "Enamorus-Therian": {
+     "normal": [
+       "Joli Sourire"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Tauros": {
+     "normal": [
+       "Intimidation",
+       "Colérique"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Tauros-Paldean-Combat": {
+     "normal": [
+       "Intimidation",
+       "Anger Point"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Tauros-Paldean-Blaze": {
+     "normal": [
+       "Intimidation",
+       "Anger Point"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Tauros-Paldean-Aqua": {
+     "normal": [
+       "Intimidation",
+       "Anger Point"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Magikarp": {
+     "normal": [
+       "Glissade"
+     ],
+     "hidden": "Phobique"
+   },
+   "Gyarados": {
+     "normal": [
+       "Intimidation"
+     ],
+     "hidden": "Impudence"
+   },
+   "Lapras": {
+     "normal": [
+       "Absorb Eau",
+       "Coque Armure"
+     ],
+     "hidden": "Hydratation"
+   },
+   "Ditto": {
+     "normal": [
+       "Échauffement"
+     ],
+     "hidden": "Imposteur"
+   },
+   "Eevee": {
+     "normal": [
+       "Fuite",
+       "Adaptabilité"
+     ],
+     "hidden": "Anticipation"
+   },
+   "Vaporeon": {
+     "normal": [
+       "Absorb Eau"
+     ],
+     "hidden": "Hydratation"
+   },
+   "Jolteon": {
+     "normal": [
+       "Absorb Volt"
+     ],
+     "hidden": "Pied Véloce"
+   },
+   "Flareon": {
+     "normal": [
+       "Torche"
+     ],
+     "hidden": "Cran"
+   },
+   "Porygon": {
+     "normal": [
+       "Calque",
+       "Télécharge"
+     ],
+     "hidden": "Analyste"
+   },
+   "Omanyte": {
+     "normal": [
+       "Glissade",
+       "Coque Armure"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Omastar": {
+     "normal": [
+       "Glissade",
+       "Coque Armure"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Kabuto": {
+     "normal": [
+       "Glissade",
+       "Armurbaston"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Kabutops": {
+     "normal": [
+       "Glissade",
+       "Armurbaston"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Aerodactyl": {
+     "normal": [
+       "Tête de Roc",
+       "Pression"
+     ],
+     "hidden": "Début Calme"
+   },
+   "Snorlax": {
+     "normal": [
+       "Isograisse",
+       "Impassible"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Articuno": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Zapdos": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Statik"
+   },
+   "Moltres": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Corps Ardent"
+   },
+   "Dratini": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": "Écaille Spéciale"
+   },
+   "Dragonair": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": "Écaille Spéciale"
+   },
+   "Dragonite": {
+     "normal": [
+       "Attention"
+     ],
+     "hidden": "Multiécaille"
+   },
+   "Mewtwo": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Tension"
+   },
+   "Mew": {
+     "normal": [
+       "Synchro"
+     ],
+     "hidden": null
+   },
+   "Bellsprout": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Weepinbell": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Victreebel": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Bellossom": {
+     "normal": [
+       "Chlorophylle"
+     ],
+     "hidden": "Cœur Soin"
+   },
+   "Marill": {
+     "normal": [
+       "Isograisse",
+       "Coloforce"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Azumarill": {
+     "normal": [
+       "Isograisse",
+       "Coloforce"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Sudowoodo": {
+     "normal": [
+       "Fermeté",
+       "Tête de Roc"
+     ],
+     "hidden": "Phobique"
+   },
+   "Politoed": {
+     "normal": [
+       "Absorb Eau",
+       "Moiteur"
+     ],
+     "hidden": "Crachin"
+   },
+   "Hoppip": {
+     "normal": [
+       "Chlorophylle",
+       "Feuille Garde"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Skiploom": {
+     "normal": [
+       "Chlorophylle",
+       "Feuille Garde"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Jumpluff": {
+     "normal": [
+       "Chlorophylle",
+       "Feuille Garde"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Aipom": {
+     "normal": [
+       "Ramassage",
+       "Fuite"
+     ],
+     "hidden": "Multi-Coups"
+   },
+   "Sunkern": {
+     "normal": [
+       "Chlorophylle",
+       "Force Soleil"
+     ],
+     "hidden": "Matinal"
+   },
+   "Sunflora": {
+     "normal": [
+       "Chlorophylle",
+       "Force Soleil"
+     ],
+     "hidden": "Matinal"
+   },
+   "Yanma": {
+     "normal": [
+       "Turbo",
+       "Œil Composé"
+     ],
+     "hidden": "Fouille"
+   },
+   "Wooper": {
+     "normal": [
+       "Absorb Eau",
+       "Moiteur"
+     ],
+     "hidden": "Inconscient"
+   },
+   "Quagsire": {
+     "normal": [
+       "Absorb Eau",
+       "Moiteur"
+     ],
+     "hidden": "Inconscient"
+   },
+   "Espeon": {
+     "normal": [
+       "Synchro"
+     ],
+     "hidden": "Miroir Magik"
+   },
+   "Umbreon": {
+     "normal": [
+       "Synchro"
+     ],
+     "hidden": "Attention"
+   },
+   "Murkrow": {
+     "normal": [
+       "Insomnia",
+       "Chanceux"
+     ],
+     "hidden": "Farceur"
+   },
+   "Slowking": {
+     "normal": [
+       "Benêt",
+       "Tempo Perso"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Misdreavus": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Unown": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Wobbuffet": {
+     "normal": [
+       "Marque Ombre"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Girafarig": {
+     "normal": [
+       "Attention",
+       "Matinal"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Pineco": {
+     "normal": [
+       "Fermeté"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Forretress": {
+     "normal": [
+       "Fermeté"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Dunsparce": {
+     "normal": [
+       "Sérénité",
+       "Fuite"
+     ],
+     "hidden": "Phobique"
+   },
+   "Gligar": {
+     "normal": [
+       "Hyper Cutter",
+       "Voile Sable"
+     ],
+     "hidden": "Vaccin"
+   },
+   "Steelix": {
+     "normal": [
+       "Tête de Roc",
+       "Fermeté"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Snubbull": {
+     "normal": [
+       "Intimidation",
+       "Fuite"
+     ],
+     "hidden": "Phobique"
+   },
+   "Granbull": {
+     "normal": [
+       "Intimidation",
+       "Fuite"
+     ],
+     "hidden": "Phobique"
+   },
+   "Qwilfish": {
+     "normal": [
+       "Point Poison",
+       "Glissade"
+     ],
+     "hidden": "Intimidation"
+   },
+   "Scizor": {
+     "normal": [
+       "Essaim",
+       "Technicien"
+     ],
+     "hidden": "Light Metal"
+   },
+   "Shuckle": {
+     "normal": [
+       "Fermeté",
+       "Gloutonnerie"
+     ],
+     "hidden": "Contestation"
+   },
+   "Heracross": {
+     "normal": [
+       "Essaim",
+       "Cran"
+     ],
+     "hidden": "Impudence"
+   },
+   "Sneasel": {
+     "normal": [
+       "Attention",
+       "Regard Vif"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Teddiursa": {
+     "normal": [
+       "Ramassage",
+       "Pied Véloce"
+     ],
+     "hidden": "Cherche Miel"
+   },
+   "Ursaring": {
+     "normal": [
+       "Cran",
+       "Pied Véloce"
+     ],
+     "hidden": "Tension"
+   },
+   "Slugma": {
+     "normal": [
+       "Armumagma",
+       "Corps Ardent"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Magcargo": {
+     "normal": [
+       "Armumagma",
+       "Corps Ardent"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Swinub": {
+     "normal": [
+       "Benêt",
+       "Rideau Neige"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Piloswine": {
+     "normal": [
+       "Benêt",
+       "Rideau Neige"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Corsola": {
+     "normal": [
+       "Agitation",
+       "Médic Nature"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Remoraid": {
+     "normal": [
+       "Agitation",
+       "Sniper"
+     ],
+     "hidden": "Lunatique"
+   },
+   "Octillery": {
+     "normal": [
+       "Sniper",
+       "Ventouse"
+     ],
+     "hidden": "Lunatique"
+   },
+   "Delibird": {
+     "normal": [
+       "Esprit Vital",
+       "Agitation"
+     ],
+     "hidden": "Insomnia"
+   },
+   "Mantine": {
+     "normal": [
+       "Absorb Eau",
+       "Glissade"
+     ],
+     "hidden": "Ignifu-Voile"
+   },
+   "Skarmory": {
+     "normal": [
+       "Fermeté",
+       "Regard Vif"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Houndour": {
+     "normal": [
+       "Torche",
+       "Matinal"
+     ],
+     "hidden": "Tension"
+   },
+   "Houndoom": {
+     "normal": [
+       "Torche",
+       "Matinal"
+     ],
+     "hidden": "Tension"
+   },
+   "Kingdra": {
+     "normal": [
+       "Sniper",
+       "Glissade"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Phanpy": {
+     "normal": [
+       "Ramassage"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Donphan": {
+     "normal": [
+       "Ramassage"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Porygon2": {
+     "normal": [
+       "Calque",
+       "Télécharge"
+     ],
+     "hidden": "Analyste"
+   },
+   "Stantler": {
+     "normal": [
+       "Intimidation",
+       "Fouille"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Smeargle": {
+     "normal": [
+       "Technicien",
+       "Tempo Perso"
+     ],
+     "hidden": "Lunatique"
+   },
+   "Tyrogue": {
+     "normal": [
+       "Cran",
+       "Impassible"
+     ],
+     "hidden": "Esprit Vital"
+   },
+   "Hitmontop": {
+     "normal": [
+       "Technicien",
+       "Intimidation"
+     ],
+     "hidden": "Impassible"
+   },
+   "Smoochum": {
+     "normal": [
+       "Benêt",
+       "Prédiction"
+     ],
+     "hidden": "Hydratation"
+   },
+   "Elekid": {
+     "normal": [
+       "Statik"
+     ],
+     "hidden": "Esprit Vital"
+   },
+   "Magby": {
+     "normal": [
+       "Corps Ardent"
+     ],
+     "hidden": "Esprit Vital"
+   },
+   "Miltank": {
+     "normal": [
+       "Isograisse",
+       "Querelleur"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Blissey": {
+     "normal": [
+       "Médic Nature",
+       "Sérénité"
+     ],
+     "hidden": "Cœur Soin"
+   },
+   "Raikou": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Attention"
+   },
+   "Entei": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Attention"
+   },
+   "Suicune": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Attention"
+   },
+   "Larvitar": {
+     "normal": [
+       "Cran"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Pupitar": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": null
+   },
+   "Tyranitar": {
+     "normal": [
+       "Sable Volant"
+     ],
+     "hidden": "Tension"
+   },
+   "Lugia": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Multiécaille"
+   },
+   "Ho-Oh": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Celebi": {
+     "normal": [
+       "Médic Nature"
+     ],
+     "hidden": null
+   },
+   "Turtwig": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Coque Armure"
+   },
+   "Torterra": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Coque Armure"
+   },
+   "Chimchar": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Poing de Fer"
+   },
+   "Monferno": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Poing de Fer"
+   },
+   "Piplup": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Battant"
+   },
+   "Piplup-Dawn-Hat": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Battant"
+   },
+   "Prinplup": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Battant"
+   },
+   "Starly": {
+     "normal": [
+       "Regard Vif"
+     ],
+     "hidden": "Téméraire"
+   },
+   "Staravia": {
+     "normal": [
+       "Intimidation"
+     ],
+     "hidden": "Téméraire"
+   },
+   "Staraptor": {
+     "normal": [
+       "Intimidation"
+     ],
+     "hidden": "Téméraire"
+   },
+   "Shinx": {
+     "normal": [
+       "Rivalité",
+       "Intimidation"
+     ],
+     "hidden": "Cran"
+   },
+   "Luxio": {
+     "normal": [
+       "Rivalité",
+       "Intimidation"
+     ],
+     "hidden": "Cran"
+   },
+   "Luxray": {
+     "normal": [
+       "Rivalité",
+       "Intimidation"
+     ],
+     "hidden": "Cran"
+   },
+   "Roserade": {
+     "normal": [
+       "Point Poison",
+       "Médic Nature"
+     ],
+     "hidden": "Technicien"
+   },
+   "Rampardos": {
+     "normal": [
+       "Brise Moule"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Shieldon": {
+     "normal": [
+       "Fermeté"
+     ],
+     "hidden": "Anti-Bruit"
+   },
+   "Mothim": {
+     "normal": [
+       "Essaim"
+     ],
+     "hidden": "Lentiteintée"
+   },
+   "Vespiquen": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Tension"
+   },
+   "Pachirisu": {
+     "normal": [
+       "Ramassage",
+       "Fuite"
+     ],
+     "hidden": "Absorbe-Volt"
+   },
+   "Shellos-East": {
+     "normal": [
+       "Glu",
+       "Lavabo"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Shellos-West": {
+     "normal": [
+       "Glu",
+       "Lavabo"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Gastrodon-East": {
+     "normal": [
+       "Glu",
+       "Lavabo"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Gastrodon-West": {
+     "normal": [
+       "Glu",
+       "Lavabo"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Ambipom": {
+     "normal": [
+       "Technicien",
+       "Ramassage"
+     ],
+     "hidden": "Multi-Coups"
+   },
+   "Drifloon": {
+     "normal": [
+       "Boom Final",
+       "Délestage"
+     ],
+     "hidden": "Rage Brûlure"
+   },
+   "Drifblim": {
+     "normal": [
+       "Boom Final",
+       "Délestage"
+     ],
+     "hidden": "Rage Brûlure"
+   },
+   "Buneary": {
+     "normal": [
+       "Fuite",
+       "Maladresse"
+     ],
+     "hidden": "Échauffement"
+   },
+   "Lopunny": {
+     "normal": [
+       "Joli Sourire",
+       "Maladresse"
+     ],
+     "hidden": "Échauffement"
+   },
+   "Mismagius": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Honchkrow": {
+     "normal": [
+       "Insomnia",
+       "Chanceux"
+     ],
+     "hidden": "Impudence"
+   },
+   "Glameow": {
+     "normal": [
+       "Échauffement",
+       "Tempo Perso"
+     ],
+     "hidden": "Regard Vif"
+   },
+   "Purugly": {
+     "normal": [
+       "Échauffement",
+       "Tempo Perso"
+     ],
+     "hidden": "Regard Vif"
+   },
+   "Chingling": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Stunky": {
+     "normal": [
+       "Puanteur",
+       "Boom Final"
+     ],
+     "hidden": "Regard Vif"
+   },
+   "Skuntank": {
+     "normal": [
+       "Puanteur",
+       "Boom Final"
+     ],
+     "hidden": "Regard Vif"
+   },
+   "Bronzor": {
+     "normal": [
+       "Lévitation",
+       "Ignifugé"
+     ],
+     "hidden": "Heavy Metal"
+   },
+   "Bronzong": {
+     "normal": [
+       "Lévitation",
+       "Ignifugé"
+     ],
+     "hidden": "Heavy Metal"
+   },
+   "Bonsly": {
+     "normal": [
+       "Fermeté",
+       "Tête de Roc"
+     ],
+     "hidden": "Phobique"
+   },
+   "Mime Jr.": {
+     "normal": [
+       "Anti-Bruit",
+       "Filtre"
+     ],
+     "hidden": "Technicien"
+   },
+   "Happiny": {
+     "normal": [
+       "Sérénité",
+       "Médic Nature"
+     ],
+     "hidden": "Garde-Ami"
+   },
+   "Chatot": {
+     "normal": [
+       "Regard Vif",
+       "Pieds Confus"
+     ],
+     "hidden": "Cœur de Coq"
+   },
+   "Spiritomb": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Gible": {
+     "normal": [
+       "Voile Sable"
+     ],
+     "hidden": "Peau Dure"
+   },
+   "Gabite": {
+     "normal": [
+       "Voile Sable"
+     ],
+     "hidden": "Peau Dure"
+   },
+   "Garchomp": {
+     "normal": [
+       "Voile Sable"
+     ],
+     "hidden": "Peau Dure"
+   },
+   "Munchlax": {
+     "normal": [
+       "Ramassage",
+       "Isograisse"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Riolu": {
+     "normal": [
+       "Impudence",
+       "Attention"
+     ],
+     "hidden": "Farceur"
+   },
+   "Lucario": {
+     "normal": [
+       "Impassible",
+       "Attention"
+     ],
+     "hidden": "Cœur Noble"
+   },
+   "Hippopotas": {
+     "normal": [
+       "Sable Volant"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Hippowdon": {
+     "normal": [
+       "Sable Volant"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Skorupi": {
+     "normal": [
+       "Armurbaston",
+       "Sniper"
+     ],
+     "hidden": "Regard Vif"
+   },
+   "Drapion": {
+     "normal": [
+       "Armurbaston",
+       "Sniper"
+     ],
+     "hidden": "Regard Vif"
+   },
+   "Croagunk": {
+     "normal": [
+       "Anticipation",
+       "Peau Sèche"
+     ],
+     "hidden": "Toxitouche"
+   },
+   "Toxicroak": {
+     "normal": [
+       "Anticipation",
+       "Peau Sèche"
+     ],
+     "hidden": "Toxitouche"
+   },
+   "Carnivine": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Finneon": {
+     "normal": [
+       "Glissade",
+       "Cuvette"
+     ],
+     "hidden": "Ignifu-Voile"
+   },
+   "Lumineon": {
+     "normal": [
+       "Glissade",
+       "Cuvette"
+     ],
+     "hidden": "Ignifu-Voile"
+   },
+   "Mantyke": {
+     "normal": [
+       "Absorbe-Eau",
+       "Glissade"
+     ],
+     "hidden": "Ignifu-Voile"
+   },
+   "Snover": {
+     "normal": [
+       "Alerte Neige"
+     ],
+     "hidden": "Anti-Bruit"
+   },
+   "Abomasnow": {
+     "normal": [
+       "Alerte Neige"
+     ],
+     "hidden": "Anti-Bruit"
+   },
+   "Weavile": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Magnezone": {
+     "normal": [
+       "Magnépiège",
+       "Fermeté"
+     ],
+     "hidden": "Analyste"
+   },
+   "Lickilicky": {
+     "normal": [
+       "Benêt",
+       "Tempo Perso"
+     ],
+     "hidden": "Ciel Gris"
+   },
+   "Rhyperior": {
+     "normal": [
+       "Paratonnerre",
+       "Solide Roc"
+     ],
+     "hidden": "Téméraire"
+   },
+   "Tangrowth": {
+     "normal": [
+       "Chlorophylle",
+       "Feuille Garde"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Electivire": {
+     "normal": [
+       "Motorisé"
+     ],
+     "hidden": "Esprit Vital"
+   },
+   "Magmortar": {
+     "normal": [
+       "Corps Ardent"
+     ],
+     "hidden": "Esprit Vital"
+   },
+   "Togekiss": {
+     "normal": [
+       "Sérénité",
+       "Agitation"
+     ],
+     "hidden": "Chanceux"
+   },
+   "Yanmega": {
+     "normal": [
+       "Turbo",
+       "Lentiteintée"
+     ],
+     "hidden": "Fouille"
+   },
+   "Leafeon": {
+     "normal": [
+       "Feuille Garde"
+     ],
+     "hidden": "Chlorophylle"
+   },
+   "Glaceon": {
+     "normal": [
+       "Rideau Neige"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Gliscor": {
+     "normal": [
+       "Hyper Cutter",
+       "Voile Sable"
+     ],
+     "hidden": "Soin Poison"
+   },
+   "Mamoswine": {
+     "normal": [
+       "Benêt",
+       "Rideau Neige"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Porygon-Z": {
+     "normal": [
+       "Adaptabilité",
+       "Télécharge"
+     ],
+     "hidden": "Analyste"
+   },
+   "Gallade": {
+     "normal": [
+       "Impassible",
+       "Incisif"
+     ],
+     "hidden": "Cœur Noble"
+   },
+   "Nosepass": {
+     "normal": [
+       "Fermeté",
+       "Magnépiège"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Probopass": {
+     "normal": [
+       "Fermeté",
+       "Magnépiège"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Dusknoir": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Fouille"
+   },
+   "Froslass": {
+     "normal": [
+       "Rideau Neige"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Rotom": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Uxie": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Mesprit": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Azelf": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Dialga": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Palkia": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Heatran": {
+     "normal": [
+       "Torche"
+     ],
+     "hidden": "Corps Ardent"
+   },
+   "Regigigas": {
+     "normal": [
+       "Début Calme"
+     ],
+     "hidden": null
+   },
+   "Giratina": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Giratina-Origin": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Cresselia": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Phione": {
+     "normal": [
+       "Hydratation"
+     ],
+     "hidden": null
+   },
+   "Manaphy": {
+     "normal": [
+       "Hydratation"
+     ],
+     "hidden": null
+   },
+   "Darkrai": {
+     "normal": [
+       "Mauvais Rêve"
+     ],
+     "hidden": null
+   },
+   "Shaymin": {
+     "normal": [
+       "Médic Nature"
+     ],
+     "hidden": null
+   },
+   "Shaymin-Sky": {
+     "normal": [
+       "Sérénité"
+     ],
+     "hidden": null
+   },
+   "Silvally-Normal": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Fire": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Water": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Electric": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Grass": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Ice": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Fighting": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Poison": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Ground": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Flying": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Psychic": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Bug": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Rock": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Ghost": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Dragon": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Dark": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Steel": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Silvally-Fairy": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Arceus-Normal": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Fire": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Water": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Electric": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Grass": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Ice": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Fighting": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Poison": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Ground": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Flying": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Psychic": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Bug": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Rock": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Ghost": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Dragon": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Dark": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Steel": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Arceus-Fairy": {
+     "normal": [
+       "Multitype"
+     ],
+     "hidden": null
+   },
+   "Victini": {
+     "normal": [
+       "Victorieux"
+     ],
+     "hidden": null
+   },
+   "Snivy": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Contestation"
+   },
+   "Servine": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Contestation"
+   },
+   "Serperior": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Contestation"
+   },
+   "Tepig": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Pignite": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Emboar": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Téméraire"
+   },
+   "Oshawott": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Coque Armure"
+   },
+   "Dewott": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Coque Armure"
+   },
+   "Samurott": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Coque Armure"
+   },
+   "Patrat": {
+     "normal": [
+       "Luminescence",
+       "Regard Vif"
+     ],
+     "hidden": "Analyste"
+   },
+   "Watchog": {
+     "normal": [
+       "Luminescence",
+       "Regard Vif"
+     ],
+     "hidden": "Analyste"
+   },
+   "Lillipup": {
+     "normal": [
+       "Esprit Vital",
+       "Ramassage"
+     ],
+     "hidden": "Fuite"
+   },
+   "Herdier": {
+     "normal": [
+       "Intimidation",
+       "Baigne Sable"
+     ],
+     "hidden": "Querelleur"
+   },
+   "Stoutland": {
+     "normal": [
+       "Intimidation",
+       "Baigne Sable"
+     ],
+     "hidden": "Querelleur"
+   },
+   "Purrloin": {
+     "normal": [
+       "Délestage",
+       "Échauffement"
+     ],
+     "hidden": "Farceur"
+   },
+   "Liepard": {
+     "normal": [
+       "Délestage",
+       "Échauffement"
+     ],
+     "hidden": "Farceur"
+   },
+   "Pansage": {
+     "normal": [
+       "Gloutonnerie"
+     ],
+     "hidden": "Engrais"
+   },
+   "Simisage": {
+     "normal": [
+       "Gloutonnerie"
+     ],
+     "hidden": "Engrais"
+   },
+   "Pansear": {
+     "normal": [
+       "Gloutonnerie"
+     ],
+     "hidden": "Brasier"
+   },
+   "Simisear": {
+     "normal": [
+       "Gloutonnerie"
+     ],
+     "hidden": "Brasier"
+   },
+   "Panpour": {
+     "normal": [
+       "Gloutonnerie"
+     ],
+     "hidden": "Torrent"
+   },
+   "Simipour": {
+     "normal": [
+       "Gloutonnerie"
+     ],
+     "hidden": "Torrent"
+   },
+   "Munna": {
+     "normal": [
+       "Prédiction",
+       "Synchro"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Musharna": {
+     "normal": [
+       "Prédiction",
+       "Synchro"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Pidove": {
+     "normal": [
+       "Chanceux",
+       "Cœur de Coq"
+     ],
+     "hidden": "Rivalité"
+   },
+   "Tranquill": {
+     "normal": [
+       "Chanceux",
+       "Cœur de Coq"
+     ],
+     "hidden": "Rivalité"
+   },
+   "Unfezant-Male": {
+     "normal": [
+       "Cœur de Coq",
+       "Chanceux"
+     ],
+     "hidden": "Rivalité"
+   },
+   "Unfezant-Female": {
+     "normal": [
+       "Cœur de Coq",
+       "Chanceux"
+     ],
+     "hidden": "Rivalité"
+   },
+   "Blitzle": {
+     "normal": [
+       "Paratonnerre",
+       "Motorisé"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Zebstrika": {
+     "normal": [
+       "Paratonnerre",
+       "Motorisé"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Roggenrola": {
+     "normal": [
+       "Fermeté",
+       "Armurouillée"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Boldore": {
+     "normal": [
+       "Fermeté",
+       "Armurouillée"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Gigalith": {
+     "normal": [
+       "Fermeté",
+       "Sable Volant"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Woobat": {
+     "normal": [
+       "Inconscient",
+       "Maladresse"
+     ],
+     "hidden": "Simple"
+   },
+   "Swoobat": {
+     "normal": [
+       "Inconscient",
+       "Maladresse"
+     ],
+     "hidden": "Simple"
+   },
+   "Drilbur": {
+     "normal": [
+       "Baigne Sable",
+       "Force Sable"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Excadrill": {
+     "normal": [
+       "Baigne Sable",
+       "Force Sable"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Audino": {
+     "normal": [
+       "Cœur Soin",
+       "Régé-Force"
+     ],
+     "hidden": "Maladresse"
+   },
+   "Timburr": {
+     "normal": [
+       "Cran",
+       "Sans Limite"
+     ],
+     "hidden": "Poing de Fer"
+   },
+   "Gurdurr": {
+     "normal": [
+       "Cran",
+       "Sans Limite"
+     ],
+     "hidden": "Poing de Fer"
+   },
+   "Conkeldurr": {
+     "normal": [
+       "Cran",
+       "Sans Limite"
+     ],
+     "hidden": "Poing de Fer"
+   },
+   "Tympole": {
+     "normal": [
+       "Glissade",
+       "Toxitouche"
+     ],
+     "hidden": "Absorbe-Eau"
+   },
+   "Palpitoad": {
+     "normal": [
+       "Glissade",
+       "Toxitouche"
+     ],
+     "hidden": "Absorbe-Eau"
+   },
+   "Seismitoad": {
+     "normal": [
+       "Glissade",
+       "Toxitouche"
+     ],
+     "hidden": "Absorbe-Eau"
+   },
+   "Throh": {
+     "normal": [
+       "Cran",
+       "Attention"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Sawk": {
+     "normal": [
+       "Fermeté",
+       "Attention"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Sewaddle": {
+     "normal": [
+       "Essaim",
+       "Chlorophylle"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Swadloon": {
+     "normal": [
+       "Feuille Garde",
+       "Chlorophylle"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Leavanny": {
+     "normal": [
+       "Essaim",
+       "Chlorophylle"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Venipede": {
+     "normal": [
+       "Point Poison",
+       "Essaim"
+     ],
+     "hidden": "Turbo"
+   },
+   "Whirlipede": {
+     "normal": [
+       "Point Poison",
+       "Essaim"
+     ],
+     "hidden": "Turbo"
+   },
+   "Scolipede": {
+     "normal": [
+       "Point Poison",
+       "Essaim"
+     ],
+     "hidden": "Turbo"
+   },
+   "Cottonee": {
+     "normal": [
+       "Farceur",
+       "Infiltration"
+     ],
+     "hidden": "Chlorophylle"
+   },
+   "Whimsicott": {
+     "normal": [
+       "Farceur",
+       "Infiltration"
+     ],
+     "hidden": "Chlorophylle"
+   },
+   "Petilil": {
+     "normal": [
+       "Chlorophylle",
+       "Tempo Perso"
+     ],
+     "hidden": "Feuille Garde"
+   },
+   "Lilligant": {
+     "normal": [
+       "Chlorophylle",
+       "Tempo Perso"
+     ],
+     "hidden": "Feuille Garde"
+   },
+   "Basculin-Red-Striped": {
+     "normal": [
+       "Téméraire",
+       "Adaptabilité"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Basculin-Blue-Striped": {
+     "normal": [
+       "Tête de Roc",
+       "Adaptabilité"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Basculin-White-Striped": {
+     "normal": [
+       "Phobique",
+       "Adaptabilité"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Sandile": {
+     "normal": [
+       "Intimidation",
+       "Impudence"
+     ],
+     "hidden": "Colérique"
+   },
+   "Krokorok": {
+     "normal": [
+       "Intimidation",
+       "Impudence"
+     ],
+     "hidden": "Colérique"
+   },
+   "Krookodile": {
+     "normal": [
+       "Intimidation",
+       "Impudence"
+     ],
+     "hidden": "Colérique"
+   },
+   "Darumaka": {
+     "normal": [
+       "Agitation"
+     ],
+     "hidden": "Attention"
+   },
+   "Darmanitan": {
+     "normal": [
+       "Sans Limite"
+     ],
+     "hidden": "Mode Transe"
+   },
+   "Darmanitan-Galarianian-Standard": {
+     "normal": [
+       "Entêtement"
+     ],
+     "hidden": "Zen Mode"
+   },
+   "Darmanitan-Galarianian-Zen": {
+     "normal": [
+       "Zen Mode"
+     ],
+     "hidden": null
+   },
+   "Darmanitan-Zen": {
+     "normal": [
+       "Zen Mode"
+     ],
+     "hidden": null
+   },
+   "Maractus": {
+     "normal": [
+       "Chlorophylle",
+       "Absorbe-Eau"
+     ],
+     "hidden": "Lavabo"
+   },
+   "Dwebble": {
+     "normal": [
+       "Fermeté",
+       "Coque Armure"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Crustle": {
+     "normal": [
+       "Fermeté",
+       "Coque Armure"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Scraggy": {
+     "normal": [
+       "Mue",
+       "Impudence"
+     ],
+     "hidden": "Intimidation"
+   },
+   "Scrafty": {
+     "normal": [
+       "Mue",
+       "Impudence"
+     ],
+     "hidden": "Intimidation"
+   },
+   "Sigilyph": {
+     "normal": [
+       "Peau Miracle",
+       "Garde Magik"
+     ],
+     "hidden": "Lentiteintée"
+   },
+   "Yamask": {
+     "normal": [
+       "Momie"
+     ],
+     "hidden": null
+   },
+   "Cofagrigus": {
+     "normal": [
+       "Momie"
+     ],
+     "hidden": null
+   },
+   "Tirtouga": {
+     "normal": [
+       "Solide Roc",
+       "Fermeté"
+     ],
+     "hidden": "Glissade"
+   },
+   "Carracosta": {
+     "normal": [
+       "Solide Roc",
+       "Fermeté"
+     ],
+     "hidden": "Glissade"
+   },
+   "Archen": {
+     "normal": [
+       "Défaitiste"
+     ],
+     "hidden": null
+   },
+   "Archeops": {
+     "normal": [
+       "Défaitiste"
+     ],
+     "hidden": null
+   },
+   "Trubbish": {
+     "normal": [
+       "Puanteur",
+       "Armurouillée"
+     ],
+     "hidden": "Boom Final"
+   },
+   "Garbodor": {
+     "normal": [
+       "Puanteur",
+       "Armurouillée"
+     ],
+     "hidden": "Boom Final"
+   },
+   "Zorua": {
+     "normal": [
+       "Illusion"
+     ],
+     "hidden": null
+   },
+   "Zoroark": {
+     "normal": [
+       "Illusion"
+     ],
+     "hidden": null
+   },
+   "Minccino": {
+     "normal": [
+       "Joli Sourire",
+       "Technicien"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Cinccino": {
+     "normal": [
+       "Joli Sourire",
+       "Technicien"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Gothita": {
+     "normal": [
+       "Fouille",
+       "Battant"
+     ],
+     "hidden": "Marque Ombre"
+   },
+   "Gothorita": {
+     "normal": [
+       "Fouille",
+       "Battant"
+     ],
+     "hidden": "Marque Ombre"
+   },
+   "Gothitelle": {
+     "normal": [
+       "Fouille",
+       "Battant"
+     ],
+     "hidden": "Marque Ombre"
+   },
+   "Solosis": {
+     "normal": [
+       "Envelocape",
+       "Garde Magik"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Duosion": {
+     "normal": [
+       "Envelocape",
+       "Garde Magik"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Reuniclus": {
+     "normal": [
+       "Envelocape",
+       "Garde Magik"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Ducklett": {
+     "normal": [
+       "Regard Vif",
+       "Cœur de Coq"
+     ],
+     "hidden": "Hydratation"
+   },
+   "Swanna": {
+     "normal": [
+       "Regard Vif",
+       "Cœur de Coq"
+     ],
+     "hidden": "Hydratation"
+   },
+   "Vanillite": {
+     "normal": [
+       "Corps Gel",
+       "Alerte Neige"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Vanillish": {
+     "normal": [
+       "Corps Gel",
+       "Alerte Neige"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Vanilluxe": {
+     "normal": [
+       "Corps Gel",
+       "Alerte Neige"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Deerling-Spring": {
+     "normal": [
+       "Chlorophyll",
+       "Herbivore"
+     ],
+     "hidden": "Sérénité"
+   },
+   "Deerling-Summer": {
+     "normal": [
+       "Chlorophyll",
+       "Herbivore"
+     ],
+     "hidden": "Sérénité"
+   },
+   "Deerling-Autumn": {
+     "normal": [
+       "Chlorophyll",
+       "Herbivore"
+     ],
+     "hidden": "Sérénité"
+   },
+   "Deerling-Winter": {
+     "normal": [
+       "Chlorophyll",
+       "Herbivore"
+     ],
+     "hidden": "Sérénité"
+   },
+   "Sawsbuck-Spring": {
+     "normal": [
+       "Chlorophyll",
+       "Herbivore"
+     ],
+     "hidden": "Sérénité"
+   },
+   "Sawsbuck-Summer": {
+     "normal": [
+       "Chlorophyll",
+       "Herbivore"
+     ],
+     "hidden": "Sérénité"
+   },
+   "Sawsbuck-Autumn": {
+     "normal": [
+       "Chlorophyll",
+       "Herbivore"
+     ],
+     "hidden": "Sérénité"
+   },
+   "Sawsbuck-Winter": {
+     "normal": [
+       "Chlorophyll",
+       "Herbivore"
+     ],
+     "hidden": "Sérénité"
+   },
+   "Emolga": {
+     "normal": [
+       "Statik"
+     ],
+     "hidden": "Motorisé"
+   },
+   "Karrablast": {
+     "normal": [
+       "Essaim",
+       "Mue"
+     ],
+     "hidden": "Annule Garde"
+   },
+   "Escavalier": {
+     "normal": [
+       "Essaim",
+       "Coque Armure"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Foongus": {
+     "normal": [
+       "Pose Spore"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Amoonguss": {
+     "normal": [
+       "Pose Spore"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Jellicent-Male": {
+     "normal": [
+       "Absorbe-Eau",
+       "Corps Maudit"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Jellicent-Female": {
+     "normal": [
+       "Absorbe-Eau",
+       "Corps Maudit"
+     ],
+     "hidden": "Moiteur"
+   },
+   "Alomomola": {
+     "normal": [
+       "Cœur Soin",
+       "Hydratation"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Joltik": {
+     "normal": [
+       "Œil Composé",
+       "Tension"
+     ],
+     "hidden": "Essaim"
+   },
+   "Galvantula": {
+     "normal": [
+       "Œil Composé",
+       "Tension"
+     ],
+     "hidden": "Essaim"
+   },
+   "Ferroseed": {
+     "normal": [
+       "Épine de Fer"
+     ],
+     "hidden": null
+   },
+   "Ferrothorn": {
+     "normal": [
+       "Épine de Fer"
+     ],
+     "hidden": "Anticipation"
+   },
+   "Klink": {
+     "normal": [
+       "Plus",
+       "Moins"
+     ],
+     "hidden": "Corps Sain"
+   },
+   "Klang": {
+     "normal": [
+       "Plus",
+       "Moins"
+     ],
+     "hidden": "Corps Sain"
+   },
+   "Klinklang": {
+     "normal": [
+       "Plus",
+       "Moins"
+     ],
+     "hidden": "Corps Sain"
+   },
+   "Tynamo": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Eelektrik": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Eelektross": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Elgyem": {
+     "normal": [
+       "Télépathe",
+       "Synchro"
+     ],
+     "hidden": "Analyste"
+   },
+   "Beheeyem": {
+     "normal": [
+       "Télépathe",
+       "Synchro"
+     ],
+     "hidden": "Analyste"
+   },
+   "Litwick": {
+     "normal": [
+       "Torche",
+       "Corps Ardent"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Lampent": {
+     "normal": [
+       "Torche",
+       "Corps Ardent"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Chandelure": {
+     "normal": [
+       "Torche",
+       "Corps Ardent"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Axew": {
+     "normal": [
+       "Rivalité",
+       "Brise Moule"
+     ],
+     "hidden": "Tension"
+   },
+   "Fraxure": {
+     "normal": [
+       "Rivalité",
+       "Brise Moule"
+     ],
+     "hidden": "Tension"
+   },
+   "Haxorus": {
+     "normal": [
+       "Rivalité",
+       "Brise Moule"
+     ],
+     "hidden": "Tension"
+   },
+   "Cubchoo": {
+     "normal": [
+       "Rideau Neige",
+       "Chasse-Neige"
+     ],
+     "hidden": "Phobique"
+   },
+   "Beartic": {
+     "normal": [
+       "Rideau Neige",
+       "Chasse-Neige"
+     ],
+     "hidden": "Glissade"
+   },
+   "Cryogonal": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Shelmet": {
+     "normal": [
+       "Hydratation",
+       "Coque Armure"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Accelgor": {
+     "normal": [
+       "Hydratation",
+       "Glu"
+     ],
+     "hidden": "Délestage"
+   },
+   "Stunfisk": {
+     "normal": [
+       "Statik",
+       "Échauffement"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Mienfoo": {
+     "normal": [
+       "Attention",
+       "Régé-Force"
+     ],
+     "hidden": "Téméraire"
+   },
+   "Mienshao": {
+     "normal": [
+       "Attention",
+       "Régé-Force"
+     ],
+     "hidden": "Téméraire"
+   },
+   "Druddigon": {
+     "normal": [
+       "Peau Dure",
+       "Sans Limite"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Golett": {
+     "normal": [
+       "Poing de Fer",
+       "Maladresse"
+     ],
+     "hidden": "Annule Garde"
+   },
+   "Golurk": {
+     "normal": [
+       "Poing de Fer",
+       "Maladresse"
+     ],
+     "hidden": "Annule Garde"
+   },
+   "Pawniard": {
+     "normal": [
+       "Acharné",
+       "Attention"
+     ],
+     "hidden": "Pression"
+   },
+   "Bisharp": {
+     "normal": [
+       "Acharné",
+       "Attention"
+     ],
+     "hidden": "Pression"
+   },
+   "Bouffalant": {
+     "normal": [
+       "Herbivore",
+       "Téméraire"
+     ],
+     "hidden": "Anti-Bruit"
+   },
+   "Rufflet": {
+     "normal": [
+       "Regard Vif",
+       "Sans Limite"
+     ],
+     "hidden": "Acharné"
+   },
+   "Braviary": {
+     "normal": [
+       "Regard Vif",
+       "Sans Limite"
+     ],
+     "hidden": "Acharné"
+   },
+   "Vullaby": {
+     "normal": [
+       "Coeur de Coq",
+       "Envelocape"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Mandibuzz": {
+     "normal": [
+       "Coeur de Coq",
+       "Envelocape"
+     ],
+     "hidden": "Armurouillée"
+   },
+   "Heatmor": {
+     "normal": [
+       "Gloutonnerie",
+       "Torche"
+     ],
+     "hidden": "Écran Fumée"
+   },
+   "Durant": {
+     "normal": [
+       "Essaim",
+       "Agitation"
+     ],
+     "hidden": "Absentéisme"
+   },
+   "Deino": {
+     "normal": [
+       "Agitation"
+     ],
+     "hidden": null
+   },
+   "Zweilous": {
+     "normal": [
+       "Agitation"
+     ],
+     "hidden": null
+   },
+   "Hydreigon": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Larvesta": {
+     "normal": [
+       "Corps Ardent"
+     ],
+     "hidden": "Essaim"
+   },
+   "Volcarona": {
+     "normal": [
+       "Corps Ardent"
+     ],
+     "hidden": "Essaim"
+   },
+   "Cobalion": {
+     "normal": [
+       "Cœur Noble"
+     ],
+     "hidden": null
+   },
+   "Terrakion": {
+     "normal": [
+       "Cœur Noble"
+     ],
+     "hidden": null
+   },
+   "Virizion": {
+     "normal": [
+       "Cœur Noble"
+     ],
+     "hidden": null
+   },
+   "Tornadus": {
+     "normal": [
+       "Farceur"
+     ],
+     "hidden": "Acharné"
+   },
+   "Tornadus-Therian": {
+     "normal": [
+       "Régé-Force"
+     ],
+     "hidden": null
+   },
+   "Thundurus": {
+     "normal": [
+       "Farceur"
+     ],
+     "hidden": "Acharné"
+   },
+   "Thundurus-Therian": {
+     "normal": [
+       "Absorbe-Volt"
+     ],
+     "hidden": null
+   },
+   "Reshiram": {
+     "normal": [
+       "TurboBrasier"
+     ],
+     "hidden": null
+   },
+   "Zekrom": {
+     "normal": [
+       "Téra-Voltage"
+     ],
+     "hidden": null
+   },
+   "Landorus": {
+     "normal": [
+       "Force Sable"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Landorus-Therian": {
+     "normal": [
+       "Intimidation"
+     ],
+     "hidden": null
+   },
+   "Kyurem": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": null
+   },
+   "Kyurem-White": {
+     "normal": [
+       "TurboBrasier"
+     ],
+     "hidden": null
+   },
+   "Kyurem-Black": {
+     "normal": [
+       "Téra-Voltage"
+     ],
+     "hidden": null
+   },
+   "Keldeo": {
+     "normal": [
+       "Cœur Noble"
+     ],
+     "hidden": null
+   },
+   "Keldeo-Resolute": {
+     "normal": [
+       "Cœur Noble"
+     ],
+     "hidden": null
+   },
+   "Meloetta": {
+     "normal": [
+       "Sérénité"
+     ],
+     "hidden": null
+   },
+   "Meloetta-Pirouette": {
+     "normal": [
+       "Sérénité"
+     ],
+     "hidden": null
+   },
+   "Genesect": {
+     "normal": [
+       "Télécharge"
+     ],
+     "hidden": null
+   },
+   "Genesect-Douse": {
+     "normal": [
+       "Télécharge"
+     ],
+     "hidden": null
+   },
+   "Genesect-Chill": {
+     "normal": [
+       "Télécharge"
+     ],
+     "hidden": null
+   },
+   "Genesect-Shock": {
+     "normal": [
+       "Télécharge"
+     ],
+     "hidden": null
+   },
+   "Genesect-Burn": {
+     "normal": [
+       "Télécharge"
+     ],
+     "hidden": null
+   },
+   "Chespin": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Pare-Balles"
+   },
+   "Quilladin": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Pare-Balles"
+   },
+   "Chesnaught": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Pare-Balles"
+   },
+   "Fennekin": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Magicien"
+   },
+   "Braixen": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Magicien"
+   },
+   "Delphox": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Magicien"
+   },
+   "Froakie": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Protéen"
+   },
+   "Frogadier": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Protéen"
+   },
+   "Greninja": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Protéen"
+   },
+   "Greninja-Ash": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Protéen"
+   },
+   "Bunnelby": {
+     "normal": [
+       "Ramassage",
+       "Bajoues"
+     ],
+     "hidden": "Coloforce"
+   },
+   "Diggersby": {
+     "normal": [
+       "Bajoues",
+       "Ramassage"
+     ],
+     "hidden": "Coloforce"
+   },
+   "Fletchling": {
+     "normal": [
+       "Cœur de Coq"
+     ],
+     "hidden": "Ailes Bourrasque"
+   },
+   "Fletchinder": {
+     "normal": [
+       "Corps Ardent"
+     ],
+     "hidden": "Ailes Bourrasque"
+   },
+   "Talonflame": {
+     "normal": [
+       "Corps Ardent"
+     ],
+     "hidden": "Ailes Bourrasque"
+   },
+   "Scatterbug": {
+     "normal": [
+       "Écran Poudre",
+       "Oeil Composé"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Spewpa": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": "Garde Amie"
+   },
+   "Litleo": {
+     "normal": [
+       "Rivalité",
+       "Tension"
+     ],
+     "hidden": "Impudence"
+   },
+   "Flabebe-Red": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Flabebe-Yellow": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Flabebe-Orange": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Flabebe-Blue": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Flabebe-White": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Floette-Red": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Floette-Yellow": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Floette-Orange": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Floette-Blue": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Floette-White": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Florges-Red": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Florges-Yellow": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Florges-Orange": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Florges-Blue": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Florges-White": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Pyroar-Male": {
+     "normal": [
+       "Rivalité",
+       "Tension"
+     ],
+     "hidden": "Impudence"
+   },
+   "Pyroar-Female": {
+     "normal": [
+       "Rivalité",
+       "Tension"
+     ],
+     "hidden": "Impudence"
+   },
+   "Floette-Eternal": {
+     "normal": [
+       "Flora-Voile"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Skiddo": {
+     "normal": [
+       "Herbivore"
+     ],
+     "hidden": "Toison Herbue"
+   },
+   "Gogoat": {
+     "normal": [
+       "Herbivore"
+     ],
+     "hidden": "Toison Herbue"
+   },
+   "Pancham": {
+     "normal": [
+       "Poing de Fer",
+       "Brise Moule"
+     ],
+     "hidden": "Querelleur"
+   },
+   "Pangoro": {
+     "normal": [
+       "Poing de Fer",
+       "Brise Moule"
+     ],
+     "hidden": "Querelleur"
+   },
+   "Furfrou": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Furfrou-Heart": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Furfrou-Star": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Furfrou-Diamond": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Furfrou-Debutante": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Furfrou-Matron": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Furfrou-Dandy": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Furfrou-La-Reine": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Furfrou-Kabuki": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Furfrou-Pharaoh": {
+     "normal": [
+       "Toison Épaisse"
+     ],
+     "hidden": null
+   },
+   "Espurr": {
+     "normal": [
+       "Regard Vif",
+       "Infiltration"
+     ],
+     "hidden": "Tempo Perso"
+   },
+   "Honedge": {
+     "normal": [
+       "Annule Garde"
+     ],
+     "hidden": "Tension"
+   },
+   "Doublade": {
+     "normal": [
+       "Annule Garde"
+     ],
+     "hidden": "Tension"
+   },
+   "Aegislash-Shield": {
+     "normal": [
+       "Déclic Tactique"
+     ],
+     "hidden": null
+   },
+   "Aegislash-Blade": {
+     "normal": [
+       "Déclic Tactique"
+     ],
+     "hidden": null
+   },
+   "Spritzee": {
+     "normal": [
+       "Cœur Soin"
+     ],
+     "hidden": "Aroma-Voile"
+   },
+   "Aromatisse": {
+     "normal": [
+       "Cœur Soin"
+     ],
+     "hidden": "Aroma-Voile"
+   },
+   "Swirlix": {
+     "normal": [
+       "Gluco-Voile"
+     ],
+     "hidden": "Délestage"
+   },
+   "Slurpuff": {
+     "normal": [
+       "Gluco-Voile"
+     ],
+     "hidden": "Délestage"
+   },
+   "Inkay": {
+     "normal": [
+       "Contestation",
+       "Ventouse"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Malamar": {
+     "normal": [
+       "Ventouse",
+       "Contestation"
+     ],
+     "hidden": "Infiltration"
+   },
+   "Binacle": {
+     "normal": [
+       "Griffe Dure",
+       "Sniper"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Barbaracle": {
+     "normal": [
+       "Griffe Dure",
+       "Sniper"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Skrelp": {
+     "normal": [
+       "Point Poison",
+       "Toxitouche"
+     ],
+     "hidden": "Adaptabilité"
+   },
+   "Dragalge": {
+     "normal": [
+       "Point Poison",
+       "Toxitouche"
+     ],
+     "hidden": "Adaptabilité"
+   },
+   "Clauncher": {
+     "normal": [
+       "Méga Blaster"
+     ],
+     "hidden": null
+   },
+   "Clawitzer": {
+     "normal": [
+       "Méga Blaster"
+     ],
+     "hidden": null
+   },
+   "Helioptile": {
+     "normal": [
+       "Peau Sèche",
+       "Voile Sable"
+     ],
+     "hidden": "Force Soleil"
+   },
+   "Heliolisk": {
+     "normal": [
+       "Peau Sèche",
+       "Voile Sable"
+     ],
+     "hidden": "Force Soleil"
+   },
+   "Tyrunt": {
+     "normal": [
+       "Prognathe"
+     ],
+     "hidden": "Fermeté"
+   },
+   "Tyrantrum": {
+     "normal": [
+       "Prognathe"
+     ],
+     "hidden": "Tête de Roc"
+   },
+   "Amaura": {
+     "normal": [
+       "Peau Gelée"
+     ],
+     "hidden": "Alerte Neige"
+   },
+   "Aurorus": {
+     "normal": [
+       "Peau Gelée"
+     ],
+     "hidden": "Alerte Neige"
+   },
+   "Sylveon": {
+     "normal": [
+       "Joli Sourire"
+     ],
+     "hidden": "Peau Féérique"
+   },
+   "Hawlucha": {
+     "normal": [
+       "Échauffement",
+       "Délestage"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Dedenne": {
+     "normal": [
+       "Ramassage",
+       "Bajoues"
+     ],
+     "hidden": "Plus"
+   },
+   "Carbink": {
+     "normal": [
+       "Corps Sain"
+     ],
+     "hidden": "Fermeté"
+   },
+   "Goomy": {
+     "normal": [
+       "Herbivore",
+       "Hydratation"
+     ],
+     "hidden": "Poisseux"
+   },
+   "Sliggoo": {
+     "normal": [
+       "Herbivore",
+       "Hydratation"
+     ],
+     "hidden": "Poisseux"
+   },
+   "Goodra": {
+     "normal": [
+       "Herbivore",
+       "Hydratation"
+     ],
+     "hidden": "Poisseux"
+   },
+   "Klefki": {
+     "normal": [
+       "Farceur"
+     ],
+     "hidden": "Magicien"
+   },
+   "Phantump": {
+     "normal": [
+       "Médic Nature",
+       "Fouille"
+     ],
+     "hidden": "Récolte"
+   },
+   "Trevenant": {
+     "normal": [
+       "Médic Nature",
+       "Fouille"
+     ],
+     "hidden": "Récolte"
+   },
+   "Pumpkaboo": {
+     "normal": [
+       "Ramassage",
+       "Fouille"
+     ],
+     "hidden": "Insomnia"
+   },
+   "Gourgeist": {
+     "normal": [
+       "Ramassage",
+       "Fouille"
+     ],
+     "hidden": "Insomnia"
+   },
+   "Bergmite": {
+     "normal": [
+       "Tempo Perso",
+       "Corps Gel"
+     ],
+     "hidden": "Fermeté"
+   },
+   "Avalugg": {
+     "normal": [
+       "Tempo Perso",
+       "Corps Gel"
+     ],
+     "hidden": "Fermeté"
+   },
+   "Noibat": {
+     "normal": [
+       "Infiltration",
+       "Fouille"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Noivern": {
+     "normal": [
+       "Fouille",
+       "Infiltration"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Xerneas": {
+     "normal": [
+       "Aura Féérique"
+     ],
+     "hidden": null
+   },
+   "Yveltal": {
+     "normal": [
+       "Aura Ténébreuse"
+     ],
+     "hidden": null
+   },
+   "Zygarde": {
+     "normal": [
+       "Aura Inversée",
+       "Rassemblement"
+     ],
+     "hidden": null
+   },
+   "Diancie": {
+     "normal": [
+       "Corps Sain"
+     ],
+     "hidden": null
+   },
+   "Hoopa": {
+     "normal": [
+       "Magicien"
+     ],
+     "hidden": null
+   },
+   "Volcanion": {
+     "normal": [
+       "Absorbe-Eau"
+     ],
+     "hidden": null
+   },
+   "Rowlet": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Longue Portée"
+   },
+   "Dartrix": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Longue Portée"
+   },
+   "Decidueye": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Longue Portée"
+   },
+   "Litten": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Intimidation"
+   },
+   "Torracat": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Intimidation"
+   },
+   "Incineroar": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Intimidation"
+   },
+   "Popplio": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Hydrata-Son"
+   },
+   "Brionne": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Hydrata-Son"
+   },
+   "Primarina": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Hydrata-Son"
+   },
+   "Pikipek": {
+     "normal": [
+       "Regard Vif",
+       "Multi-Coups"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Trumbeak": {
+     "normal": [
+       "Regard Vif",
+       "Multi-Coups"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Toucannon": {
+     "normal": [
+       "Regard Vif",
+       "Multi-Coups"
+     ],
+     "hidden": "Sans Limite"
+   },
+   "Yungoos": {
+     "normal": [
+       "Filature",
+       "Prognathe"
+     ],
+     "hidden": "Adaptabilité"
+   },
+   "Gumshoos": {
+     "normal": [
+       "Filature",
+       "Prognathe"
+     ],
+     "hidden": "Adaptabilité"
+   },
+   "Grubbin": {
+     "normal": [
+       "Essaim"
+     ],
+     "hidden": null
+   },
+   "Charjabug": {
+     "normal": [
+       "Batterie"
+     ],
+     "hidden": null
+   },
+   "Vikavolt": {
+     "normal": [
+       "Lévitation"
+     ],
+     "hidden": null
+   },
+   "Crabrawler": {
+     "normal": [
+       "Hyper Cutter",
+       "Poing de Fer"
+     ],
+     "hidden": "Colérique"
+   },
+   "Crabominable": {
+     "normal": [
+       "Hyper Cutter",
+       "Poing de Fer"
+     ],
+     "hidden": "Colérique"
+   },
+   "Oricorio-Baile": {
+     "normal": [
+       "Danseuse"
+     ],
+     "hidden": null
+   },
+   "Oricorio-Pom-Pom": {
+     "normal": [
+       "Danseuse"
+     ],
+     "hidden": null
+   },
+   "Oricorio-Pa'u": {
+     "normal": [
+       "Danseuse"
+     ],
+     "hidden": null
+   },
+   "Oricorio-Sensu": {
+     "normal": [
+       "Danseuse"
+     ],
+     "hidden": null
+   },
+   "Cutiefly": {
+     "normal": [
+       "Cherche Miel",
+       "Écran Poudre"
+     ],
+     "hidden": "Gluco-Voile"
+   },
+   "Ribombee": {
+     "normal": [
+       "Cherche Miel",
+       "Écran Poudre"
+     ],
+     "hidden": "Gluco-Voile"
+   },
+   "Rockruff": {
+     "normal": [
+       "Regard Vif",
+       "Esprit Vital"
+     ],
+     "hidden": "Impassible"
+   },
+   "Lycanroc-Midday": {
+     "normal": [
+       "Regard Vif",
+       "Baigne Sable"
+     ],
+     "hidden": "Impassible"
+   },
+   "Lycanroc-Midnight": {
+     "normal": [
+       "Regard Vif",
+       "Esprit Vital"
+     ],
+     "hidden": "Annule Garde"
+   },
+   "Lycanroc-Dusk": {
+     "normal": [
+       "Griffe Dure"
+     ],
+     "hidden": null
+   },
+   "Wishiwashi-Solo": {
+     "normal": [
+       "Banc"
+     ],
+     "hidden": null
+   },
+   "Wishiwashi-School": {
+     "normal": [
+       "Banc"
+     ],
+     "hidden": null
+   },
+   "Mareanie": {
+     "normal": [
+       "Cruauté",
+       "Échauffement"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Toxapex": {
+     "normal": [
+       "Cruauté",
+       "Échauffement"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Mudbray": {
+     "normal": [
+       "Tempo Perso",
+       "Endurance"
+     ],
+     "hidden": "Attention"
+   },
+   "Mudsdale": {
+     "normal": [
+       "Tempo Perso",
+       "Endurance"
+     ],
+     "hidden": "Attention"
+   },
+   "Dewpider": {
+     "normal": [
+       "Aquabulle"
+     ],
+     "hidden": "Absorbe-Eau"
+   },
+   "Araquanid": {
+     "normal": [
+       "Aquabulle"
+     ],
+     "hidden": "Absorbe-Eau"
+   },
+   "Fomantis": {
+     "normal": [
+       "Feuille Garde"
+     ],
+     "hidden": "Contestation"
+   },
+   "Lurantis": {
+     "normal": [
+       "Feuille Garde"
+     ],
+     "hidden": "Contestation"
+   },
+   "Morelull": {
+     "normal": [
+       "Luminescence",
+       "Pose Spore"
+     ],
+     "hidden": "Cuvette"
+   },
+   "Shiinotic": {
+     "normal": [
+       "Luminescence",
+       "Pose Spore"
+     ],
+     "hidden": "Cuvette"
+   },
+   "Salandit": {
+     "normal": [
+       "Corrosion"
+     ],
+     "hidden": "Benêt"
+   },
+   "Salazzle": {
+     "normal": [
+       "Corrosion"
+     ],
+     "hidden": "Benêt"
+   },
+   "Stufful": {
+     "normal": [
+       "Boule de Poils",
+       "Maladresse"
+     ],
+     "hidden": "Joli Sourire"
+   },
+   "Bewear": {
+     "normal": [
+       "Boule de Poils",
+       "Maladresse"
+     ],
+     "hidden": "Tension"
+   },
+   "Bounsweet": {
+     "normal": [
+       "Feuille Garde",
+       "Benêt"
+     ],
+     "hidden": "Gluco-Voile"
+   },
+   "Steenee": {
+     "normal": [
+       "Feuille Garde",
+       "Benêt"
+     ],
+     "hidden": "Gluco-Voile"
+   },
+   "Tsareena": {
+     "normal": [
+       "Prestance Royale",
+       "Feuille Garde"
+     ],
+     "hidden": "Gluco-Voile"
+   },
+   "Comfey": {
+     "normal": [
+       "Flora-Voile",
+       "Prioguérison"
+     ],
+     "hidden": "Médic Nature"
+   },
+   "Oranguru": {
+     "normal": [
+       "Télépathe",
+       "Attention"
+     ],
+     "hidden": "Symbiose"
+   },
+   "Passimian": {
+     "normal": [
+       "Receveur"
+     ],
+     "hidden": "Acharné"
+   },
+   "Wimpod": {
+     "normal": [
+       "Repli Tactique"
+     ],
+     "hidden": null
+   },
+   "Golisopod": {
+     "normal": [
+       "Repli Tactique"
+     ],
+     "hidden": null
+   },
+   "Sandygast": {
+     "normal": [
+       "Sable Humide"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Palossand": {
+     "normal": [
+       "Sable Humide"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Pyukumuku": {
+     "normal": [
+       "Expuls'Organes"
+     ],
+     "hidden": "Inconscient"
+   },
+   "Type: Null": {
+     "normal": [
+       "Armurbaston"
+     ],
+     "hidden": null
+   },
+   "Silvally": {
+     "normal": [
+       "Système Alpha"
+     ],
+     "hidden": null
+   },
+   "Minior": {
+     "normal": [
+       "Bouclier Carapace"
+     ],
+     "hidden": null
+   },
+   "Minior-Red-Core": {
+     "normal": [
+       "Bouclier-Carcan"
+     ],
+     "hidden": null
+   },
+   "Minior-Orange-Core": {
+     "normal": [
+       "Bouclier-Carcan"
+     ],
+     "hidden": null
+   },
+   "Minior-Yellow-Core": {
+     "normal": [
+       "Bouclier-Carcan"
+     ],
+     "hidden": null
+   },
+   "Minior-Green-Core": {
+     "normal": [
+       "Bouclier-Carcan"
+     ],
+     "hidden": null
+   },
+   "Minior-Blue-Core": {
+     "normal": [
+       "Bouclier-Carcan"
+     ],
+     "hidden": null
+   },
+   "Minior-Indigo-Core": {
+     "normal": [
+       "Bouclier-Carcan"
+     ],
+     "hidden": null
+   },
+   "Minior-Violet-Core": {
+     "normal": [
+       "Bouclier-Carcan"
+     ],
+     "hidden": null
+   },
+   "Minior-Core": {
+     "normal": [
+       "Bouclier-Carcan"
+     ],
+     "hidden": null
+   },
+   "Komala": {
+     "normal": [
+       "Hypersommeil"
+     ],
+     "hidden": null
+   },
+   "Turtonator": {
+     "normal": [
+       "Coque Armure"
+     ],
+     "hidden": null
+   },
+   "Togedemaru": {
+     "normal": [
+       "Paratonnerre"
+     ],
+     "hidden": null
+   },
+   "Mimikyu-Fantômasqued": {
+     "normal": [
+       "Fantômasque"
+     ],
+     "hidden": null
+   },
+   "Mimikyu-Busted": {
+     "normal": [
+       "Fantômasque"
+     ],
+     "hidden": null
+   },
+   "Bruxish": {
+     "normal": [
+       "Corps Coloré",
+       "Prognathe"
+     ],
+     "hidden": "Peau Miracle"
+   },
+   "Drampa": {
+     "normal": [
+       "Folle Furie",
+       "Herbivore"
+     ],
+     "hidden": "Ciel Gris"
+   },
+   "Dhelmise": {
+     "normal": [
+       "Expert Acier"
+     ],
+     "hidden": null
+   },
+   "Jangmo": {
+     "normal": [
+       "Anti-Bruit",
+       "Pare-Balles"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Hakamo": {
+     "normal": [
+       "Anti-Bruit",
+       "Pare-Balles"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Kommo": {
+     "normal": [
+       "Anti-Bruit",
+       "Pare-Balles"
+     ],
+     "hidden": "Envelocape"
+   },
+   "Tapu Koko": {
+     "normal": [
+       "Créa-Élec"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Tapu Lele": {
+     "normal": [
+       "Créa-Psy"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Tapu Bulu": {
+     "normal": [
+       "Créa-Herbe"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Tapu Fini": {
+     "normal": [
+       "Créa-Brume"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Cosmog": {
+     "normal": [
+       "Inconscient"
+     ],
+     "hidden": null
+   },
+   "Cosmoem": {
+     "normal": [
+       "Fermeté"
+     ],
+     "hidden": null
+   },
+   "Solgaleo": {
+     "normal": [
+       "Métallo-Garde"
+     ],
+     "hidden": null
+   },
+   "Lunala": {
+     "normal": [
+       "Spectro-Bouclier"
+     ],
+     "hidden": null
+   },
+   "Nihilego": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Buzzwole": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Pheromosa": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Xurkitree": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Celesteela": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Kartana": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Guzzlord": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Necrozma": {
+     "normal": [
+       "Prisme-Armure"
+     ],
+     "hidden": null
+   },
+   "Magearna": {
+     "normal": [
+       "Animacœur"
+     ],
+     "hidden": null
+   },
+   "Marshadow": {
+     "normal": [
+       "Technicien"
+     ],
+     "hidden": null
+   },
+   "Poipole": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Naganadel": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Stakataka": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Blacephalon": {
+     "normal": [
+       "Boost Chimère"
+     ],
+     "hidden": null
+   },
+   "Zeraora": {
+     "normal": [
+       "Absorbe-Volt"
+     ],
+     "hidden": null
+   },
+   "Meltan": {
+     "normal": [
+       "Magnépiège"
+     ],
+     "hidden": null
+   },
+   "Melmetal": {
+     "normal": [
+       "Poing de Fer"
+     ],
+     "hidden": null
+   },
+   "Grookey": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Créa-Herbe"
+   },
+   "Thwackey": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Créa-Herbe"
+   },
+   "Rillaboom": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Créa-Herbe"
+   },
+   "Scorbunny": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Libéro"
+   },
+   "Raboot": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Libéro"
+   },
+   "Cinderace": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Libéro"
+   },
+   "Sobble": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Sniper"
+   },
+   "Drizzile": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Sniper"
+   },
+   "Inteleon": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Sniper"
+   },
+   "Skwovet": {
+     "normal": [
+       "Bajoues"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Greedent": {
+     "normal": [
+       "Bajoues"
+     ],
+     "hidden": "Gloutonnerie"
+   },
+   "Rookidee": {
+     "normal": [
+       "Regard Vif",
+       "Tension"
+     ],
+     "hidden": "Cœur de Coq"
+   },
+   "Corvisquire": {
+     "normal": [
+       "Regard Vif",
+       "Tension"
+     ],
+     "hidden": "Cœur de Coq"
+   },
+   "Corviknight": {
+     "normal": [
+       "Pression",
+       "Tension"
+     ],
+     "hidden": "Miroir Armure"
+   },
+   "Blipbug": {
+     "normal": [
+       "Essaim",
+       "Œil Composé"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Dottler": {
+     "normal": [
+       "Essaim",
+       "Œil Composé"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Orbeetle": {
+     "normal": [
+       "Essaim",
+       "Fouille"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Nickit": {
+     "normal": [
+       "Fuite",
+       "Délestage"
+     ],
+     "hidden": "Filature"
+   },
+   "Thievul": {
+     "normal": [
+       "Fuite",
+       "Délestage"
+     ],
+     "hidden": "Filature"
+   },
+   "Gossifleur": {
+     "normal": [
+       "Effilochage",
+       "Régé-Force"
+     ],
+     "hidden": "Pose Spore"
+   },
+   "Eldegoss": {
+     "normal": [
+       "Effilochage",
+       "Régé-Force"
+     ],
+     "hidden": "Pose Spore"
+   },
+   "Wooloo": {
+     "normal": [
+       "Fuite",
+       "Boule de Poils"
+     ],
+     "hidden": "Pare-Balles"
+   },
+   "Dubwool": {
+     "normal": [
+       "Boule de Poils",
+       "Impassible"
+     ],
+     "hidden": "Pare-Balles"
+   },
+   "Chewtle": {
+     "normal": [
+       "Prognathe",
+       "Coque Armure"
+     ],
+     "hidden": "Glissade"
+   },
+   "Drednaw": {
+     "normal": [
+       "Prognathe",
+       "Coque Armure"
+     ],
+     "hidden": "Glissade"
+   },
+   "Yamper": {
+     "normal": [
+       "Ramasse Ball"
+     ],
+     "hidden": "Phobique"
+   },
+   "Boltund": {
+     "normal": [
+       "Prognathe"
+     ],
+     "hidden": "Battant"
+   },
+   "Rolycoly": {
+     "normal": [
+       "Turbine",
+       "Corps Ardent"
+     ],
+     "hidden": "Torche"
+   },
+   "Carkol": {
+     "normal": [
+       "Turbine",
+       "Corps Ardent"
+     ],
+     "hidden": "Torche"
+   },
+   "Coalossal": {
+     "normal": [
+       "Turbine",
+       "Corps Ardent"
+     ],
+     "hidden": "Torche"
+   },
+   "Applin": {
+     "normal": [
+       "Mûrissement",
+       "Gloutonnerie"
+     ],
+     "hidden": "Pare-Balles"
+   },
+   "Flapple": {
+     "normal": [
+       "Mûrissement",
+       "Gloutonnerie"
+     ],
+     "hidden": "Agitation"
+   },
+   "Appletun": {
+     "normal": [
+       "Mûrissement",
+       "Gloutonnerie"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Silicobra": {
+     "normal": [
+       "Expul'Sable",
+       "Mue"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Sandaconda": {
+     "normal": [
+       "Expul'Sable",
+       "Mue"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Cramorant": {
+     "normal": [
+       "Dégobage"
+     ],
+     "hidden": null
+   },
+   "Arrokuda": {
+     "normal": [
+       "Glissade"
+     ],
+     "hidden": "Propulseur"
+   },
+   "Barraskewda": {
+     "normal": [
+       "Glissade"
+     ],
+     "hidden": "Propulseur"
+   },
+   "Toxel": {
+     "normal": [
+       "Phobique",
+       "Statik"
+     ],
+     "hidden": "Maladresse"
+   },
+   "Toxtricity-Amped": {
+     "normal": [
+       "Punk Rock",
+       "Plus"
+     ],
+     "hidden": "Technicienl"
+   },
+   "Toxtricity-Low-Key": {
+     "normal": [
+       "Punk Rock",
+       "Moins"
+     ],
+     "hidden": "Technicien"
+   },
+   "Sizzlipede": {
+     "normal": [
+       "Torche",
+       "Écran Fumée"
+     ],
+     "hidden": "Corps Ardent"
+   },
+   "Centiskorch": {
+     "normal": [
+       "Torche",
+       "Écran Fumée"
+     ],
+     "hidden": "Corps Ardent"
+   },
+   "Clobbopus": {
+     "normal": [
+       "Échauffement"
+     ],
+     "hidden": "Technicien"
+   },
+   "Grapploct": {
+     "normal": [
+       "Échauffement"
+     ],
+     "hidden": "Technicien"
+   },
+   "Hatenna": {
+     "normal": [
+       "Cœur Soin",
+       "Anticipation"
+     ],
+     "hidden": "Miroir Magik"
+   },
+   "Hattrem": {
+     "normal": [
+       "Cœur Soin",
+       "Anticipation"
+     ],
+     "hidden": "Miroir Magik"
+   },
+   "Hatterene": {
+     "normal": [
+       "Cœur Soin",
+       "Anticipation"
+     ],
+     "hidden": "Miroir Magik"
+   },
+   "Impidimp": {
+     "normal": [
+       "Farceur",
+       "Fouille"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Morgrem": {
+     "normal": [
+       "Farceur",
+       "Fouille"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Grimmsnarl": {
+     "normal": [
+       "Farceur",
+       "Fouille"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Obstagoon": {
+     "normal": [
+       "Téméraire",
+       "Cran"
+     ],
+     "hidden": "Acharné"
+   },
+   "Perrserker": {
+     "normal": [
+       "Armurbaston",
+       "Griffe Dure"
+     ],
+     "hidden": "Boost Acier"
+   },
+   "Cursola": {
+     "normal": [
+       "Armurouillée"
+     ],
+     "hidden": "Corps Condamné"
+   },
+   "Sirfetch’d": {
+     "normal": [
+       "Impassible"
+     ],
+     "hidden": "Querelleur"
+   },
+   "Mr. Rime": {
+     "normal": [
+       "Pieds Confus",
+       "Brise-Barrière"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Runerigus": {
+     "normal": [
+       "Âme Vagabonde"
+     ],
+     "hidden": null
+   },
+   "Milcery": {
+     "normal": [
+       "Gluco-Voile"
+     ],
+     "hidden": "Aroma-Voile"
+   },
+   "Alcremie": {
+     "normal": [
+       "Gluco-Voile"
+     ],
+     "hidden": "Aroma-Voile"
+   },
+   "Falinks": {
+     "normal": [
+       "Armurbaston"
+     ],
+     "hidden": "Acharné"
+   },
+   "Pincurchin": {
+     "normal": [
+       "Paratonnerre"
+     ],
+     "hidden": "Créa-Élec"
+   },
+   "Snom": {
+     "normal": [
+       "Rideau Neige"
+     ],
+     "hidden": "Écailles Glacées"
+   },
+   "Frosmoth": {
+     "normal": [
+       "Écran Poudre"
+     ],
+     "hidden": "Écailles Glacées"
+   },
+   "Stonjourner": {
+     "normal": [
+       "Cercle d'Énergie"
+     ],
+     "hidden": null
+   },
+   "Indeedee-Male": {
+     "normal": [
+       "Attention",
+       "Synchro"
+     ],
+     "hidden": "Créa-Psy"
+   },
+   "Indeedee-Female": {
+     "normal": [
+       "Tempo Perso",
+       "Synchro"
+     ],
+     "hidden": "Créa-Psy"
+   },
+   "Morpeko-Full-Belly": {
+     "normal": [
+       "Déclic Fringale"
+     ],
+     "hidden": null
+   },
+   "Morpeko-Hangry": {
+     "normal": [
+       "Déclic Fringale"
+     ],
+     "hidden": null
+   },
+   "Cufant": {
+     "normal": [
+       "Sans Limite"
+     ],
+     "hidden": "Heavy Metal"
+   },
+   "Copperajah": {
+     "normal": [
+       "Sans Limite"
+     ],
+     "hidden": "Heavy Metal"
+   },
+   "Dracozolt": {
+     "normal": [
+       "Absorbe-Volt",
+       "Agitation"
+     ],
+     "hidden": "Baigne Sable"
+   },
+   "Arctozolt": {
+     "normal": [
+       "Absorbe-Volt",
+       "Statik"
+     ],
+     "hidden": "Chasse-Neige"
+   },
+   "Dracovish": {
+     "normal": [
+       "Absorbe-Eau",
+       "Prognathe"
+     ],
+     "hidden": "Baigne Sable"
+   },
+   "Arctovish": {
+     "normal": [
+       "Absorbe-Eau",
+       "Corps Gel"
+     ],
+     "hidden": "Chasse-Neige"
+   },
+   "Duraludon": {
+     "normal": [
+       "Light Metal",
+       "Heavy Metal"
+     ],
+     "hidden": "Nerfs d'Acier"
+   },
+   "Dreepy": {
+     "normal": [
+       "Corps Sain",
+       "Infiltration"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Drakloak": {
+     "normal": [
+       "Corps Sain",
+       "Infiltration"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Dragapult": {
+     "normal": [
+       "Corps Sain",
+       "Infiltration"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Zacian": {
+     "normal": [
+       "Lame Indomptable"
+     ],
+     "hidden": null
+   },
+   "Zamazenta": {
+     "normal": [
+       "Égide Inflexible"
+     ],
+     "hidden": null
+   },
+   "Zacian-Crowned": {
+     "normal": [
+       "Lame Indomptable"
+     ],
+     "hidden": null
+   },
+   "Zamazenta-crowned": {
+     "normal": [
+       "Égide Inflexible"
+     ],
+     "hidden": null
+   },
+   "Eternatus": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": null
+   },
+   "Eternatus-Eternamax": {
+     "normal": [
+       "Pression"
+     ],
+     "hidden": null
+   },
+   "Kubfu": {
+     "normal": [
+       "Attention"
+     ],
+     "hidden": null
+   },
+   "Zarude": {
+     "normal": [
+       "Feuille Garde"
+     ],
+     "hidden": null
+   },
+   "Zarude-Dada": {
+     "normal": [
+       "Feuille Garde"
+     ],
+     "hidden": null
+   },
+   "Regieleki": {
+     "normal": [
+       "Transistor"
+     ],
+     "hidden": null
+   },
+   "Regidrago": {
+     "normal": [
+       "Dent de Dragon"
+     ],
+     "hidden": null
+   },
+   "Glastrier": {
+     "normal": [
+       "Blanche Ruade"
+     ],
+     "hidden": null
+   },
+   "Spectrier": {
+     "normal": [
+       "Sombre Ruade"
+     ],
+     "hidden": null
+   },
+   "Calyrex": {
+     "normal": [
+       "Tension"
+     ],
+     "hidden": null
+   },
+   "Calyrex-Ice": {
+     "normal": [
+       "Osmose Équine"
+     ],
+     "hidden": null
+   },
+   "Calyrex-Shadow": {
+     "normal": [
+       "Osmose Équine"
+     ],
+     "hidden": null
+   },
+   "Sprigatito": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Protéen"
+   },
+   "Floragato": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Protéen"
+   },
+   "Meowscarada": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Protéen"
+   },
+   "Fuecoco": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Inconscient"
+   },
+   "Crocalor": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Inconscient"
+   },
+   "Skeledirge": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Inconscient"
+   },
+   "Quaxly": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Impudence"
+   },
+   "Quaxwell": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Impudence"
+   },
+   "Quaquaval": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Impudence"
+   },
+   "Lechonk": {
+     "normal": [
+       "Aroma-Voile",
+       "Gloutonnerie"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Oinkologne-Male": {
+     "normal": [
+       "Odeur Tenace",
+       "Gloutonnerie"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Oinkologne-Female": {
+     "normal": [
+       "Aroma-Voile",
+       "Gloutonnerie"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Tarountula": {
+     "normal": [
+       "Insomnia"
+     ],
+     "hidden": "Filature"
+   },
+   "Spidops": {
+     "normal": [
+       "Insomnia"
+     ],
+     "hidden": "Filature"
+   },
+   "Nymble": {
+     "normal": [
+       "Essaim"
+     ],
+     "hidden": "Lentiteintée"
+   },
+   "Lokix": {
+     "normal": [
+       "Essaim"
+     ],
+     "hidden": "Lentiteintée"
+   },
+   "Rellor": {
+     "normal": [
+       "Œil Composé"
+     ],
+     "hidden": "Mue"
+   },
+   "Rabsca": {
+     "normal": [
+       "Synchro"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Greavard": {
+     "normal": [
+       "Ramassage"
+     ],
+     "hidden": "Boule de Poils"
+   },
+   "Houndstone": {
+     "normal": [
+       "Baigne Sable"
+     ],
+     "hidden": "Boule de Poils"
+   },
+   "Flittle": {
+     "normal": [
+       "Fouille",
+       "Anticipation"
+     ],
+     "hidden": "Turbo"
+   },
+   "Espathra": {
+     "normal": [
+       "Opportuniste",
+       "Fouille"
+     ],
+     "hidden": "Turbo"
+   },
+   "Farigiraf": {
+     "normal": [
+       "Ruminant",
+       "Armure Caudale"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Wiglett": {
+     "normal": [
+       "Poisseux",
+       "Phobique"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Wugtrio": {
+     "normal": [
+       "Poisseux",
+       "Phobique"
+     ],
+     "hidden": "Voile Sable"
+   },
+   "Dondozo": {
+     "normal": [
+       "Inconscient",
+       "Benêt"
+     ],
+     "hidden": "Ignifu-Voile"
+   },
+   "Tatsugiri-Droopy": {
+     "normal": [
+       "Commandant"
+     ],
+     "hidden": "Lavabo"
+   },
+   "Tatsugiri-Stretchy": {
+     "normal": [
+       "Commandant"
+     ],
+     "hidden": "Lavabo"
+   },
+   "Tatsugiri-Curly": {
+     "normal": [
+       "Commandant"
+     ],
+     "hidden": "Lavabo"
+   },
+   "Annihilape": {
+     "normal": [
+       "Esprit Vital",
+       "Attention"
+     ],
+     "hidden": "Acharné"
+   },
+   "Clodsire": {
+     "normal": [
+       "Point Poison",
+       "Absorbe-Eau"
+     ],
+     "hidden": "Inconscient"
+   },
+   "Kingambit": {
+     "normal": [
+       "Acharné",
+       "Général Suprême"
+     ],
+     "hidden": "Pression"
+   },
+   "Great Tusk": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Scream Tail": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Brute Bonnet": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Flutter Mane": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Slither Wing": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Sandy Shocks": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Iron Treads": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Iron Bundle": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Iron Hands": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Iron Jugulis": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Iron Moth": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Iron Thorns": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Frigibax": {
+     "normal": [
+       "Thermodynamique"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Arctibax": {
+     "normal": [
+       "Thermodynamique"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Baxcalibur": {
+     "normal": [
+       "Thermodynamique"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Gholdengo": {
+     "normal": [
+       "Corps En Or"
+     ],
+     "hidden": null
+   },
+   "Wo-Chien": {
+     "normal": [
+       "Bois du Fléau"
+     ],
+     "hidden": null
+   },
+   "Chien-Pao": {
+     "normal": [
+       "Épée du Fléau"
+     ],
+     "hidden": null
+   },
+   "Ting-Lu": {
+     "normal": [
+       "Urne du Fléau"
+     ],
+     "hidden": null
+   },
+   "Chi-Yu": {
+     "normal": [
+       "Perles du Fléau"
+     ],
+     "hidden": null
+   },
+   "Roaring Moon": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Iron Valiant": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Walking Wake": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Iron Leaves": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Dipplin": {
+     "normal": [
+       "Nectar Mielleux",
+       "Gloutonnerie"
+     ],
+     "hidden": "Glu"
+   },
+   "Poltchageist": {
+     "normal": [
+       "Aux Petits Soins"
+     ],
+     "hidden": "Ignifugé"
+   },
+   "Sinistcha": {
+     "normal": [
+       "Armurouillée"
+     ],
+     "hidden": "Ignifugé"
+   },
+   "Okidogi": {
+     "normal": [
+       "Aux Petits Soins"
+     ],
+     "hidden": "Chien de Garde"
+   },
+   "Munkidori": {
+     "normal": [
+       "Chaîne Toxique"
+     ],
+     "hidden": "Fouille"
+   },
+   "Fezandipiti": {
+     "normal": [
+       "Chaîne Toxique"
+     ],
+     "hidden": "Technicien"
+   },
+   "Archaludon": {
+     "normal": [
+       "Endurance",
+       "Fermeté"
+     ],
+     "hidden": "Nerfs d'Acier"
+   },
+   "Hydrapple": {
+     "normal": [
+       "Nectar Mielleux",
+       "Régé-Force"
+     ],
+     "hidden": "Glu"
+   },
+   "Gouging Fire": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Raging Bolt": {
+     "normal": [
+       "Paléosynthèse"
+     ],
+     "hidden": null
+   },
+   "Iron Boulder": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Iron Crown": {
+     "normal": [
+       "Charge Quantique"
+     ],
+     "hidden": null
+   },
+   "Pecharunt": {
+     "normal": [
+       "Emprise Toxique"
+     ],
+     "hidden": null
+   },
+   "Growlithe-Hisuian": {
+     "normal": [
+       "Intimidation",
+       "Torche"
+     ],
+     "hidden": "Tête de Roc"
+   },
+   "Arcanine-Hisuian": {
+     "normal": [
+       "Intimidation",
+       "Torche"
+     ],
+     "hidden": "Tête de Roc"
+   },
+   "Voltorb-Hisuian": {
+     "normal": [
+       "Anti-Bruit",
+       "Statik"
+     ],
+     "hidden": "Boom Final"
+   },
+   "Electrode-Hisuian": {
+     "normal": [
+       "Anti-Bruit",
+       "Statik"
+     ],
+     "hidden": "Boom Final"
+   },
+   "Typhlosion-Hisuian": {
+     "normal": [
+       "Brasier"
+     ],
+     "hidden": "Fouille"
+   },
+   "Qwilfish-Hisuian": {
+     "normal": [
+       "Point Poison",
+       "Glissade"
+     ],
+     "hidden": "Intimidation"
+   },
+   "Sneasel-Hisuian": {
+     "normal": [
+       "Attention",
+       "Regard Vif"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Zorua-Hisuian": {
+     "normal": [
+       "Illusion"
+     ],
+     "hidden": null
+   },
+   "Zoroark-Hisuian": {
+     "normal": [
+       "Illusion"
+     ],
+     "hidden": null
+   },
+   "Braviary-Hisuian": {
+     "normal": [
+       "Regard Vif",
+       " Sans Limite"
+     ],
+     "hidden": "Lentiteintée"
+   },
+   "Meowth-Galarian": {
+     "normal": [
+       "Ramassage",
+       "Griffe Dure"
+     ],
+     "hidden": "Tension"
+   },
+   "Ponyta-Galarian": {
+     "normal": [
+       "Fuite",
+       "Voile Pastel"
+     ],
+     "hidden": "Anticipation"
+   },
+   "Rapidash-Galarian": {
+     "normal": [
+       "Fuite",
+       "Voile Pastel"
+     ],
+     "hidden": "Anticipation"
+   },
+   "Farfetchd-Galarian": {
+     "normal": [
+       "Impassible"
+     ],
+     "hidden": "Querelleur"
+   },
+   "Weezing-Galarian": {
+     "normal": [
+       "Lévitation",
+       "Gaz Inhibiteur"
+     ],
+     "hidden": " Créa-Brume"
+   },
+   "MrMime-Galarian": {
+     "normal": [
+       "Esprit Vital",
+       "Brise-Barrière"
+     ],
+     "hidden": "Corps Gel"
+   },
+   "Articuno-Galarian": {
+     "normal": [
+       "Battant"
+     ],
+     "hidden": null
+   },
+   "Zapdos-Galarian": {
+     "normal": [
+       "Acharné"
+     ],
+     "hidden": null
+   },
+   "Moltres-Galarian": {
+     "normal": [
+       "Folle Furie"
+     ],
+     "hidden": null
+   },
+   "Slowpoke-Galarian": {
+     "normal": [
+       "Tempo Perso",
+       "Gloutonnerie"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Slowbro-Galarian": {
+     "normal": [
+       "Tir Vif",
+       "Tempo Perso"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Slowking-Galarian": {
+     "normal": [
+       "Breuvage Suspect",
+       "Tempo Perso"
+     ],
+     "hidden": "Régé-Force"
+   },
+   "Corsola-Galarian": {
+     "normal": [
+       "Armurouillée"
+     ],
+     "hidden": "Corps Maudit"
+   },
+   "Zigzagoon-Galarian": {
+     "normal": [
+       "Ramassage",
+       "Gloutonnerie"
+     ],
+     "hidden": "Pied Véloce"
+   },
+   "Linoone-Galarian": {
+     "normal": [
+       "Ramassage",
+       "Gloutonnerie"
+     ],
+     "hidden": "Pied Véloce"
+   },
+   "Darumaka-Galarian": {
+     "normal": [
+       "Agitation"
+     ],
+     "hidden": "Attention"
+   },
+   "Yamask-Galarian": {
+     "normal": [
+       "Âme Vagabonde"
+     ],
+     "hidden": null
+   },
+   "Stunfisk-Galarian": {
+     "normal": [
+       "Mimétisme"
+     ],
+     "hidden": null
+   },
+   "Rattata-Alolan": {
+     "normal": [
+       "Gloutonnerie",
+       "Agitation"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Raticate-Alolan": {
+     "normal": [
+       "Gloutonnerie",
+       "Agitation"
+     ],
+     "hidden": "Isograisse"
+   },
+   "Raichu-Alolan": {
+     "normal": [
+       "Surf Caudal"
+     ],
+     "hidden": null
+   },
+   "Sandshrew-Alolan": {
+     "normal": [
+       "Rideau Neige"
+     ],
+     "hidden": "Chasse-Neige"
+   },
+   "Sandslash-Alolan": {
+     "normal": [
+       "Rideau Neige"
+     ],
+     "hidden": "Chasse-Neige"
+   },
+   "Vulpix-Alolan": {
+     "normal": [
+       "Rideau Neige"
+     ],
+     "hidden": "Alerte Neige"
+   },
+   "Ninetales-Alolan": {
+     "normal": [
+       "Rideau Neige"
+     ],
+     "hidden": "Alerte Neige"
+   },
+   "Diglett-Alolan": {
+     "normal": [
+       "Voile Sable",
+       "Mèche Rebelle"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Dugtrio-Alolan": {
+     "normal": [
+       "Voile Sable",
+       "Mèche Rebelle"
+     ],
+     "hidden": "Force Sable"
+   },
+   "Meowth-Alolan": {
+     "normal": [
+       "Ramassage",
+       "Technicien"
+     ],
+     "hidden": "Phobique"
+   },
+   "Persian-Alolan": {
+     "normal": [
+       "Toison Épaisse",
+       "Technicien"
+     ],
+     "hidden": "Phobique"
+   },
+   "Tandemaus": {
+     "normal": [
+       "Fuite",
+       "Ramassage"
+     ],
+     "hidden": "Tempo Perso"
+   },
+   "Samurott-Hisuian": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Coque Armure"
+   },
+   "Lilligant-Hisuian": {
+     "normal": [
+       "Chlorophylle",
+       "Tempo Perso"
+     ],
+     "hidden": "Feuille Garde"
+   },
+   "Avalugg-Hisuian": {
+     "normal": [
+       "Tempo Perso",
+       "Corps Gel"
+     ],
+     "hidden": "Fermeté"
+   },
+   "Decidueye-Hisuian": {
+     "normal": [
+       "Engrais"
+     ],
+     "hidden": "Longue Portée"
+   },
+   "Goodra-Hisuian": {
+     "normal": [
+       "Hydratation",
+       "Herbivore"
+     ],
+     "hidden": "Poisseux"
+   },
+   "Sliggoo-Hisuian": {
+     "normal": [
+       "Hydratation",
+       "Herbivore"
+     ],
+     "hidden": "Poisseux"
+   },
+   "Basculegion-Male": {
+     "normal": [
+       "Glissade",
+       "Adaptabilité"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Basculegion-Female": {
+     "normal": [
+       "Glissade",
+       "Adaptabilité"
+     ],
+     "hidden": "Brise Moule"
+   },
+   "Overqwil": {
+     "normal": [
+       "Point Poison",
+       "Glissade"
+     ],
+     "hidden": "Intimidation"
+   },
+   "Tinkatink": {
+     "normal": [
+       "Brise Moule",
+       "Tempo Perso"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Tinkatuff": {
+     "normal": [
+       "Brise Moule",
+       "Tempo Perso"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Tinkaton": {
+     "normal": [
+       "Brise Moule",
+       "Tempo Perso"
+     ],
+     "hidden": "Pickpocket"
+   },
+   "Glimmora": {
+     "normal": [
+       "Dépôt Toxique"
+     ],
+     "hidden": "Corrosion"
+   },
+   "Grafaiai": {
+     "normal": [
+       "Délestage",
+       "Toxitouche"
+     ],
+     "hidden": "Farceur"
+   },
+   "Shroodle": {
+     "normal": [
+       "Délestage",
+       "Pickpocket"
+     ],
+     "hidden": "Farceur"
+   },
+   "Nacli": {
+     "normal": [
+       "Sel Purificateur",
+       "Fermeté"
+     ],
+     "hidden": "Corps Sain"
+   },
+   "Naclstack": {
+     "normal": [
+       "Sel Purificateur",
+       "Fermeté"
+     ],
+     "hidden": "Corps Sain"
+   },
+   "Garganacl": {
+     "normal": [
+       "Sel Purificateur",
+       "Fermeté"
+     ],
+     "hidden": "Corps Sain"
+   },
+   "Fidough": {
+     "normal": [
+       "Tempo Perso"
+     ],
+     "hidden": "Maladresse"
+   },
+   "Dachsbun": {
+     "normal": [
+       "Bien Cuit"
+     ],
+     "hidden": "Aroma-Voile"
+   },
+   "Pawmi": {
+     "normal": [
+       "Statik",
+       "Médic Nature"
+     ],
+     "hidden": "Poing de Fer"
+   },
+   "Pawmo": {
+     "normal": [
+       "Absorbe-Volt",
+       "Médic Nature"
+     ],
+     "hidden": "Poing de Fer"
+   },
+   "Pawmot": {
+     "normal": [
+       "Absorbe-Volt",
+       "Médic Nature"
+     ],
+     "hidden": "Poing de Fer"
+   },
+   "Wyrdeer": {
+     "normal": [
+       "Intimidation",
+       "Fouille"
+     ],
+     "hidden": "Herbivore"
+   },
+   "Sneasler": {
+     "normal": [
+       "Pression",
+       "Délestage"
+     ],
+     "hidden": "Toxitouche"
+   },
+   "Kleavor": {
+     "normal": [
+       "Essaim",
+       "Sans Limite"
+     ],
+     "hidden": "Incisif"
+   },
+   "Wailmer": {
+     "normal": [
+       "Ignifu-Voile",
+       "Benêt"
+     ],
+     "hidden": "Pression"
+   },
+   "Wailord": {
+     "normal": [
+       "Ignifu-Voile",
+       "Benêt"
+     ],
+     "hidden": "Pression"
+   },
+   "Meditite": {
+     "normal": [
+       "Force Pure"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Medicham": {
+     "normal": [
+       "Force Pure"
+     ],
+     "hidden": "Télépathe"
+   },
+   "Manectric": {
+     "normal": [
+       "Statik",
+       "Paratonnerre"
+     ],
+     "hidden": "Moins"
+   },
+   "Roselia": {
+     "normal": [
+       "Médic Nature",
+       "Point Poison"
+     ],
+     "hidden": "Feuille Garde"
+   }
+ }

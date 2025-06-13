@@ -17,7 +17,7 @@ POKEDEX_ORDER = {
     "Frillish-Female": 592,
     "Pikachu-Original-Cap": 25,
     "Bulbasaur": 1, "Ivysaur": 2, "Venusaur": 3, "Charmander": 4, "Charmeleon": 5, "Charizard": 6,
-    "Squirtle": 7, "Wartortle": 8, "Blastoise": 9, "Caterpie": 10, "Metapod": 11, "Butterfree": 12,
+    "Squirtle": 7, "Squirtle-Sunglasses": 7, "Wartortle": 8, "Blastoise": 9, "Caterpie": 10, "Metapod": 11, "Butterfree": 12,
     "Weedle": 13, "Kakuna": 14, "Beedrill": 15, "Pidgey": 16, "Pidgeotto": 17, "Pidgeot": 18,
     "Rattata": 19, "Raticate": 20, "Spearow": 21, "Fearow": 22, "Ekans": 23, "Arbok": 24,
     "Pikachu": 25, "Raichu": 26, "Sandshrew": 27, "Sandslash": 28, "Nidoran♀": 29, "Nidorina": 30,
