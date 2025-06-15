@@ -237,7 +237,7 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
     lang = data.get("lang", "fr")
     text = update.message.text.lower().replace("(", "").replace(")", "").replace("✨", "").replace("🏃‍♂️", "").strip()
 
-    # Vérifier la fuite
+    # 1. Fuite volontaire
     flee_label = get_text("flee", lang).lower()
     if flee_label in text or "fuite" in text or "flee" in text:
         data["pokemons_fled"] = data.get("pokemons_fled", 0) + 1
@@ -247,7 +247,7 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
         context.user_data["state"] = None
         return
 
-
+    # 2. Choix de la ball
     ball_labels = {
         "pokeball": "pokéball",
         "superball": "superball",
@@ -256,7 +256,6 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
     }
     selected = None
     for ball in BALL_CHOICES:
-        # On vérifie si le texte contient le nom complet de la ball (insensible à la casse, ignore l’emoji et la quantité)
         if ball_labels[ball] in text:
             selected = ball
             break
@@ -280,9 +279,14 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
     chroma_bonus = min(data["items"].get("chroma", 0), 10)
     chance = get_capture_chance(selected, encounter["rarity"])
     success = selected == "masterball" or random.random() < (chance / 100)
+
+    # Décrémente la Pokéball utilisée
     data["pokeballs"][selected] -= 1
-    update_user_stats_on_ball_use(user.id, selected)
-    data = load_user(user.id)  # <- Ajoute cette ligne
+
+    # Incrémente la stat balls_used directement dans data
+    if "balls_used" not in data:
+        data["balls_used"] = {"pokeball": 0, "superball": 0, "hyperball": 0, "masterball": 0}
+    data["balls_used"][selected] = data["balls_used"].get(selected, 0) + 1
 
     if success:
         pkm = generate_pokemon(encounter["name"], encounter["rarity"], chroma_bonus)
@@ -291,13 +295,19 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
         reward = int(get_money_reward(encounter["rarity"]) * get_money_bonus_multiplier(data))
         data["money"] += reward
         save_user(user.id, data)
-        await update.message.reply_text(get_text("catch_success", lang, name=POKEMON_NAMES.get(pkm["name"], {}).get(lang, pkm["name"]), money=reward), reply_markup=main_menu(lang))
-        for m in messages:
-            await update.message.reply_text(m)
+        await update.message.reply_text(
+            get_text("catch_success", lang, name=POKEMON_NAMES.get(pkm["name"], {}).get(lang, pkm["name"]), money=reward),
+            reply_markup=main_menu(lang)
+        )
+        if messages:
+            for m in messages:
+                if m.strip():
+                    await update.message.reply_text(m)
     else:
         data["pokemons_fled"] = data.get("pokemons_fled", 0) + 1
-        await update.message.reply_text(get_text("catch_failed", lang), reply_markup=main_menu(lang))
         save_user(user.id, data)
+        await update.message.reply_text(get_text("catch_failed", lang), reply_markup=main_menu(lang))
 
     context.user_data["current_encounter"] = None
     context.user_data["state"] = None
+
