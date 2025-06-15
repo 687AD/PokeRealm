@@ -828,7 +828,7 @@ def build_box_keyboard(lang, page, max_page):
 def format_pokemon_display(pkm, lang, box=None):
     name_key = pkm["name"].replace("shiny_", "")
     name = POKEMON_NAMES.get(name_key, {}).get(lang, name_key)
-    shiny = "✨ " if pkm.get("shiny") else ""
+    shiny = "✨ " if pkm.get("shiny") is True else ""
     ball = POKEBALL_EMOJIS.get(pkm.get("caught_with"), "🎯")
     pokedex_id = pkm.get("pokedex_id") or get_pokedex_order(name_key)
     rarity = RARITY_EMOJIS.get(pkm.get("rarity", "common"), "❓")

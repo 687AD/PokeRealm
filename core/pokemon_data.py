@@ -2,6 +2,10 @@ import random
 import os
 import json
 
+from core.translation_data import NATURES
+from core.translation_data import POKEMON_NAMES
+from core.moves import get_move
+
 # Chemin vers ton fichier JSON (modifie si besoin)
 TALENTS_PATH = os.path.join("data", "pokemon_talents.json")
 
@@ -11,17 +15,12 @@ if os.path.exists(TALENTS_PATH):
 else:
     POKEMON_TALENTS = {}
 
-from core.translation_data import NATURES
-from core.translation_data import POKEMON_NAMES
-from core.moves import get_move
-
 
 
 def generate_pokemon(name: str, rarity: str, chroma_bonus: int = 0):
     forced_shiny = name.startswith("shiny_")
     base_name = name.replace("shiny_", "")
 
-    from core.translation_data import POKEMON_NAMES
     for eng, names in POKEMON_NAMES.items():
         if base_name == names.get("fr") or base_name == names.get("en"):
             base_name = eng

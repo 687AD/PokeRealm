@@ -6506,8 +6506,8 @@
   },
   {
     "name": "Bagon",
-    "rarity": "rare",
-    "weight": 2,
+    "rarity": "uncommon",
+    "weight": 5,
     "types": ["Dragon"],
     "base_stats": {
       "HP": 45, "Atk": 75, "Def": 60,
@@ -6526,8 +6526,8 @@
   },
   {
     "name": "Salamence",
-    "rarity": "legendary",
-    "weight": 0.1,
+    "rarity": "epic",
+    "weight": 1,
     "types": ["Dragon", "Flying"],
     "base_stats": {
       "HP": 95, "Atk": 135, "Def": 80,
@@ -6536,8 +6536,8 @@
   },
   {
     "name": "Beldum",
-    "rarity": "rare",
-    "weight": 2,
+    "rarity": "uncommon",
+    "weight": 5,
     "types": ["Steel", "Psychic"],
     "base_stats": {
       "HP": 40, "Atk": 55, "Def": 80,
@@ -6868,11 +6868,11 @@
      "base_stats": {"HP": 76, "Atk": 65, "Def": 45, "SpA": 92, "SpD": 42, "Spe": 91}},
     {"name": "Spiritomb", "rarity": "rare", "weight": 2, "types": ["Ghost", "Dark"],
      "base_stats": {"HP": 50, "Atk": 92, "Def": 108, "SpA": 92, "SpD": 108, "Spe": 35}},
-        {"name": "Gible", "rarity": "rare", "weight": 2, "types": ["Dragon", "Ground"],
+        {"name": "Gible", "rarity": "uncommon", "weight": 5, "types": ["Dragon", "Ground"],
      "base_stats": {"HP": 58, "Atk": 70, "Def": 45, "SpA": 40, "SpD": 45, "Spe": 42}},
     {"name": "Gabite", "rarity": "rare", "weight": 2, "types": ["Dragon", "Ground"],
      "base_stats": {"HP": 68, "Atk": 90, "Def": 65, "SpA": 50, "SpD": 55, "Spe": 82}},
-    {"name": "Garchomp", "rarity": "legendary", "weight": 0.1, "types": ["Dragon", "Ground"],
+    {"name": "Garchomp", "rarity": "epic", "weight": 1, "types": ["Dragon", "Ground"],
      "base_stats": {"HP": 108, "Atk": 130, "Def": 95, "SpA": 80, "SpD": 85, "Spe": 102}},
     {"name": "Munchlax", "rarity": "uncommon", "weight": 5, "types": ["Normal"],
      "base_stats": {"HP": 135, "Atk": 85, "Def": 40, "SpA": 40, "SpD": 85, "Spe": 5}},

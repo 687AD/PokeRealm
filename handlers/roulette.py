@@ -14,6 +14,15 @@ from core.translation_data import POKEMON_NAMES, NATURES
 from utils.buttons import main_menu
 from handlers.box import POKEBALL_EMOJIS
 
+def update_user_stats_on_ball_use(user_id, ball_type):
+    from core.user_data import load_user, save_user
+    data = load_user(user_id)
+    balls_used = data.get("balls_used", {"pokeball": 0, "superball": 0, "hyperball": 0, "masterball": 0})
+    balls_used[ball_type] = balls_used.get(ball_type, 0) + 1
+    data["balls_used"] = balls_used
+    save_user(user_id, data)
+
+
 POKEDEX_PATH = "data/pokedex.json"
 if os.path.exists(POKEDEX_PATH):
     with open(POKEDEX_PATH, "r") as f:
@@ -231,10 +240,13 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
     # Vérifier la fuite
     flee_label = get_text("flee", lang).lower()
     if flee_label in text or "fuite" in text or "flee" in text:
+        data["pokemons_fled"] = data.get("pokemons_fled", 0) + 1
+        save_user(user.id, data)
         await update.message.reply_text(get_text("flee_success", lang), reply_markup=main_menu(lang))
         context.user_data["current_encounter"] = None
         context.user_data["state"] = None
         return
+
 
     ball_labels = {
         "pokeball": "pokéball",
@@ -269,7 +281,8 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
     chance = get_capture_chance(selected, encounter["rarity"])
     success = selected == "masterball" or random.random() < (chance / 100)
     data["pokeballs"][selected] -= 1
-
+    update_user_stats_on_ball_use(user.id, selected)
+    data = load_user(user.id)  # <- Ajoute cette ligne
 
     if success:
         pkm = generate_pokemon(encounter["name"], encounter["rarity"], chroma_bonus)
@@ -282,8 +295,9 @@ async def handle_ball_choice(update: Update, context: ContextTypes.DEFAULT_TYPE)
         for m in messages:
             await update.message.reply_text(m)
     else:
-        save_user(user.id, data)
+        data["pokemons_fled"] = data.get("pokemons_fled", 0) + 1
         await update.message.reply_text(get_text("catch_failed", lang), reply_markup=main_menu(lang))
+        save_user(user.id, data)
 
     context.user_data["current_encounter"] = None
     context.user_data["state"] = None

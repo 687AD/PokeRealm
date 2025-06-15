@@ -301,7 +301,7 @@ async def handle_shop_selection(update: Update, context: ContextTypes.DEFAULT_TY
 
         # Limites spécifiques selon l'objet
         if item == "piece_rune" and owned + quantity > 20:
-            await update.message.reply_text("❌ Tu ne peux pas posséder plus de 10 Pièces Rune.")
+            await update.message.reply_text("❌ Tu ne peux pas posséder plus de 20 Pièces Rune.")
             return
         if item == "oeuf_chance" and owned + quantity > 10:
             await update.message.reply_text("❌ Tu ne peux pas posséder plus de 10 Œufs Chance.")

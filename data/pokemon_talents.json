@@ -880,6 +880,18 @@
      ],
      "hidden": null
    },
+     "Terapagos-Terastal": {
+     "normal": [
+       "Téra-Carapace"
+     ],
+     "hidden": null
+   },
+     "Terapagos-Stellar": {
+     "normal": [
+       "Téraformation 0"
+     ],
+     "hidden": null
+   },
    "Rotom-Heat": {
      "normal": [
        "Lévitation"
@@ -5201,6 +5213,12 @@
      ],
      "hidden": null
    },
+      "Hoopa-Unbound": {
+     "normal": [
+       "Magicien"
+     ],
+     "hidden": null
+   },
    "Volcanion": {
      "normal": [
        "Absorbe-Eau"
@@ -7374,5 +7392,48 @@
        "Point Poison"
      ],
      "hidden": "Feuille Garde"
+    },
+       "Totodile": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Sans Limite"
+   },
+      "Croconaw": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Sans Limite"
+   },
+      "Feraligatr": {
+     "normal": [
+       "Torrent"
+     ],
+     "hidden": "Limite"
+   },
+      "Silcoon": {
+     "normal": [
+       "Mue"
+     ],
+     "hidden": "None"
+   },
+      "Spinarak": {
+     "normal": [
+       "Essaim",
+       "Insomnia"
+     ],
+     "hidden": "Sniper"
+   },
+      "Luvdisc": {
+     "normal": [
+       "Glissade"
+     ],
+     "hidden": "Hydratation"
+   },
+      "Huntail": {
+     "normal": [
+       "Glissade"
+     ],
+     "hidden": "Ignifu-Voile"
    }
  }

@@ -30,6 +30,7 @@ from handlers.stats import handle_stats_command
 from handlers.team import handle_team_command, show_team_command
 from handlers.ability import ability_command
 from handlers.pokedex import pokedex_command, handle_pokedex_sort_choice, handle_pokedex_back
+from handlers.admin_commands import give_command
 
 
 # ✅ Routeur texte intelligent
@@ -97,6 +98,7 @@ if __name__ == "__main__":
     langs = ["fr", "en"]
 
     # ✅ Commandes
+    app.add_handler(CommandHandler("give", give_command))
     app.add_handler(CommandHandler("profile", profile_command))
     app.add_handler(CommandHandler("profil", profile_command))
     app.add_handler(CommandHandler("pokedex", pokedex_command))

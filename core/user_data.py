@@ -141,7 +141,12 @@ def load_user(user_id: int):
             json.dump(DEFAULT_USER, f, indent=2)
         return DEFAULT_USER.copy()
     with open(path, "r") as f:
-        return json.load(f)
+        data = json.load(f)
+    # C’est ICI qu’il faut mettre le patch :
+    if "balls_used" not in data:
+        data["balls_used"] = {"pokeball": 0, "superball": 0, "hyperball": 0, "masterball": 0}
+    return data
+
 
 def save_user(user_id: int, data: dict):
     path = get_user_file(user_id)

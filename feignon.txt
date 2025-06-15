@@ -1,7 +1,10 @@
 traduction abilities (à finir)
 bug chelou quand je met Sinistea-Authentic_shiny ça m'ouvre le trie d'la box
-/stats en /view
 /use pour donner un item a un poké
-installer les images de floette, flabebe et florges
-ajouter un handle tout en bas a guauche
-talent kyurem black et white
+ajouter un handle tout en bas a gauche
+
+modifier la rareté de Beldum en uncommon (inv)
+modifier la rareté de Salamence en epic
+modifier la rareté de Bagon en uncommon
+mettre Garchomp en epic
+mettre Gible en uncommon
