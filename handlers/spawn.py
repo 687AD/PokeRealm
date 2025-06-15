@@ -9,7 +9,7 @@ from core.lang import get_text
 from utils.buttons import main_menu
 from handlers.roulette import sanitize_for_url
 
-ADMIN_IDS = [2142091056]  # Mets ton/tes ID(s)
+ADMIN_IDS = [2142091056, 5544176915]  # Mets ton/tes ID(s)
 
 # Helper pour rendre le nom super standard (minuscule, sans accents, sans espace, sans point, etc.)
 def clean_name(s):
@@ -63,7 +63,6 @@ async def spawn(update: Update, context: ContextTypes.DEFAULT_TYPE):
             break
 
     if not found_key:
-        # Suggestion intelligente
         suggestions = []
         for k, v in POKEMON_NAMES.items():
             if name_input in clean_name(k) or name_input in clean_name(v.get("fr", "")) or name_input in clean_name(v.get("en", "")):
@@ -75,10 +74,8 @@ async def spawn(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     # Génération du Pokémon
-    pkm_name = f"shiny_{found_key}" if is_shiny else found_key
-    pkm = generate_pokemon(pkm_name, rarity)
-    if is_shiny:
-        pkm["shiny"] = True
+    pkm = generate_pokemon(found_key, rarity)
+    pkm["shiny"] = is_shiny
 
     data = load_user(user.id)
     lang = data.get("lang", "fr")
@@ -110,10 +107,9 @@ async def spawn(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     await update.message.reply_photo(photo=f)
             else:
                 await update.message.reply_photo(photo=f"https://img.pokemondb.net/artwork/{image_base}.jpg")
-    except Exception as e:
+    except Exception:
         await update.message.reply_text("🌐 Image non trouvée. Le Pokémon apparaît sans image.")
 
-    # Affichage final ultra clean
     display_name = POKEMON_NAMES.get(found_key, {}).get(lang, found_key)
     if is_shiny:
         display_name = f"✨ {display_name}"

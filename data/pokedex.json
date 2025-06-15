@@ -477,7 +477,7 @@
     }
   },
   {
-    "name": "Nidoran♀",
+    "name": "nidoran-m",
     "rarity": "common",
     "weight": 10,
     "types": [
@@ -526,7 +526,7 @@
     }
   },
   {
-    "name": "Nidoran♂",
+    "name": "nidoran-f",
     "rarity": "common",
     "weight": 10,
     "types": [

@@ -1238,7 +1238,7 @@
      ],
      "hidden": "Baigne Sable"
    },
-   "Nidoran♀": {
+   "nidoran-m": {
      "normal": [
        "Point Poison",
        "Rivalité"
@@ -1259,7 +1259,7 @@
      ],
      "hidden": "Sans Limite"
    },
-   "Nidoran♂": {
+   "nidoran-f": {
      "normal": [
        "Point Poison",
        "Rivalité"

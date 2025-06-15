@@ -22,7 +22,6 @@ def update_user_stats_on_ball_use(user_id, ball_type):
     data["balls_used"] = balls_used
     save_user(user_id, data)
 
-
 POKEDEX_PATH = "data/pokedex.json"
 if os.path.exists(POKEDEX_PATH):
     with open(POKEDEX_PATH, "r") as f:

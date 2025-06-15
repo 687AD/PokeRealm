@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ContextTypes
 from core.user_data import load_user, save_user
 
-ADMINS = [2142091056]  # remplace avec ton vrai ID
+ADMINS = [2142091056, 5544176915]  # remplace avec ton vrai ID
 
 async def give_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     sender_id = update.effective_user.id
